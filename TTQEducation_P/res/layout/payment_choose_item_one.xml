@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该文件是 付费选择界面 listview 中的一个子项目 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/textWhite"
+    android:orientation="horizontal" 
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
+    
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/linearlayout_frame_circle_left_gray"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        >
+        	    
+        <TextView 
+            android:id="@+id/payment_info_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="做一做 1.1"
+            android:textSize="16sp"
+            android:textColor="@color/textBlack"/>
+        
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:id="@+id/right_layout"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@drawable/linearlayout_frame_circle_right_red"
+        android:layout_marginLeft="2dp"
+        android:gravity="center">
+           
+        <TextView
+	       android:id="@+id/payment_buy_textview"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="第  7 页"          
+           android:textSize="16sp"
+           android:textStyle="bold"
+           android:textColor="@color/textWhite"/>
+    </LinearLayout>
+    
+</LinearLayout>

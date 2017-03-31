@@ -1,0 +1,43 @@
+10:36:55,531 DEBUG InternalLoggerFactory:59 : Using Log4J as the default logging framework
+ 10:36:55,728 DEBUG PlatformDependent0:75 : java.nio.Buffer.address: available
+ 10:36:55,728 DEBUG PlatformDependent0:83 : sun.misc.Unsafe.theUnsafe: available
+ 10:36:55,737 DEBUG PlatformDependent0:92 : sun.misc.Unsafe.copyMemory: available
+ 10:36:55,738 DEBUG PlatformDependent0:132 : java.nio.Bits.unaligned: true
+ 10:36:55,739 DEBUG PlatformDependent:452 : Platform: Windows
+ 10:36:55,741 DEBUG PlatformDependent:583 : Java version: 7
+ 10:36:55,741 DEBUG PlatformDependent:590 : -Dio.netty.noUnsafe: false
+ 10:36:55,741 DEBUG PlatformDependent:617 : sun.misc.Unsafe: available
+ 10:36:55,753 DEBUG PlatformDependent:700 : -Dio.netty.noJavassist: false
+ 10:36:55,755 DEBUG PlatformDependent:713 : Javassist: unavailable
+ 10:36:55,755 DEBUG PlatformDependent:714 : You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ 10:36:55,756 DEBUG PlatformDependent:732 : -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+ 10:36:55,757 DEBUG PlatformDependent:811 : -Dio.netty.bitMode: 32 (sun.arch.data.model)
+ 10:36:55,757 DEBUG PlatformDependent:87 : -Dio.netty.noPreferDirect: false
+ 10:38:58,579 DEBUG Payload:219 : Adding alert [1,�������磬������~~~~~~]
+ 10:38:58,609 DEBUG Payload:193 : Adding badge [2]
+ 10:38:59,415 DEBUG PushNotificationManager:538 : Building Raw message from deviceToken and payload
+ 10:38:59,416 DEBUG PushNotificationManager:617 : Built raw message ID 1 of total length 125
+ 10:38:59,417 ERROR PushNotificationManager:450 : Delivery error: java.lang.NullPointerException
+ 10:38:59,448 ERROR PushNotificationManager:453 : Closing connection after error
+ 10:38:59,448 DEBUG PushNotificationManager:222 : Reading responses
+ 10:38:59,450 DEBUG PushNotificationManager:200 : Closing connection
+ 10:38:59,450  INFO PushToIOS:157 : 消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71
+ 10:41:21,244 DEBUG Payload:219 : Adding alert [1,�������磬������~~~~~~]
+ 10:41:21,255 DEBUG Payload:193 : Adding badge [2]
+ 10:41:21,663 DEBUG PushNotificationManager:538 : Building Raw message from deviceToken and payload
+ 10:41:21,663 DEBUG PushNotificationManager:617 : Built raw message ID 1 of total length 125
+ 10:41:21,664 ERROR PushNotificationManager:450 : Delivery error: java.lang.NullPointerException
+ 10:41:21,677 ERROR PushNotificationManager:453 : Closing connection after error
+ 10:41:21,677 DEBUG PushNotificationManager:222 : Reading responses
+ 10:41:21,679 DEBUG PushNotificationManager:200 : Closing connection
+ 10:41:21,679  INFO PushToIOS:157 : 消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71
+ 10:41:34,852 DEBUG Payload:219 : Adding alert [1,�������磬������~~~~~~]
+ 10:41:34,858 DEBUG Payload:193 : Adding badge [2]
+ 10:41:35,253 DEBUG PushNotificationManager:538 : Building Raw message from deviceToken and payload
+ 10:41:35,253 DEBUG PushNotificationManager:617 : Built raw message ID 1 of total length 125
+ 10:41:35,255 ERROR PushNotificationManager:450 : Delivery error: java.lang.NullPointerException
+ 10:41:35,256 ERROR PushNotificationManager:453 : Closing connection after error
+ 10:41:35,256 DEBUG PushNotificationManager:222 : Reading responses
+ 10:41:35,258 DEBUG PushNotificationManager:200 : Closing connection
+ 10:41:35,258  INFO PushToIOS:157 : 消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71
+ 

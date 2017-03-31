@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tvOverview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="概况"
+        android:textSize="20sp"
+        android:textColor="@color/task_result_text"
+        android:gravity="center_horizontal" />
+    
+    <TextView
+        android:id="@+id/tvSubjectAndDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11.17dp"
+        android:text="数学  2016-01-04"
+        android:textSize="14sp"
+        android:textColor="@color/task_result_text"
+        android:gravity="center_horizontal"/>
+
+    <!--圆形图  -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="19dp">
+        
+        <!--题目总数图  -->
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <!--画圆  -->
+            <LinearLayout
+                android:id="@+id/llArc1"
+                android:layout_width="fill_parent"
+		        android:layout_height="76dp"
+		        android:layout_marginLeft="4dp"
+		        android:layout_marginRight="4dp"
+		        android:gravity="center_horizontal"
+		        android:layout_marginBottom="9dp"
+		        android:orientation="vertical" >                
+            </LinearLayout>
+            <!--下方标示  -->
+            <RelativeLayout 
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="20dp"
+    		    android:gravity="center_horizontal">
+    		    <ImageView
+    		        android:id="@+id/iv11"
+    		        android:layout_width="8.67dp"
+    		        android:layout_height="11dp"
+    		        android:src="@drawable/item_task_result_e"
+    		        android:layout_centerVertical="true"/>
+    		    <TextView
+    		        android:id="@+id/tv11"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content"
+    		        android:text=" 全部 "
+    		        android:textSize="14sp"
+    		        android:textColor="@color/task_result_text"
+    		        android:layout_centerVertical="true"
+    		        android:layout_toRightOf="@id/iv11"/>
+    		    <TextView
+    		        android:id="@+id/tvQuestionCount"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content"
+    		        android:text="20"
+    		        android:textColor="#4EB6E6"
+    		        android:textSize="12sp"
+    		        android:layout_toRightOf="@id/tv11"
+    		        android:layout_alignBottom="@id/tv11"/>
+    		    <TextView
+    		        android:id="@+id/tv12"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content"
+    		        android:text="道"
+    		        android:textSize="12sp"
+    		        android:textColor="@color/task_result_text"
+    		        android:layout_toRightOf="@id/tvQuestionCount"
+    		        android:layout_alignBottom="@id/tvQuestionCount"/>
+    		</RelativeLayout>
+        </LinearLayout>
+        
+        <!--正确率  -->
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+           <!--画圆  -->
+           <LinearLayout
+		        android:id="@+id/llArc2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="76dp"
+		        android:layout_marginLeft="4dp"
+		        android:layout_marginRight="4dp"
+		        android:layout_marginBottom="9dp"
+		        android:gravity="center_horizontal"
+		        android:orientation="vertical" >
+	    	</LinearLayout>
+	    	         
+           <RelativeLayout 
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="20dp"
+    		    android:gravity="center_horizontal">
+    		    <ImageView
+    		        android:id="@+id/iv21"
+    		        android:layout_width="11dp"
+    		        android:layout_height="11dp"
+    		        android:src="@drawable/item_task_result_m"
+    		        android:layout_centerVertical="true"/>
+    		    <TextView
+    		        android:id="@+id/tv21"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content"
+    		        android:text=" 班级正确率 "
+    		        android:textSize="14sp"
+    		        android:textColor="@color/task_result_text"
+    		        android:layout_centerVertical="true"
+    		        android:layout_toRightOf="@id/iv21"/>
+    		    
+    		</RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <View 
+       android:layout_width="308.67dp"
+       android:layout_height="0.1dp"
+       android:layout_marginBottom="8dp"
+       android:layout_gravity="center_horizontal"
+       android:background="#4EB6E6"/>
+    
+     <ImageView
+        android:id="@+id/ivSeeDetail"
+        android:layout_width="126.33dp"
+        android:layout_height="42.33dp"
+        android:layout_marginBottom="8dp"
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/item_task_result_i"/>
+    
+</LinearLayout>

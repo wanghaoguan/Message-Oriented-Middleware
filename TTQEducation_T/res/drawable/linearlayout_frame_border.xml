@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 实现功能： 边框颜色为灰色   内部颜色为白色-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- 内部颜色 -->
+    <solid android:color="@color/textWhite" /> 
+    <!-- 边框颜色 -->
+    <stroke  
+        android:width="0.01dp"  
+        android:color="@color/texthintcolor" />
+
+</shape>

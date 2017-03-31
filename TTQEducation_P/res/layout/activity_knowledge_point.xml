@@ -1,0 +1,272 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/light_gray">
+
+    <!-- 自定义“anctionBar” -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+    
+    <!-- 科目选择、时间节点选择、时间回看选择、查看曲线图和知识点明细 -->
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="98dp"
+	    android:orientation="vertical"
+	    android:background="@color/white" >
+	    
+	    <!-- 科目选择、时间节点选择、时间回看选择 -->
+	    <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:orientation="horizontal"
+		    android:background="@color/white" >
+		    
+		    <!-- 科目选择 -->
+	        <LinearLayout
+	            android:id="@+id/llSubject" 
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:orientation="horizontal"
+			    android:gravity="center_vertical|left"
+			    android:background="@drawable/btn_clicked_white2gray" >
+			    <TextView
+		            android:id="@+id/tvSubject" 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="16dp"
+		            android:text="科目"
+		            android:textSize="16sp"
+		            android:textColor="#3E3E3E" />
+			    
+			    <ImageView
+		            android:id="@+id/ivSubject" 
+		            android:layout_width="11.67dp"
+		            android:layout_height="6.33dp"
+		            android:layout_marginLeft="2dp"
+		            android:src="@drawable/item_task_result_b" />
+	        </LinearLayout>
+	        
+	        <!-- 时间节点选择 -->
+	        <LinearLayout
+	            android:id="@+id/llTimeType" 
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="0.9"
+			    android:orientation="horizontal"
+			    android:gravity="center"
+			    android:background="@drawable/btn_clicked_white2gray" >
+
+	            <TextView
+	                android:id="@+id/tvTimeType"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="时间节点"
+	                android:textColor="#3E3E3E"
+	                android:textSize="16sp" />
+			    
+			    <ImageView
+		            android:id="@+id/ivTimeType" 
+		            android:layout_width="11.67dp"
+		            android:layout_height="6.33dp"
+		            android:layout_marginLeft="2dp"
+		            android:src="@drawable/item_task_result_b" />
+	        </LinearLayout>
+	        
+	        <!-- 时间回看选择 -->
+	        <LinearLayout
+	            android:id="@+id/llDate"  
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1.1"
+			    android:orientation="horizontal"
+			    android:gravity="center_vertical|right"
+			    android:background="@drawable/btn_clicked_white2gray" >
+			    <TextView
+		            android:id="@+id/tvDate" 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="时间回看"
+		            android:textSize="16sp"
+		            android:textColor="#3E3E3E" />
+			    
+			    <ImageView
+		            android:id="@+id/ivDate" 
+		            android:layout_width="11.67dp"
+		            android:layout_height="6.33dp"
+		            android:layout_marginLeft="2dp"
+		            android:layout_marginRight="16dp"
+		            android:src="@drawable/item_task_result_b" />
+	        </LinearLayout>
+	    </LinearLayout>
+	    
+	    <!-- 分割线 -->
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="0.1dp"
+	        android:background="@color/textGray"/>
+	    
+	    <!-- 查看曲线图、知识点明细 -->
+	    <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:orientation="horizontal"
+		    android:background="@color/white" >
+		    
+		    <!-- 曲线图 -->
+	        <LinearLayout
+	            android:id="@+id/llGraph" 
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:orientation="horizontal"
+			    android:gravity="center"
+			    android:background="@drawable/btn_clicked_white2gray" >
+			    
+			    <ImageView
+		            android:id="@+id/ivGraph" 
+		            android:layout_width="15dp"
+		            android:layout_height="12dp"
+		            android:src="@drawable/knowledge_point_1" />
+			    
+			    <TextView
+		            android:id="@+id/tvGraph" 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"		           
+		            android:layout_marginLeft="8dp"
+		            android:text="曲线图"
+		            android:textSize="16sp"
+		            android:textColor="#3E3E3E" />			    			    
+	        </LinearLayout>
+	        
+	        <!-- 分割线 -->
+		    <View 
+		        android:layout_width="0.1dp"
+		        android:layout_height="32dp"
+		        android:layout_gravity="center_vertical"
+		        android:background="@color/textGray"/>
+	        
+	        <!-- 知识点明细 -->
+	        <LinearLayout
+	            android:id="@+id/llKnowledgePointDetail" 
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:orientation="horizontal"
+			    android:gravity="center"
+			    android:background="@drawable/btn_clicked_white2gray" >
+			    
+			    <ImageView
+		            android:id="@+id/ivKnowledgePointDetail" 
+		            android:layout_width="15dp"
+		            android:layout_height="12dp"
+		            android:src="@drawable/knowledge_point_1" />
+			    
+			    <TextView
+		            android:id="@+id/tvKnowledgePointDetail" 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"		           
+		            android:layout_marginLeft="8dp"
+		            android:text="知识点明细"
+		            android:textSize="16sp"
+		            android:textColor="#3E3E3E" />		    
+	        </LinearLayout>	               
+	    </LinearLayout>
+	    
+	    <!-- 分割线 -->
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="0.1dp"
+	        android:background="@color/textGray"/>
+	</LinearLayout>
+	
+	<!-- 概述界面、科目选择、时间节点选择、时间选择（天）、时间选择（周、月） -->
+	<FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginBottom="8dp">
+	    
+	    <!-- 概述界面 -->
+	    <ListView
+	        android:id="@+id/lvKnowledgePoint"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:dividerHeight="8dp"
+	        android:divider="@color/light_gray" >        
+	    </ListView>
+	    
+	    <!-- 科目选择界面 -->
+	    <LinearLayout
+    	    android:id="@+id/llChooseSubject" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#1E000000"
+    	    android:visibility="gone">
+    	    <ListView
+		        android:id="@+id/lvChooseSubject"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="8dp"
+		        android:background="#FFFFFF"
+		        android:divider="#FFFFFF" >        
+    		</ListView>
+    	</LinearLayout>  	   
+    	
+    	<!-- 时间节点选择 -->
+	    <LinearLayout
+    	    android:id="@+id/llChooseTimeType" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#1E000000"
+    	    android:visibility="gone">
+    	    <ListView
+		        android:id="@+id/lvChooseTimeType"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="8dp"
+		        android:background="#FFFFFF"
+		        android:divider="#FFFFFF" >        
+    		</ListView>
+    	</LinearLayout>
+    	
+	     <!-- 日历界面 -->
+    	<LinearLayout
+    	    android:id="@+id/llChooseDate" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#FFFFFF"
+    	    android:visibility="gone">
+    	    <include layout="@layout/calendar_for_knowledge_point"/>
+    	</LinearLayout>
+    	
+    	<!-- 选择周、月 -->
+	    <LinearLayout
+    	    android:id="@+id/llChooseWeekOrMonth" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#1E000000"
+    	    android:visibility="gone">
+    	    <ListView
+		        android:id="@+id/lvChooseWeekOrMonth"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="8dp"
+		        android:background="#FFFFFF"
+		        android:divider="#FFFFFF" >        
+    		</ListView>
+    	</LinearLayout>
+	</FrameLayout>
+	
+</LinearLayout>

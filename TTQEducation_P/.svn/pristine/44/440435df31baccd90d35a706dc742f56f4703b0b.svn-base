@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ttqeducation"
+    android:versionCode="2"
+    android:versionName="1.1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19"
+        tools:ignore="OldTargetApi" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+
+    <!-- 获取机型信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 广播   开机启动权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name=".beans.ContextApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name=".activitys.payment.PayDemoActivity"
+            android:icon="@drawable/msp_icon"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+
+        <!-- alipay sdk end -->
+
+
+        <!-- 以下是堂堂清实体内容 -->
+        <service
+            android:name=".network.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".network.MyBroadcast"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".activitys.message.OneChatBroadcast"
+            android:enabled="true" >
+        </receiver>
+
+        <!--
+        android:name=".activitys.system.BranchActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.NoActionBar" 
+        -->
+
+        <activity
+            android:name=".activitys.system.LaunchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        <activity
+            android:name=".activitys.system.LaunchActivity"
+            android:label="初始界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        -->
+
+        <activity
+            android:name=".activitys.system.ChooseSchoolActivity"
+            android:label="登陆 学校选择"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.system.LoginActivity"
+            android:label="登陆界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.system.MainActivity"
+            android:label="主界面"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ttqeducation"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.HomeworkArrangementActivity"
+            android:label="家庭作业布置情况界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.HomeworkArrangementDetailActivity"
+            android:label="家庭作业布置情况详情界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.KnowledgePointConditionActivity"
+            android:label="知识点掌握按条件查询界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.TaskTypeChooseActivity"
+            android:label="作业结果查看选择界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.TaskResultsActivity"
+            android:label="作业结果查看概览界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.TaskConditionChooseActivity"
+            android:label="作业结果按条件查看界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.TaskResultDetailActivity"
+            android:label="作业结果查看详情界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.ErrorQuestionDetailsActivity"
+            android:label="错题汇总详情界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.KnowledgePointActivity"
+            android:label="知识点掌握情况概览界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.KnowledgePointDetailActivity"
+            android:label="知识点掌握详情界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.TestScoresRankingConditionActivity"
+            android:label="测试成绩排名条件选择界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.TestScoresRankingActivity"
+            android:label="测试成绩排名界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.KnowledgePointRankingActivity"
+            android:label="知识点掌握排名界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.KnowledgePointRankingActivity1"
+            android:label="知识点掌握排名界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.others.ServePaymentConditionActivity"
+            android:label="服务缴费条件选择界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.others.ApplyTryoutActivity"
+            android:label="申请试用界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.others.ChangePwdActivity"
+            android:label="修改密码界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.others.UserOwnSetActivity"
+            android:label="个人设置界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.others.AboutKKQActivity"
+            android:label="关于课课清界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.others.UserProtocolActivity"
+            android:label="用户协议界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.study.UnitTestResultDetailActivity"
+            android:label="单元测试、期中、期末测试完成情况详情展示"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".network.TestServerActivity"
+            android:label="消息推送测试界面"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ttqeducation.network" >
+        </activity>
+        <activity
+            android:name=".activitys.message.HomeAndSchoolInteractionActivity"
+            android:label="QQ聊天人员列表界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.message.CommunicationActivity"
+            android:label="QQ聊天界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.message.NoticeListActivity"
+            android:label="通知公告列表界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.message.NoticeDetailActivity"
+            android:label="通知详情界面"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ttqeducation"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activitys.payment.CaiFuTongActivity"
+            android:label="财付通支付界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.ttqeducation.activitys.study.KnowledgePointGraphActivity"
+            android:label="曲线对比图"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

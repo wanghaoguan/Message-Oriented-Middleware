@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#efefef">
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+    
+    	<LinearLayout 
+           android:id="@+id/layout_changePwd"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal"
+           android:gravity="center_vertical"
+           android:background="@drawable/linearlayout_frame_circle_white">
+
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:text="修改密码"
+               android:textColor="@color/textGray"
+               android:textSize="16sp"/>
+           <View 
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"/>
+           <ImageView 
+               android:layout_width="13dp"
+               android:layout_height="20dp"
+               android:background="@drawable/btn_right"
+               android:layout_marginRight="10dp"/>
+       </LinearLayout>
+       
+    	<LinearLayout 
+           android:id="@+id/layout_aboutKKQ"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal"
+           android:gravity="center_vertical"
+           android:background="@drawable/linearlayout_frame_circle_white">
+
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:text="关于课课清"
+               android:textColor="@color/textGray"
+               android:textSize="16sp"/>
+           <View 
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"/>
+           <ImageView 
+               android:layout_width="13dp"
+               android:layout_height="20dp"
+               android:background="@drawable/btn_right"
+               android:layout_marginRight="10dp"/>
+       </LinearLayout>
+      
+</LinearLayout>

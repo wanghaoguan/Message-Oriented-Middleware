@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@color/main_center_bg">
+
+    <!-- 通知公告 -->
+    <LinearLayout 
+        android:id="@+id/layout_notice"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/listview_item_color">
+
+        <ImageView 
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/notice"/>
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="通知公告"
+            android:textColor="@color/textGray"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/noReadNoticeNum_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_circle_red_round"
+            android:gravity="center"
+            android:text="21"
+            android:textSize="15sp"
+            android:textColor="@color/textWhite"/>
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textWhite">
+        <ImageView 
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="@color/gridline"
+	        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+ 
+    <!-- 家校互动 -->
+    <LinearLayout 
+        android:id="@+id/layout_homeAndSchoolIntera"
+        android:layout_width="0dp"
+        android:layout_height="0dp"        
+        android:background="@drawable/listview_item_color"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView 
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/chat"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="家校互动"
+            android:textColor="@color/textGray"
+            android:textSize="20sp"/>
+        <ImageView
+            android:id="@+id/chatNew_img"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/new_pic"/>
+    </LinearLayout>
+       
+</LinearLayout>

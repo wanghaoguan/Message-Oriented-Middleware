@@ -1,0 +1,213 @@
+# view AndroidManifest.xml #generated:109
+-keep class com.ttqeducation.teacher.activitys.message.ClassListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.ttqeducation.teacher.activitys.message.GroupChatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.ttqeducation.teacher.activitys.message.GroupChatBroadcast { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.ttqeducation.teacher.activitys.message.MyBroadcast { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.ttqeducation.teacher.activitys.message.OneChatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.ttqeducation.teacher.activitys.message.TeacherAndParentChatListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.ttqeducation.teacher.activitys.notice.NoticeDetailActivity { <init>(...); }
+
+# view res/layout/notice_fragment_panel.xml #generated:16
+-keep class com.ttqeducation.teacher.activitys.notice.NoticeFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class com.ttqeducation.teacher.activitys.notice.NoticeFragmentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.ttqeducation.teacher.activitys.notice.NoticeListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.ttqeducation.teacher.activitys.notice.NoticePublishActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.ttqeducation.teacher.activitys.others.AboutKKQActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.ttqeducation.teacher.activitys.others.ChangePwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.ttqeducation.teacher.activitys.others.UserOwnSetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.ttqeducation.teacher.activitys.others.UserProtocolActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.ttqeducation.teacher.activitys.system.BranchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.ttqeducation.teacher.activitys.system.ChooseSchoolActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.ttqeducation.teacher.activitys.system.LaunchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.ttqeducation.teacher.activitys.system.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.ttqeducation.teacher.activitys.system.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.ttqeducation.teacher.activitys.system.ResultLaunchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class com.ttqeducation.teacher.activitys.teach.ChooseClassActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:226
+-keep class com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeDetailContentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:233
+-keep class com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeDetaileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.ttqeducation.teacher.activitys.teach.KnowledgePointActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:206
+-keep class com.ttqeducation.teacher.activitys.teach.KnowledgePointDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class com.ttqeducation.teacher.activitys.teach.KnowledgePointGraph { <init>(...); }
+
+# view AndroidManifest.xml #generated:247
+-keep class com.ttqeducation.teacher.activitys.teach.SubjectiveHomeworkActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:253
+-keep class com.ttqeducation.teacher.activitys.teach.SubjectiveHomeworkDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:260
+-keep class com.ttqeducation.teacher.activitys.teach.SummaryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.ttqeducation.teacher.activitys.teach.TaskResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:192
+-keep class com.ttqeducation.teacher.activitys.teach.TaskResultDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:267
+-keep class com.ttqeducation.teacher.activitys.teach.TaskResultDetailForHTMLActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.ttqeducation.teacher.activitys.teach.TaskTypeChooseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.ttqeducation.teacher.beans.ContextApplication { <init>(...); }
+
+# view res/layout/activity_homework_arrange_list.xml #generated:59
+# view res/layout/activity_notice_list.xml #generated:25
+# view res/layout/activity_one_chat.xml #generated:19
+# view res/layout/activity_task_result_detail.xml #generated:69
+# view res/layout/activity_task_type_choose.xml #generated:21
+# view res/layout/notice_fragment.xml #generated:26
+-keep class com.ttqeducation.teacher.myViews.MyListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.ttqeducation.teacher.network.PushService { <init>(...); }
+
+# onClick res/layout/calendar.xml #generated:44
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:44
+-keepclassmembers class * { *** nextmonth(...); }
+
+# onClick res/layout/calendar.xml #generated:1001
+# onClick res/layout/calendar.xml #generated:1028
+# onClick res/layout/calendar.xml #generated:1055
+# onClick res/layout/calendar.xml #generated:1082
+# onClick res/layout/calendar.xml #generated:1109
+# onClick res/layout/calendar.xml #generated:1148
+# onClick res/layout/calendar.xml #generated:1178
+# onClick res/layout/calendar.xml #generated:1205
+# onClick res/layout/calendar.xml #generated:1232
+# onClick res/layout/calendar.xml #generated:1259
+# onClick res/layout/calendar.xml #generated:1286
+# onClick res/layout/calendar.xml #generated:1313
+# onClick res/layout/calendar.xml #generated:132
+# onClick res/layout/calendar.xml #generated:162
+# onClick res/layout/calendar.xml #generated:189
+# onClick res/layout/calendar.xml #generated:216
+# onClick res/layout/calendar.xml #generated:243
+# onClick res/layout/calendar.xml #generated:270
+# onClick res/layout/calendar.xml #generated:297
+# onClick res/layout/calendar.xml #generated:335
+# onClick res/layout/calendar.xml #generated:365
+# onClick res/layout/calendar.xml #generated:392
+# onClick res/layout/calendar.xml #generated:419
+# onClick res/layout/calendar.xml #generated:446
+# onClick res/layout/calendar.xml #generated:473
+# onClick res/layout/calendar.xml #generated:500
+# onClick res/layout/calendar.xml #generated:538
+# onClick res/layout/calendar.xml #generated:568
+# onClick res/layout/calendar.xml #generated:595
+# onClick res/layout/calendar.xml #generated:622
+# onClick res/layout/calendar.xml #generated:649
+# onClick res/layout/calendar.xml #generated:676
+# onClick res/layout/calendar.xml #generated:703
+# onClick res/layout/calendar.xml #generated:741
+# onClick res/layout/calendar.xml #generated:771
+# onClick res/layout/calendar.xml #generated:798
+# onClick res/layout/calendar.xml #generated:825
+# onClick res/layout/calendar.xml #generated:852
+# onClick res/layout/calendar.xml #generated:879
+# onClick res/layout/calendar.xml #generated:906
+# onClick res/layout/calendar.xml #generated:944
+# onClick res/layout/calendar.xml #generated:974
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1001
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1028
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1055
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1082
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1109
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1148
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1178
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1205
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1232
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1259
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1286
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:1313
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:132
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:162
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:189
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:216
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:243
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:270
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:297
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:335
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:365
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:392
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:419
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:446
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:473
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:500
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:538
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:568
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:595
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:622
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:649
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:676
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:703
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:741
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:771
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:798
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:825
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:852
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:879
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:906
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:944
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:974
+-keepclassmembers class * { *** task_info(...); }
+
+# onClick res/layout/calendar.xml #generated:25
+# onClick res/layout/calendar_for_knowledge_point.xml #generated:25
+-keepclassmembers class * { *** upmonth(...); }
+

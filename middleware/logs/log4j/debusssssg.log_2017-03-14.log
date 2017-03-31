@@ -1,0 +1,451 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Feb 25 10:36:55 CST 2017<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using Log4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>197</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>197</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>206</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>207</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>208</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>210</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>210</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>210</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>222</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>224</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>224</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>225</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)</td>
+</tr>
+
+<tr>
+<td>226</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.bitMode: 32 (sun.arch.data.model)</td>
+</tr>
+
+<tr>
+<td>226</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Feb 25 10:38:58 CST 2017<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.Payload category">javapns.notification.Payload</td>
+<td title="Message">Adding alert [1,�������磬������~~~~~~]</td>
+</tr>
+
+<tr>
+<td>30</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.Payload category">javapns.notification.Payload</td>
+<td title="Message">Adding badge [2]</td>
+</tr>
+
+<tr>
+<td>836</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Building Raw message from deviceToken and payload</td>
+</tr>
+
+<tr>
+<td>837</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Built raw message ID 1 of total length 125</td>
+</tr>
+
+<tr>
+<td>838</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Delivery error: java.lang.NullPointerException</td>
+</tr>
+
+<tr>
+<td>869</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Closing connection after error</td>
+</tr>
+
+<tr>
+<td>869</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Reading responses</td>
+</tr>
+
+<tr>
+<td>871</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Closing connection</td>
+</tr>
+
+<tr>
+<td>871</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.push.PushToIOS category">com.push.server.push.PushToIOS</td>
+<td title="Message">消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Feb 25 10:41:21 CST 2017<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.Payload category">javapns.notification.Payload</td>
+<td title="Message">Adding alert [1,�������磬������~~~~~~]</td>
+</tr>
+
+<tr>
+<td>11</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.Payload category">javapns.notification.Payload</td>
+<td title="Message">Adding badge [2]</td>
+</tr>
+
+<tr>
+<td>419</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Building Raw message from deviceToken and payload</td>
+</tr>
+
+<tr>
+<td>419</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Built raw message ID 1 of total length 125</td>
+</tr>
+
+<tr>
+<td>420</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Delivery error: java.lang.NullPointerException</td>
+</tr>
+
+<tr>
+<td>433</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Closing connection after error</td>
+</tr>
+
+<tr>
+<td>433</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Reading responses</td>
+</tr>
+
+<tr>
+<td>435</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Closing connection</td>
+</tr>
+
+<tr>
+<td>435</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.push.PushToIOS category">com.push.server.push.PushToIOS</td>
+<td title="Message">消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Feb 25 10:41:34 CST 2017<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.Payload category">javapns.notification.Payload</td>
+<td title="Message">Adding alert [1,�������磬������~~~~~~]</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.Payload category">javapns.notification.Payload</td>
+<td title="Message">Adding badge [2]</td>
+</tr>
+
+<tr>
+<td>401</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Building Raw message from deviceToken and payload</td>
+</tr>
+
+<tr>
+<td>401</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Built raw message ID 1 of total length 125</td>
+</tr>
+
+<tr>
+<td>403</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Delivery error: java.lang.NullPointerException</td>
+</tr>
+
+<tr>
+<td>404</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Closing connection after error</td>
+</tr>
+
+<tr>
+<td>404</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Reading responses</td>
+</tr>
+
+<tr>
+<td>406</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="javapns.notification.PushNotificationManager category">javapns.notification.PushNotificationManager</td>
+<td title="Message">Closing connection</td>
+</tr>
+
+<tr>
+<td>406</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.push.PushToIOS category">com.push.server.push.PushToIOS</td>
+<td title="Message">消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Mar 16 11:21:29 CST 2017<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>

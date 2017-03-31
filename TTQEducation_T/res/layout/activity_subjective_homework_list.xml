@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+                   
+        <!-- 科目选择 -->
+        <LinearLayout 
+            android:id="@+id/llSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"            
+            android:orientation="horizontal"
+            android:gravity="center_vertical|left"
+            android:background="@color/white">
+            
+            <TextView 
+                android:id="@+id/tvSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="科目"
+                android:textSize="16sp"
+                android:textColor="#3E3E3E"/>
+            
+            <ImageView
+		          android:id="@+id/ivSubject" 
+		          android:layout_width="11.67dp"
+		          android:layout_height="6.33dp"
+		          android:layout_marginLeft="8dp" 
+		          android:src="@drawable/item_task_result_b" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/textGray"/>
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        
+        <ListView 
+            android:id="@+id/lvSubjectiveHomework"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="15dp"
+            android:divider="#00000000"
+            android:background="#00000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">            
+        </ListView>
+        
+        
+        <!-- 科目选择界面 -->
+        <LinearLayout
+    	    android:id="@+id/llChooseSubject" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#1E000000"
+    	    android:visibility="gone">
+    	    <ListView
+		        android:id="@+id/lvChooseSubject"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="8dp"
+		        android:background="#FFFFFF"
+		        android:divider="#FFFFFF" >        
+    		</ListView>    		
+    	</LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

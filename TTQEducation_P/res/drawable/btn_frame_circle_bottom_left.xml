@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 实现功能： 下边为圆角  按下时颜色加深  由浅灰色到深灰色变化-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_enabled="true" android:state_pressed="true">
+    	<shape >
+    	    <!-- 内部填充颜色 -->
+    		<solid android:color="#bfbebe" /> 
+		    <!-- 圆角 -->
+		    <corners           
+		        android:bottomLeftRadius="5dp"/>      
+		    <!-- 边框颜色 -->
+		    <stroke  
+		        android:width="0.01dp"  
+		        android:color="#b8b8b7" />
+    	</shape>
+    </item>
+    
+    <item android:state_enabled="true" android:state_pressed="false">
+    	<shape >
+    	    <!-- 内部填充颜色 -->
+    		<solid android:color="#f0f1f2" /> 
+		    <!-- 圆角 -->
+		    <corners           
+		        android:bottomLeftRadius="5dp"/>      
+		    <!-- 边框颜色 -->
+		    <stroke  
+		        android:width="0.01dp"  
+		        android:color="#b8b8b7" />
+    	</shape>
+    </item>
+</selector>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该文件是 家庭作业布置情况界面 listview 中的一个子项目  时间条件 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/textWhite"
+    android:orientation="horizontal" 
+    android:paddingRight="10dp">
+    
+    <ImageView
+        android:id="@+id/leftTime_pic" 
+        android:layout_height="match_parent"
+        android:layout_width="46dp"
+        android:background="@drawable/time_pic1"/>
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:background="@drawable/linearlayout_frame_circle_left_gray"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:layout_weight="1">
+        <TextView 
+	        android:id="@+id/homeworkArrage_date_textview"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:text="2015-01-28"
+	        android:textColor="@color/textGray"
+	        android:textSize="18sp"/>
+        <TextView 
+	        android:id="@+id/homeworkArrage_week_textview"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:text="(星期一)"
+	        android:textColor="@color/textGray"
+	        android:textSize="16sp"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/right_layout"
+        android:layout_width="70dp"
+        android:layout_height="44dp"
+        android:background="@drawable/linearlayout_frame_circle_right_red"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+        <TextView 
+	        android:id="@+id/homeworkArrage_dateDescrip_textview"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="前 13 天"
+	        android:textColor="@color/textWhite"
+	        android:textSize="16sp"/>
+    </LinearLayout>
+    
+
+    
+</LinearLayout>

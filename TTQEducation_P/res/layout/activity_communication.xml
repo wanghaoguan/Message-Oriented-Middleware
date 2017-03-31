@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0f0f0" >
+    
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView 
+            android:layout_width="match_parent"
+        	android:layout_height="50dp"
+        	android:background="@drawable/message_top"/>
+    </LinearLayout>
+ 
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.ttqeducation.myViews.MyListView
+            android:id="@+id/listView_communication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stackFromBottom="true" 
+            android:transcriptMode="alwaysScroll"  
+            android:divider="@null">
+            
+        </com.ttqeducation.myViews.MyListView>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:background="@color/title_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <LinearLayout 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1">
+            <EditText 
+                android:id="@+id/sendInfo_editText"
+		        android:layout_width="match_parent"
+		        android:minHeight="36dp"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/btn_circle_gray_write"
+		        android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="60dp"
+		    android:layout_height="36dp"
+		    android:layout_marginLeft="5dp"
+		    android:gravity="center">            
+            <Button 
+                android:id="@+id/sendInfo_button"
+	            android:layout_width="54dp"
+	            android:layout_height="36dp"
+	            android:background="@drawable/btn_send_info"
+	            android:text="发送"
+	            android:textSize="14sp"
+	            android:textColor="@color/textBlack"/>           
+        </LinearLayout>
+               
+    </LinearLayout>
+
+</LinearLayout>

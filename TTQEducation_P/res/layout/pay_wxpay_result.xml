@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!-- 微信支付返回结果界面 -->
+    <TextView
+        android:id="@+id/pay_wxpay_showResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="微信结果"/>
+    <Button 
+        android:id="@+id/pay_wxpay_confirm_comfirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pay_wxpay_showResult"
+        android:text="确定"/>
+</RelativeLayout>

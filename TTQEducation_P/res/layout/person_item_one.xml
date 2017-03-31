@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该文件是 类似qq聊天人员列表一个子项目 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_item_color"
+    android:orientation="horizontal" >
+    
+    <!-- 以下是人物头像及新消息提示 -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+	    android:layout_height="56dp"
+	    android:orientation="vertical"
+	    android:layout_marginLeft="10dp"
+	    android:gravity="center_vertical">
+	    <RelativeLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="46dp"
+	        android:orientation="horizontal">
+	        <ImageView 
+	            android:id="@+id/person_img"
+	            android:layout_width="46dp"
+	            android:layout_height="46dp"
+	            android:background="@drawable/parent1"/>
+	        <TextView 
+	            android:id="@+id/noReadCount_textView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30dp"
+	            android:background="@drawable/new_red_count"
+	            android:text="21"
+	            android:textSize="12sp"
+	            android:textColor="@color/textWhite"/>
+	    </RelativeLayout>       
+    </LinearLayout>
+    
+    <!-- 以下包括教师名字及新消息部分内容 -->
+    <LinearLayout 
+        android:layout_width="0dp"
+	    android:layout_height="55dp"
+	    android:layout_weight="1"
+	    android:layout_marginLeft="4dp"
+	    android:orientation="vertical"
+	    android:gravity="center_vertical">	    
+        <TextView 
+            android:id="@+id/teacherName_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="王老师"
+            android:textColor="@color/textBlack"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/chatInfo_textView" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="在吗？您好！"
+            android:textColor="@color/textGray"
+            android:textSize="14sp"/>       
+    </LinearLayout>
+    
+    <!-- 右边的时间和右箭头 -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+	    android:layout_height="55dp"
+	    android:orientation="vertical" 
+	    android:gravity="center_vertical">
+        <TextView 
+            android:id="@+id/chatTime_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="下午 3:16"
+            android:textColor="@color/textGray"
+            android:textSize="12sp"/>
+        <ImageView 
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
+            android:background="@drawable/btn_right"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>

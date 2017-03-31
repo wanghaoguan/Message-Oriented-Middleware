@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_send_info"
+    android:orientation="vertical" >
+    <!-- 下线通知 对话框 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/btn_frame_circle_top">
+        <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"	        
+	        android:gravity="center"
+	        android:text="下线通知"
+	        android:textColor="@color/textBlack"
+	        android:textSize="20sp"/>
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:background="#f0f1f2"
+	        android:paddingLeft="15dp"
+	        android:paddingRight="15dp"
+	        android:gravity="center_vertical"
+	        android:text="您的账号在另一台设备上登陆!"
+	        android:textSize="16sp"
+	        android:textColor="@color/textGray"/>
+    </LinearLayout>
+    
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:orientation="horizontal"
+	    android:background="@drawable/btn_frame_circle_bottom">
+	    <TextView 
+	        android:id="@+id/againLogin_textView"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/btn_frame_circle_bottom_left"
+	        android:gravity="center"
+	        android:text="重新登陆"
+	        android:textColor="@color/textBlue"
+	        android:textSize="18sp"/>
+	    <TextView
+	        android:id="@+id/exit_textView" 
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/btn_frame_circle_bottom_right"
+	        android:gravity="center"
+	        android:text="退出"
+	        android:textColor="@color/textBlue"
+	        android:textSize="18sp"/>
+	</LinearLayout>
+    
+</LinearLayout>

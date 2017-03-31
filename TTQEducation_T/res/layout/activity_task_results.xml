@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical" >
+    
+    <!--类似于上面的ActionBar  -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+    
+    <!--用于显示  科目、历史查看 控件  -->
+    <RelativeLayout 
+        android:id="@+id/rlSubjectAndDate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBarHeight_size"
+        android:background="#FFFFFF">
+        
+                
+        <LinearLayout 
+            android:id="@+id/llSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentLeft="true">"
+            <TextView
+                android:id="@+id/tvSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_gravity="center_vertical"
+                android:text="无"
+                android:textSize="20sp"
+	            android:textColor="#3E3E3E" />
+            
+             <ImageView
+	            android:id="@+id/ivSubject" 
+	            android:layout_width="11.67dp"
+	            android:layout_height="6.33dp"
+	            android:layout_marginLeft="8dp"
+	            android:src="@drawable/item_task_result_b"
+	            android:layout_gravity="center_vertical"/>            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/llDate"  
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:orientation="horizontal"
+	        android:layout_alignParentRight="true">
+	        <TextView
+	            android:id="@+id/tvDate"  
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="16dp"
+	            android:layout_gravity="center_vertical"
+	            android:text="2016-01-07"
+	            android:maxEms="6"
+	            android:singleLine="true"
+	            android:ellipsize="end"
+	            android:textSize="20sp"
+	            android:textColor="#3E3E3E" />
+	        <ImageView
+	            android:id="@+id/ivDate"  
+	            android:layout_width="11.67dp"
+	            android:layout_height="6.33dp"
+	            android:layout_marginLeft="8dp"
+	            android:layout_marginRight="8dp"
+	            android:src="@drawable/item_task_result_b"
+	            android:layout_gravity="center_vertical"/>
+        </LinearLayout>        
+    </RelativeLayout>
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp">
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            
+            <ListView
+		        android:id="@+id/lvTaskResult"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="8dp"
+		        android:divider="@color/light_gray" >        
+	    	</ListView>
+            
+            <RelativeLayout 
+                android:id="@+id/rlNotice" 
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="0dp"
+	    	    android:layout_weight="1"
+	    	    android:layout_marginTop="8dp"
+	    	    android:background="#FFFFFF"
+	    	    android:visibility="gone">
+	    	    
+                <ImageView
+	    	        android:id="@+id/ivNotice" 
+	    	        android:layout_width="100dp"
+	    	        android:layout_height="100dp"
+	    	        android:layout_alignParentLeft="true"
+	    	        android:layout_centerVertical="true"
+	    	        android:layout_marginLeft="16dp"
+	    	        android:src="@drawable/item_task_result_j" />
+	    	    
+                 <TextView 
+	    	        android:layout_width="wrap_content"
+	    	        android:layout_height="wrap_content"
+	    	        android:layout_marginLeft="16dp"
+	    	        android:layout_marginBottom="8dp"
+	    	        android:layout_alignBottom="@id/ivNotice"
+	    	        android:layout_toRightOf="@id/ivNotice"
+	    	        android:text="今天只有一次作业！"
+	    	        android:textSize="20sp"
+	    	        android:textColor="#4a4a4a"/>                
+            </RelativeLayout>
+        </LinearLayout>
+        
+        <!--科目下拉框  -->
+        <LinearLayout
+    	    android:id="@+id/llChooseSubject" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#1E000000"
+    	    android:visibility="gone">
+    	    <ListView
+		        android:id="@+id/lvChooseSubject"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="8dp"
+		        android:background="#FFFFFF"
+		        android:divider="#FFFFFF" >        
+    		</ListView>
+    	</LinearLayout>
+    	
+        <!--日历控件  -->
+        <LinearLayout
+    	    android:id="@+id/llChooseDate" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#FFFFFF"
+    	    android:visibility="gone">
+    	    <include layout="@layout/calendar"/>
+    	</LinearLayout>
+    	
+        <!--单元、期中、期末查询界面中的测试下拉列表  -->
+        <LinearLayout
+    	    android:id="@+id/llChooseTest" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#1E000000"
+    	    android:visibility="gone">
+    	    <ListView
+		        android:id="@+id/lvChooseTest"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="8dp"
+		        android:background="#FFFFFF"
+		        android:divider="#FFFFFF" >        
+    		</ListView>
+    	</LinearLayout>        
+    </FrameLayout>   	
+</LinearLayout>

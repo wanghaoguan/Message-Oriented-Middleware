@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical" >
+
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+    
+    <ImageView
+        android:id="@+id/ivTaskTypeChoose"
+        android:layout_width="fill_parent"
+        android:layout_height="209.67dp"
+        android:src="@drawable/homework_result_banner"
+        android:scaleType="centerCrop"/>
+    
+    <com.ttqeducation.myViews.MyListView
+        android:id="@+id/listView_type_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#efefef"
+        android:dividerHeight="10dp">
+    </com.ttqeducation.myViews.MyListView>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray">
+
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>   
+
+     <ListView
+        android:id="@+id/lvKnowledgePointDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+    	android:layout_marginTop="8dp"
+    	android:layout_marginBottom="8dp"
+    	android:layout_marginLeft="16dp"
+    	android:layout_marginRight="16dp"
+        android:dividerHeight="8dp"
+        android:divider="@color/light_gray"
+        android:scrollbars="none" >        
+    </ListView>
+    
+</LinearLayout>

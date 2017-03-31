@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:orientation="vertical"
+    android:background="@color/textWhite"
+    android:layout_marginTop="16dp"
+    >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/linearlayout_frame_circle_gray"
+        android:gravity="center_vertical">    
+        <TextView 
+            android:id="@+id/tvHomeworkName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:singleLine="false"
+            android:textSize="16sp"
+            android:textColor="#747474"
+            android:text="家庭作业第一单元 观察物体（三） 第1课（1）20150907093116"/>    
+            
+        <View
+        android:layout_width="8dp"
+        android:layout_height="16dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right|center"
+        android:background="@drawable/btn_right" />
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

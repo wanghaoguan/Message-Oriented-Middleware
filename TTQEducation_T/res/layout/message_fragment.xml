@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_center_bg" >
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"  
+	    android:orientation="vertical" 
+	    android:background="@color/main_center_bg"
+	    android:layout_marginBottom="10dp">
+	    
+        <LinearLayout 
+            android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:background="@color/title_bgNew"
+	    	android:gravity="center_horizontal">
+	    	
+            <ImageView
+                android:id="@+id/main_top_img" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_top"/>
+            
+        </LinearLayout>
+	    
+        <TextView 
+	        android:id="@+id/welcome_textView"
+	        android:layout_width="match_parent"
+	        android:layout_height="55dp"
+	        android:layout_marginTop="10dp"
+	        android:background="@color/main_center_bg"
+	        android:gravity="center"
+	        android:textSize="22sp"
+	        android:textColor="#595757"
+	        android:textStyle="bold"
+	        android:text="张珊家长,  您好!"/>
+	    
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:gravity="center"
+	        >
+	
+	        <LinearLayout
+	            android:id="@+id/home_school_layout"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:orientation="vertical"
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginRight="10dp"
+				android:background="@drawable/main_view_gridcell_green"
+				android:gravity="center"
+	            >          
+	            <ImageView
+	                android:id="@+id/home_school_img"
+	                android:layout_width="50dp"
+	                android:layout_height="50dp"
+	                android:layout_margin="10dp"
+	                android:background="@drawable/home_school"
+	                />
+	
+	            <TextView
+	                android:id="@+id/home_school_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="10dp"
+	                android:text="家校互动" 
+	                android:textColor="@color/textWhite"               
+	                android:textSize="@dimen/mainview_centretext_size"
+	                />
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/teacher_communication_layout"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:orientation="vertical"
+	            android:layout_marginRight="20dp"
+				android:background="@drawable/main_view_gridcell_red"
+				android:gravity="center">
+	            
+	            <ImageView
+	                android:id="@+id/teacher_communication_img"
+	                android:layout_width="50dp"
+	                android:layout_height="50dp"
+	                android:layout_margin="10dp"
+	                android:background="@drawable/teachers_communication" 
+	                />
+	            <TextView
+	                android:id="@+id/teacher_communication_text1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="10dp"
+	                android:text="教师交流群" 
+	                android:textColor="@color/textWhite"               
+	                android:textSize="@dimen/mainview_centretext_size"
+	                />
+	        </LinearLayout>
+	        
+	    </LinearLayout>        
+	</LinearLayout>
+</ScrollView>

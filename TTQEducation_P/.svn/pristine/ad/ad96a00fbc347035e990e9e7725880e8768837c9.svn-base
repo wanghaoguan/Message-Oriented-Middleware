@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 直角边框  内部颜色为浅灰色 边框颜色为灰色-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 内部颜色 -->
+    <solid android:color="#ffffff" />  
+  
+    <!-- 边框颜色 边框粗细-->
+    <stroke  
+        android:width="0.01dp"  
+        android:color="#b8b8b7" />  
+  	<!-- 边框内容与边框距离 -->
+    <padding  
+        android:bottom="0dp"  
+        android:left="0dp"  
+        android:right="0dp"  
+        android:top="1dp" /> 
+
+</shape>

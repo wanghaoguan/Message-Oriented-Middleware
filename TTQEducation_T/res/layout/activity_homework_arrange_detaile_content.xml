@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/action_bar"/>
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal"        
+        android:background="@color/white">
+         
+        <!--题目进度  -->
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@color/white">    
+            
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@color/white"
+                android:gravity="left">  
+                
+                <TextView	                
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" 
+	                android:layout_gravity="center_vertical"             
+	                android:text="当前题目: "
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/> 
+	                
+                <TextView	  
+                    android:id="@+id/tvCurrentNum"              
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" 
+	                android:layout_gravity="center_vertical"             
+	                android:text="1"
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/> 
+	                
+                <TextView	                
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" 
+	                android:layout_gravity="center_vertical"             
+	                android:text=" / "
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/> 
+	                
+                <TextView	     
+                    android:id="@+id/tvTotalNum"           
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" 
+	                android:layout_gravity="center_vertical"             
+	                android:text="6"
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/> 
+            </LinearLayout>
+        </LinearLayout>
+         
+        <!-- 布置按钮 -->
+        <LinearLayout 
+            android:id="@+id/llSubmit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"  
+            android:layout_weight="1"          
+            android:orientation="horizontal"     
+            android:gravity="right"
+            android:background="@color/white">
+            
+            <TextView 
+                android:id="@+id/tvSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp" 
+                android:layout_marginLeft="15dp"   
+                android:layout_gravity="center_vertical"             
+                android:text="布置"
+                android:textSize="16sp"
+                android:textColor="#3E3E3E"/>         
+           
+        </LinearLayout>
+    </LinearLayout>
+    
+    <View 
+       android:layout_width="match_parent"
+       android:layout_height="0.1dp"
+       android:background="@color/textGray"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">  
+        
+         <LinearLayout 
+            android:id="@+id/llQuestionName"
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginRight="15dp"
+	        android:background="@drawable/linearlayout_frame_circle_white"
+	        android:gravity="center_vertical">
+	               
+	        <TextView 
+	            android:id="@+id/tvQuestionName"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="15dp"
+	            android:gravity="center_vertical"
+	            android:textSize="16sp"
+	            android:textColor="#747474"
+	            android:text=" "/>
+    	</LinearLayout>
+        
+        <WebView 
+	         android:id="@+id/web_view"
+	         android:layout_width="match_parent"
+	         android:layout_height="0dp"
+	         android:layout_weight="1"
+	         android:layout_marginTop="5dp"
+	         android:layout_marginLeft="15dp"
+	         android:layout_marginRight="15dp"
+	         android:layout_marginBottom="15dp"
+	         />
+     
+	     <LinearLayout 
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_marginLeft="15dp"	         
+	         android:layout_marginRight="15dp"
+	         android:layout_marginBottom="10dp"
+	         android:gravity="left">         
+	         <TextView             
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"             
+	            android:text="温馨提示：左右滑动切换题目"
+	            android:textSize="16sp"
+	            android:textColor="@color/textGreen2"/>     
+	     </LinearLayout>      
+    </LinearLayout>
+     
+     
+
+</LinearLayout>

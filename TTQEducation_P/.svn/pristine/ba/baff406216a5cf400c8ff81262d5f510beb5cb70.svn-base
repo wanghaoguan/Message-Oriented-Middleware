@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="vertical"
+  	android:gravity="center_horizontal" 
+  	android:background="@drawable/choose_school_bg">
+
+    <ImageView
+        android:id="@+id/ivLoginTop"
+        android:layout_width="184dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/choose_school_02"
+        android:scaleType="centerCrop"/>
+    
+    <!-- 下面是两个输入框 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:background="@drawable/linearlayout_frame_border">
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">               
+            <ImageView 
+                android:layout_width="20dp"
+                android:layout_height="20.4dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/login_icon_1" />
+            <AutoCompleteTextView
+		       android:id="@+id/edit_account"
+		       android:layout_width="match_parent"
+		       android:layout_height="33dp"
+		       android:gravity="center|left"
+		       android:hint="用户名" 
+		       android:textColorHint="@color/texthintcolor"
+		       android:background="@null"
+		       android:ems="10" 
+		       android:completionThreshold="1"
+		       android:layout_marginLeft="16dp" />               
+        </LinearLayout>
+        
+        <ImageView
+	         android:layout_width="match_parent"
+	         android:layout_height="0.1dp"
+	         android:background="#E6E6E6" 
+	         android:layout_marginTop="2dp"
+	         android:layout_marginBottom="2dp"/>
+        	
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">               
+            <ImageView 
+                android:layout_width="20dp"
+                android:layout_height="26.15dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/login_icon_2"/>
+            <EditText
+		       android:id="@+id/edit_password"
+		       android:layout_width="match_parent"
+		       android:layout_height="33dp"
+		       android:gravity="center|left"
+		       android:password="true"
+		       android:hint="密码" 
+		       android:textColorHint="@color/texthintcolor"
+		       android:background="@null"
+		       android:ems="10" 
+		       android:layout_marginLeft="16dp"/>                
+        </LinearLayout>               
+    </LinearLayout>
+    
+    <!-- 下半部分  包括：登陆按钮 返回输入代码按钮  -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        
+        <Button
+		     android:id="@+id/button_login"
+		     android:layout_width="match_parent"
+		     android:layout_height="50dp"
+		     android:layout_marginBottom="8dp"
+		     android:background="@drawable/loginbutton"
+		     android:text="账号登录" 
+		     android:textColor="@color/textWhite"
+		     android:textSize="20sp"/>
+        
+        <Button
+			android:id="@+id/button_backTochooseSchool"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:background="@drawable/loginbutton"		        
+			android:text="更改学校代码" 
+			android:textColor="@color/textWhite"
+			android:textSize="20sp"/>  
+    </LinearLayout> 
+             
+	<View 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="湖南堂堂清教育科技有限公司"
+        android:textSize="12sp"
+        android:textColor="@color/textWhite"/>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="www.hnttq.com"
+        android:textSize="12sp"
+        android:textColor="@color/textWhite"/>       	
+</LinearLayout>    

@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/textWhite">
+
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+    
+    
+    <!-- 下面是 正确 错误  未答 图标 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/light_gray"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView 
+	            android:layout_width="26dp"
+	            android:layout_height="26dp"
+	            android:src="@drawable/right_count"
+	            android:layout_marginRight="5dp"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正确"
+                android:textSize="16sp"
+                android:textColor="@color/textGray"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+             <ImageView 
+	            android:layout_width="26dp"
+	            android:layout_height="26dp"
+	            android:src="@drawable/wrong_count"
+	            android:layout_marginRight="5dp"/>
+             <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="错误"
+                android:textSize="16sp"
+                android:textColor="@color/textGray"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView 
+	            android:layout_width="26dp"
+	            android:layout_height="26dp"
+	            android:src="@drawable/big_noanswer"
+	            android:layout_marginRight="5dp"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未答"
+                android:textSize="16sp"
+                android:textColor="@color/textGray"
+                android:textStyle="bold"/>
+        </LinearLayout>            
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/noInfo_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="没有答题信息!"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+    
+    <!-- 下面是具体 正确 错误 未答 详情 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <com.ttqeducation.myViews.MyListView
+	        android:id="@+id/listView_task_details"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:divider="@null">
+    	</com.ttqeducation.myViews.MyListView>
+        
+    </LinearLayout>
+
+</LinearLayout>

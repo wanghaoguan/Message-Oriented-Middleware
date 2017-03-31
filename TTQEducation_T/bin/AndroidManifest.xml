@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ttqeducation.teacher"
+    android:versionCode="3"
+    android:versionName="2.0.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <!--允许程序打开网络套接字  -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--允许程序访问有关GSM网络信息  -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--读写手机状态和身份  -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--读写存储卡  -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--基于网络的粗略的位置  -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />     
+    
+    <!-- 获取机型信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--读取设备外部存储空间（内置SDcard和外置SDCard）的文件  -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    
+    <application
+        android:name=".beans.ContextApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.ttqeducation.teacher.activitys.system.BranchActivity"
+            android:label="测试界面"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar">
+            
+        </activity>
+        
+        <!-- 以下是堂堂清实体内容 -->
+        <service 
+            android:enabled="true" 
+            android:name="com.ttqeducation.teacher.network.PushService"
+            android:exported="false" >          
+        </service>
+        
+        <receiver 
+            android:name="com.ttqeducation.teacher.activitys.message.MyBroadcast" 
+            android:enabled="true">          
+        </receiver>
+        <receiver 
+            android:name="com.ttqeducation.teacher.activitys.message.GroupChatBroadcast" 
+            android:enabled="true">          
+        </receiver>
+
+        <activity
+            android:name="com.ttqeducation.teacher.activitys.system.LaunchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ttqeducation.teacher.activitys.system.ResultLaunchActivity"
+            android:label="返回 启动界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.ttqeducation.teacher.activitys.system.ChooseSchoolActivity"
+            android:label="登陆 学校选择"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.ttqeducation.teacher.activitys.system.LoginActivity"
+            android:label="登陆界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>  
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.system.MainActivity"
+            android:label="主界面" 
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.ttqeducation.teacher">
+        </activity>
+        <activity 
+            android:name=".activitys.message.TeacherAndParentChatListActivity"
+            android:label="家长与老师聊天  人员列表界面" 
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        </activity>
+        <activity 
+            android:name=".activitys.message.OneChatActivity"
+            android:label="一对一聊天界面" 
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.ttqeducation.teacher">
+        </activity> 
+        <activity 
+            android:name=".activitys.message.ClassListActivity"
+            android:label="聊天班级列表界面" 
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        </activity>
+        <activity 
+            android:name=".activitys.message.GroupChatActivity"
+            android:label="班级老师群聊界面" 
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.ttqeducation.teacher">
+        </activity> 
+        <activity
+            android:name=".activitys.notice.NoticeListActivity"
+            android:label="通知公告列表界面"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activitys.notice.NoticeDetailActivity"
+            android:label="通知详情界面"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ttqeducation.teacher">
+        </activity>  
+        <activity
+            android:name="com.ttqeducation.teacher.activitys.notice.NoticePublishActivity"
+            android:label="通知公告发布"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.ttqeducation.teacher.activitys.others.ChangePwdActivity"
+            android:label="密码修改"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"             
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.ttqeducation.teacher.activitys.others.UserOwnSetActivity"
+            android:label="个人设置"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.ttqeducation.teacher.activitys.others.AboutKKQActivity"
+            android:label="关于"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        </activity>
+        
+        <activity
+            android:name="com.ttqeducation.teacher.activitys.others.UserProtocolActivity"
+            android:label="用户协议"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        </activity>
+        
+        <activity
+            android:name="com.ttqeducation.teacher.activitys.notice.NoticeFragmentActivity"
+            android:label="通知公告界面"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.TaskTypeChooseActivity"
+            android:label="作业结果查看选择界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+        
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.TaskResultActivity"
+            android:label="作业结果查看浏览页面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+        
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.TaskResultDetailActivity"
+            android:label="作业结果查看详情页面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.KnowledgePointActivity"
+            android:label="知识点概述界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.KnowledgePointDetailActivity"
+            android:label="知识点明细"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+        
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.ChooseClassActivity"
+            android:label="科目选择"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+        
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.KnowledgePointGraph"
+            android:label="知识点曲线图"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeActivity"
+            android:label="家庭作业布置"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+        
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeDetaileActivity"
+            android:label="家庭作业布置详情页码题库"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+        
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeDetailContentActivity"
+            android:label="家庭作业布置详情题干题库"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+        
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.SubjectiveHomeworkActivity"
+            android:label="主观题批改列表界面"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+         <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.SubjectiveHomeworkDetailActivity"
+            android:label="家庭作业主观题照片批阅"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"            
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.SummaryActivity"
+            android:label="共性问题总结"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"            
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+        <activity 
+            android:name="com.ttqeducation.teacher.activitys.teach.TaskResultDetailForHTMLActivity"
+            android:label="共性问题总结"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"            
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">            
+        </activity>
+    </application>
+
+</manifest>

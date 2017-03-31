@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_version">1.1.0.0</string>
+    <string name="app_name">课课清</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_knowledge_ino">KnowledgeInoActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_choose_school">ChooseSchoolActivity</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="logo_text1">课课清</string>
+    <string name="logo_text2">家校互动平台</string>
+    <!-- 下面的是实验室公司服务地址 -->
+    <!-- <string name="company_service_url">http://192.168.137.1:8089/ManageService.asmx</string> -->
+    <!-- <string name="company_service_url">http://192.168.137.1:6666/ManageService.asmx</string> -->
+    <string name="company_service_url">http://121.43.151.57:8020/ManageService.asmx</string>
+
+    <!-- 下面的是阿里云平台的公司服务地址 -->
+    <!-- <string name="company_service_url">http://115.29.161.214:8020/ManageService.asmx</string> -->
+
+    <string name="title_activity_task_type_choose">TaskTypeChooseActivity</string>
+    <string name="title_activity_task_results">TaskResultsActivity</string>
+    <string name="title_activity_task_condition_choose">TaskConditionChooseActivity</string>
+    <string name="title_activity_task_result_detail">TaskResultDetail</string>
+    <string name="title_activity_error_questions">ErrorQuestionsActivity</string>
+    <string name="title_activity_knowledge_point">KnowledgePointActivity</string>
+    <string name="title_activity_knowledge_point_detail">KnowledgePointDetailActivity</string>
+    <string name="title_activity_test_scores_ranking">TestScoresRankingActivity</string>
+    <string name="title_activity_knowledge_point_ranking">KnowledgePointRankingActivity</string>
+    <string name="version_right">Copyright (c) 2015-2018 KeKeQing\nAll Rights Reserved</string>
+    <string name="title_activity_knowledge_point_graph">KnowledgePointGraphActivity</string>
+
+</resources>

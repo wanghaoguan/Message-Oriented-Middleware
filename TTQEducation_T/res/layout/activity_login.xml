@@ -1,0 +1,144 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/light_gray">
+    
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" 
+	    android:background="@color/light_gray">
+	    
+	    <!-- 上部分的图片  -->      
+	    <ImageView 
+	        android:id="@+id/loginTop_img"
+	        android:layout_width="match_parent"
+	        android:layout_height="240dp"
+	        android:background="@drawable/task_type_choose_top">           
+	                 
+	    </ImageView>
+	    
+	    <!-- 下面是两个输入框 -->
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="85dp"
+	        android:orientation="vertical"
+	        android:layout_margin="20dp"
+	        android:background="@drawable/linearlayout_frame_border">
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="40dp"
+	            android:orientation="horizontal"
+	            android:gravity="center_vertical">               
+	            <ImageView 
+	                android:layout_width="26dp"
+	                android:layout_height="30dp"
+	                android:layout_marginLeft="16dp"
+	                android:background="@drawable/login_useid"
+	                />
+	            <AutoCompleteTextView
+			       android:id="@+id/edit_account"
+			       android:layout_width="match_parent"
+			       android:layout_height="33dp"
+			       android:gravity="center|left"
+			       android:hint="请输入帐号" 
+			       android:textColorHint="@color/texthintcolor"
+			       android:background="@null"
+			       android:ems="10" 
+			       android:completionThreshold="1"
+			       android:layout_marginLeft="16dp"/>               
+	        </LinearLayout>
+	        <ImageView
+		         android:layout_width="match_parent"
+		         android:layout_height="0.01dp"
+		         android:background="@color/texthintcolor" 
+		         android:layout_marginTop="2dp"
+		         android:layout_marginBottom="2dp"/>
+	        	
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="40dp"
+	            android:orientation="horizontal"
+	            android:gravity="center_vertical">               
+	            <ImageView 
+	                android:layout_width="26dp"
+	                android:layout_height="30dp"
+	                android:layout_marginLeft="16dp"
+	                android:background="@drawable/login_psw"/>
+	            <EditText
+			       android:id="@+id/edit_password"
+			       android:layout_width="match_parent"
+			       android:layout_height="33dp"
+			       android:gravity="center|left"
+			       android:password="true"
+			       android:hint="请输入密码" 
+			       android:textColorHint="@color/texthintcolor"
+			       android:background="@null"
+			       android:ems="10" 
+			       android:layout_marginLeft="16dp"/>                
+	        </LinearLayout> 
+	                 
+	    </LinearLayout>
+	    
+	    <!-- 下半部分  包括：登陆按钮 返回输入代码按钮  -->
+	
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="20dp"
+	        android:orientation="vertical">
+	        
+	        <Button
+		     android:id="@+id/button_login"
+		     android:layout_width="match_parent"
+		     android:layout_height="40dp"
+		     android:layout_marginBottom="20dp"
+		     android:background="@drawable/btn_change_psw_blue_deeper"
+		     android:text="立即登录" 
+		     android:textColor="@color/textWhite"
+		     android:textSize="20sp"/>
+	        
+	        <Button
+		      android:id="@+id/button_backTochooseSchool"
+		      android:layout_width="match_parent"
+		      android:layout_height="40dp"
+		      android:background="@drawable/btn_change_psw_blue_deeper"		        
+		      android:text="切换学校" 
+		      android:textColor="@color/textWhite"
+		      android:textSize="20sp"/>
+	        
+	    </LinearLayout>
+	    
+	    <!-- 下面是版权申明 -->
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_marginTop="10dp"
+	        android:gravity="center">
+<!--          <TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:text="使用条款和隐私政策"
+		        android:textSize="12sp"
+		        android:textColor="@color/title_bgNew"/>
+
+		    <TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="2dp"
+		        android:layout_marginBottom="10dp"
+		        android:gravity="center"
+		        android:text="@string/version_right"
+		        android:textSize="10sp"
+		        android:textColor="@color/textGray"/>
+-->	
+	    </LinearLayout>
+	
+	
+	</LinearLayout>
+    
+</ScrollView>

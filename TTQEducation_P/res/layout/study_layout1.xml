@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textWhite" >
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"  
+	    android:orientation="vertical" 
+	    android:background="@color/textWhite">
+	    
+	    <ImageView
+	        android:id="@+id/ivWelcomePicture"
+	        android:layout_width="360dp"
+	        android:layout_height="185.67dp"	        
+		    android:layout_marginBottom="8dp"
+	        android:src="@drawable/banner"
+	        android:scaleType="centerCrop"/>
+		 
+	    <TextView 
+		     android:id="@+id/welcome_textView"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginBottom="8dp"
+		     android:background="#FFFFFF"
+		     android:textSize="20sp"
+		     android:textColor="#000000"
+		     android:layout_gravity="center_horizontal"
+		     android:text="" />
+	
+        <!-- 以下为服务项目 -->
+        <LinearLayout
+            android:layout_width="0dp"
+	        android:layout_height="0dp"
+	        android:orientation="vertical"
+	        android:layout_marginLeft="12.33dp"
+	        android:layout_marginRight="12.33dp"
+	        android:layout_marginBottom="8dp" >
+		    <!-- 作业结果查看、分析报告定制、知识点查看 -->
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+                <!-- 作业结果查看 -->
+                <FrameLayout
+		            android:id="@+id/homework_result_layout"
+		            android:layout_width="216.33dp"
+		            android:layout_height="161.33dp"
+		            android:clickable="true" >
+	            
+		            <ImageView
+		                android:id="@+id/homework_result_img"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                android:background="@drawable/block_1" />	            
+	        	</FrameLayout>
+	        	
+	        	<!-- 分析报告定制、知识点查看 -->
+	        	<LinearLayout 
+	        	   	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:orientation="vertical"
+                	android:layout_marginLeft="8dp" >
+	                
+	        	    <!-- 分析报告定制 -->
+	        	    <FrameLayout
+			            android:id="@+id/study_situation_layout"
+			            android:layout_width="111dp"
+			            android:layout_height="76.67dp"
+			            android:layout_marginBottom="8dp"
+			            android:clickable="true" >
+		            
+			            <ImageView
+			                android:id="@+id/study_situation_img"
+			                android:layout_width="fill_parent"
+			                android:layout_height="fill_parent"
+			                android:background="@drawable/block_5" />	            
+		        	</FrameLayout>
+	        	
+	                <!-- 知识点查看 -->
+	                <FrameLayout
+			            android:id="@+id/knowledge_situation_layout"
+			            android:layout_width="111dp"
+			            android:layout_height="76.67dp"
+			            android:clickable="true" >
+		            
+			            <ImageView
+			                android:id="@+id/knowledge_situation_img"
+			                android:layout_width="fill_parent"
+			                android:layout_height="fill_parent"
+			                android:background="@drawable/block_3" />	            
+		        	</FrameLayout>	        		        	    
+	        	</LinearLayout>
+            </LinearLayout>
+            <!-- 心理测试结果查看、家庭作业布置情况 -->
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+	                <!-- 心理测试结果查看 -->
+	                <FrameLayout
+			            android:id="@+id/phychological_test_result_layout"
+			            android:layout_width="163.67dp"
+			            android:layout_height="90.67dp"
+			            android:clickable="true" >
+		            
+			            <ImageView
+			                android:id="@+id/phychological_test_result_img"
+			                android:layout_width="fill_parent"
+			                android:layout_height="fill_parent"
+			                android:background="@drawable/block_4" />	            
+		        	</FrameLayout>	
+		        	
+	                <!-- 家庭作业布置情况 -->
+	                <FrameLayout
+			            android:id="@+id/homework_arrangement_layout"
+			            android:layout_width="163.67dp"
+			            android:layout_height="90.67dp"
+			            android:clickable="true"
+			            android:layout_marginLeft="8dp" >
+		            
+			            <ImageView
+			                android:id="@+id/homework_arrangement_img"
+			                android:layout_width="fill_parent"
+			                android:layout_height="fill_parent"
+			                android:background="@drawable/block_2" />	            
+		        	</FrameLayout>	                		                
+            </LinearLayout>
+        </LinearLayout>	    	    	    	    	    	    
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 该文件中一般定义用到的尺寸：字体大小，控件大小等 -->
+   
+    <!-- ********************************************下面是LJ定义的************************************** -->
+    <dimen name="actionBarHeight_size">48dp</dimen>
+    <dimen name="title_centretext_size">20sp</dimen>				<!-- 标题栏字体大小 -->
+	<dimen name="mainview_centretext_size">14sp</dimen>		<!-- 主界面中间内容字体的大小 -->
+    <dimen name="mainview_buttomtext_size">12sp</dimen>		<!-- 主界面底部字体的大小 -->
+    <dimen name="login_input_textsize">14sp</dimen>
+    <dimen name="loginbtn_title_text_size">18sp</dimen>
+    <dimen name="tab_height">55dp</dimen>
+    <dimen name="tab_text_size">10sp</dimen>
+    <dimen name="home_garten_name">12sp</dimen>
+    <dimen name="home_choose_text">13sp</dimen>
+    <dimen name="arc_tb">10dp</dimen>
+	<!-- *********************************************LJ的到此结束************************************** -->
+</resources>

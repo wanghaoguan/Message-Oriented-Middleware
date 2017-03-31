@@ -1,0 +1,224 @@
+package com.ttqeducation.activitys.others;
+
+/**
+ * 吕杰
+ * 
+ */
+
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.xmlpull.v1.XmlPullParserException;
+
+import com.ttqeducation.R;
+import com.ttqeducation.beans.DataTable;
+import com.ttqeducation.beans.UserCurrentState;
+import com.ttqeducation.beans.UserInfo;
+import com.ttqeducation.beans.dataTableWrongException;
+import com.ttqeducation.myViews.RefreshView;
+import com.ttqeducation.network.GetDataByWS;
+import com.ttqeducation.tools.DensityUtils;
+import com.ttqeducation.tools.DesUtil;
+
+import android.app.Activity;
+import android.app.Dialog;
+import android.content.res.Resources;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.DisplayMetrics;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class ApplyTryoutActivity extends Activity {	
+	
+	// 标题栏部分；
+	private LinearLayout titleBackLayout = null; // 标题栏返回按钮；
+	private TextView titleTextView = null;			// 标题栏文字；
+	private RefreshView refreshView = null;
+	
+	private Button applyButton = null;			// 申请按钮；
+	private Dialog tryoutFailureDialog = null; // 申请失败提示对话框；
+
+	
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_apply_tryout);
+
+		this.refreshView = new RefreshView(this, R.style.full_screen_dialog);
+		initView();
+	}
+
+	public void initView(){
+		// 标题栏部分 实例化；
+		this.titleTextView = (TextView) (super.findViewById(R.id.action_bar).findViewById(R.id.title_text));
+		this.titleTextView.setText("申请试用");
+		this.titleBackLayout = (LinearLayout) (super
+				.findViewById(R.id.action_bar).findViewById(R.id.title_back_layout));
+		this.titleBackLayout.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				ApplyTryoutActivity.this.finish();
+			}
+		});
+		
+		this.applyButton = (Button) super.findViewById(R.id.btn_ok_apply);
+		this.applyButton.setOnClickListener(new OnClickListener() {			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				String user_id = UserInfo.getInstance().studentID;
+				ApplyTryoutActivity.this.Check_and_ApplyToTryOut(user_id);
+			}
+		});
+	}
+
+	/**用户申请试用，如成供返回1 否则0
+	 * @param user_id
+	 */
+	public void Check_and_ApplyToTryOut(String user_id) {
+
+		// 用异步任务来访问访问网络
+		new AsyncTask<Object, Object, DataTable>() {
+
+			@Override
+			protected void onPreExecute() {
+				// TODO Auto-generated method stub
+				super.onPreExecute();
+				refreshView.show();
+			}
+
+			@Override
+			protected DataTable doInBackground(Object... params) {
+				
+				DataTable dt = null;
+				// 方法名
+				String methodName = "APP_apply_try";
+				// 存放参数的map
+				Map<String, String> paramsMap = new HashMap<String, String>();
+				paramsMap.put("studentID", params[0].toString());
+				paramsMap.put("TokenID", DesUtil.getDesTokenID(UserCurrentState.getInstance().userID, "Admin203", 1));
+
+				// 开始访问数据
+				GetDataByWS getdatatool = GetDataByWS.getInstance();
+				// 获取堂堂清公司的服务地址
+				Resources res = getResources();
+				String companyURL = (String) res
+						.getText(R.string.company_service_url);
+				if (companyURL == null) {// 如果没有值
+					return null;
+				}
+				getdatatool.setURL(companyURL);
+				try {
+					try {
+						dt = getdatatool.getDataAsTable(methodName, paramsMap);
+					} catch (dataTableWrongException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (XmlPullParserException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+				return dt;
+			}
+
+			protected void onPostExecute(DataTable result) {
+				
+				// 关闭刷新；
+				refreshView.dismiss();
+				
+				if (result != null) {
+					try {
+						Boolean flag = Boolean.parseBoolean(result.getCell(0, "flag"));
+						String deadLine = result.getCell(0, "NewDeadline").split("T")[0];
+						Log.i("lvjie", "申请试用：flag="+flag+"   deadLine="+deadLine);
+						UserInfo.getInstance().deadline = deadLine;			// 不管申请试用是否成功，都修改当前保存的到期时间；
+
+						if(flag==true){//如成功
+							
+							showToast("申请试用成功!");
+//							setReminderTextViewByApply();
+							
+						}else{//如果失败
+							
+//							showToast("申请试用失败！您已经使用过1次");
+							initTryOutFailureDialog();
+						}
+					} catch (dataTableWrongException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			};
+		}.execute(user_id);
+	}
+	
+	// 初始化申请试用失败对话框；
+	public void initTryOutFailureDialog(){
+		if (this.tryoutFailureDialog == null) {
+			View view = LayoutInflater.from(this).inflate(
+					R.layout.dialog_reminder_authority_use, null);
+			((TextView)view.findViewById(R.id.titleReminder_textView)).setText("申请失败!");
+			((TextView)view.findViewById(R.id.reminderInfo_textView)).setText("        尊敬的用户，十分抱歉您的申请试用机会已用完，感谢您的使用!");
+			this.tryoutFailureDialog = new Dialog(this,
+					R.style.alertdialog_style);
+			this.tryoutFailureDialog.setContentView(view);
+			this.tryoutFailureDialog.show();
+
+			// 动态设置界面图片大小；
+			DisplayMetrics metrics = getResources().getDisplayMetrics(); // 用来获取屏幕的分辨率；
+			int screenWidthPX = metrics.widthPixels;
+			int screenWidthDP = (int) DensityUtils.px2dp(this,
+					screenWidthPX);
+
+			// 设置图片的大小；
+			int layoutWidthDP = (screenWidthDP * 4) / 5;
+			int layoutWidthPX = DensityUtils
+					.dp2px(this, layoutWidthDP);
+
+			LayoutParams params = view.getLayoutParams();
+			params.width = layoutWidthPX;
+			view.setLayoutParams(params);
+
+			// 添加点击事件
+			((TextView)view.findViewById(R.id.IKnow_textView)).setText("好");
+			view.findViewById(R.id.IKnow_textView).setOnClickListener(new OnClickListener() {				
+				@Override
+				public void onClick(View v) {
+					// TODO Auto-generated method stub
+					tryoutFailureDialog.dismiss();
+					ApplyTryoutActivity.this.finish();
+				}
+			});
+			
+		} else {
+			this.tryoutFailureDialog.show();
+		}
+	}
+
+
+
+	// 窗口提示信息；
+	public void showToast(String toastMessage) {
+		Toast toast = Toast.makeText(this, toastMessage,
+				Toast.LENGTH_SHORT);
+		toast.show();
+	}
+	
+}

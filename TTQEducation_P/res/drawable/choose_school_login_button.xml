@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该文件是针对Button按钮 点击  白色变为灰色  -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@color/login_button_gray" android:state_enabled="true" android:state_pressed="true"/>
+    <item android:drawable="@color/choose_school_login_bg" android:state_enabled="true" android:state_pressed="false"/>
+
+</selector>

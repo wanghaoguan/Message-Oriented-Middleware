@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该文件是 成绩排名详情界面 listview 中的一个子项目 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/textWhite"
+    android:orientation="horizontal">
+    
+    <LinearLayout 
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView 
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@drawable/time_pic"/>
+        <ImageView 
+            android:id="@+id/leftLine_img"
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1dd7db"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp">
+        
+        <TextView 
+	        android:id="@+id/testName_textview"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="单元测试一"
+	        android:textColor="@color/textBlack"
+	        android:textSize="18sp"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:layout_marginBottom="20dp">
+            
+            <LinearLayout 
+		        android:layout_width="0dp"
+		        android:layout_height="60dp"
+		        android:layout_weight="1"
+		        android:background="@drawable/linearlayout_frame_circle_left_gray"
+		        android:layout_marginTop="4dp"
+		        android:gravity="center_vertical"
+		        android:orientation="vertical"
+		        android:paddingTop="4dp"
+		        android:paddingBottom="4dp">
+		        
+	            <TextView 
+			        android:id="@+id/testTime_textview"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="10dp"
+			        android:text="测试时间：2015年2月8号  下午"
+			        android:textColor="@color/textGray"
+			        android:textSize="14sp"/>
+			    <TextView 
+			        android:id="@+id/testRanking_textview"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="10dp"
+			        android:text="班级排名：3"
+			        android:textColor="@color/textGray"
+			        android:textSize="14sp"/>
+     
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+		        android:id="@+id/right_layout"
+		        android:layout_width="70dp"
+		        android:layout_height="match_parent"
+		        android:background="@drawable/linearlayout_frame_circle_right_red"
+		        android:layout_marginLeft="2dp"
+		        android:layout_marginRight="4dp"
+		        android:layout_marginTop="4dp"
+		        android:gravity="center">
+		           
+		        <TextView
+			        android:id="@+id/testScore_textview" 
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="8dp"
+			        android:layout_marginRight="8dp"
+			        android:text="得分:\n90"
+			        android:textColor="@color/textWhite"
+			        android:textSize="16sp"/>
+	    	</LinearLayout>
+            
+        </LinearLayout>
+             
+    </LinearLayout>
+   
+</LinearLayout>

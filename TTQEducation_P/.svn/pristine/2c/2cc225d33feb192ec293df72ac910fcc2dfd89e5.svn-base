@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 该文件是针对 listview 子项 颜色的变化  由白色向浅灰色变化-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@color/item_one_pre" android:state_enabled="true" android:state_pressed="true"/>
+    <item android:drawable="@color/item_one" android:state_enabled="true" android:state_pressed="false"/>
+
+</selector>

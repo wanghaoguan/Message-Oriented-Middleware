@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    
+	<!-- ********************************************下面是LJ定义的************************************** -->
+	<color name="title_bg">#4eb6e6</color>	<!-- 标题栏背景颜色 -->
+	
+	<!--  登陆部分 -->
+	<color name="login_button_gray">#bfbebe</color>	<!-- 登陆部分 按钮按下的颜色  灰色加深-->
+	<color name="login_button_white">#ffffff</color>	<!-- 登陆部分 按钮初始的颜色  白色-->
+	<color name="login_button_blue">#00d7dc</color>	<!-- 登陆部分 按钮按下的颜色  蓝色 -->
+	<color name="login_button_blue_deeper">#00d7dc</color>	<!-- 登陆部分 按钮按下的颜色  深蓝色 -->
+	
+	<!-- 主界面部分 -->
+	<color name="grid_blue">#00d7dc</color>				<!-- 主界面按钮未被选中 蓝色-->
+	<color name="grid_red">#f05837</color>				<!-- 主界面按钮未被选中 红色-->
+	<color name="grid_pre">#b5b5b6</color>		<!-- 主界面按钮被选中  灰色  -->
+	<color name="main_center_bg">#ffffff</color>	<!-- 主界面中间主体部分背景颜色 白色-->
+	<color name="light_gray">#efefef</color>	<!-- 大部分界面 灰白色-->
+	
+	<color name="login_button_pressed">#66b8a7</color>	<!-- 登陆部分 按钮按下的颜色  深绿色 -->
+	<color name="login_button_unpressed">#61c4b0</color>	<!-- 登陆部分 按钮初始的颜色  绿色-->
+	
+	<color name="main_bottom_bg">#ebecee</color>	<!-- 主界面底部背景颜色-->
+	<color name="morning_check_split">#d1c7b7</color>	<!-- 切割线的颜色 -->
+	<color name="pressBackground">#dfe0e0</color>   <!-- 按下时的颜色变深 -->
+	<color name="gridselect">#bfbebe</color>		<!-- 主界面按钮被选中  灰色  -->
+	<color name="grid">#f3f4f4</color>				<!-- 主界面按钮未被选中 浅浅灰色-->
+	
+	<color name="item_one_pre">#e9e9e9</color>		<!-- listview列表按下颜色  浅灰色  -->
+	<color name="item_one">#ffffff</color>				<!-- listview列表未按下颜色 白色-->
+	<color name="gridline">#a7a6a6</color>
+	<color name="transparent_black">#77000000</color>
+	
+	<color name="texthintcolor">#999999</color>			<!-- 字体浅灰色 -->
+	<color name="textBlack">#595757</color>			<!-- 字体黑色 -->
+	<color name="textGreen">#00d7dc</color>			<!-- 字体绿色 -->
+	<color name="textGray">#7d7d7d</color>			<!-- 字体灰色 -->
+	<color name="textWhite">#ffffff</color>			<!-- 字体白色-->
+	<color name="textBlue">#61afdd</color>			<!-- 字体蓝色 -->
+	<color name="textRed">#d71345</color>			<!-- 字体红色 -->
+	<color name="textOrange">#f88a37</color>	<!-- 字体橙色-->
+	<color name="textBlue1">#1271dc</color>			<!-- 字体蓝色 -->
+	
+	<color name="underline">#f9f9f9</color>	<!-- 界面中的下划线颜色-->
+	<color name="percentRed">#f86d57</color>			<!-- 百分比红色 -->
+	<!-- *********************************************LJ的到此结束************************************** -->
+    
+    <!-- ****************************************界面修改由此开始**************************************** -->
+    <!-- 主界面 -->
+    <color name="main_text_blue">#439FEF</color>
+    <color name="main_title_bg">#4EB6E6</color>
+    <!-- 选择学校界面 -->
+    <color name="choose_school_bg">#F7F7F7</color>
+    <color name="choose_school_login_bg">#42A0F2</color>
+    <!-- 作业结果查看 -->
+    <color name="back_button_pressed">#439FFF</color>
+    <color name="task_result_text">#656565</color>
+    <!-- 科目选择 -->
+    <color name="choose_subject_pressed">#38B5E1</color>
+    <color name="choose_subject_unpressed">#2E2E2E</color>
+    <!-- 日历界面 -->
+    <color name="boxLineAndGrayWord">#c8c8c8</color>
+    <!-- ****************************************界面修改到此结束**************************************** -->
+</resources>

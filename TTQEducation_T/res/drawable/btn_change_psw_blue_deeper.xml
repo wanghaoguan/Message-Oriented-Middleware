@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--针对修改秘密界面Button，颜色由蓝色到蓝色加深  -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@color/change_psw_button_blue_deeper"
+          android:state_enabled="true"
+          android:state_pressed="true"/>
+    <item android:drawable="@color/change_psw_button_blue"
+          android:state_enabled="true"
+          android:state_pressed="false"/>
+	
+</selector>

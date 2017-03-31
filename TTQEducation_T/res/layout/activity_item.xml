@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/textWhite">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="@color/textWhite">
+        
+        <!--欢迎图片  -->
+        <ImageView 
+            android:id="@+id/welcomePicture"
+            android:layout_width="360dp"
+            android:layout_height="185.67dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/main_welcome"
+            android:scaleType="centerCrop"
+            />
+        
+        <!--欢迎文字  -->
+        <TextView 
+		     android:id="@+id/welcome_textView"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginBottom="8dp"
+		     android:background="#FFFFFF"
+		     android:textSize="20sp"
+		     android:textColor="#000000"
+		     android:layout_gravity="center_horizontal"
+		     android:text="XXX，欢迎您" />
+        
+        <!--以下为各个主页面按钮  -->
+         <LinearLayout
+            android:layout_width="0dp"
+	        android:layout_height="0dp"
+	        android:orientation="vertical"
+	        android:layout_marginLeft="12.33dp"
+	        android:layout_marginRight="12.33dp"
+	        android:layout_marginBottom="8dp" >
+	        
+            <!--主观题批阅、作业结果查看、知识点掌握度查看  -->
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+                <!--家庭作业主观题照片批阅  -->
+                <FrameLayout 
+                    android:id="@+id/subjective_homework_layout"
+                    android:layout_width="216.33dp"
+                    android:layout_height="161.33dp"
+                    android:clickable="true">
+                    <ImageView 
+                        android:id="@+id/subjective_homework_img"
+                        android:layout_width="fill_parent" 
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/btn_subjective_homework"/>               
+                </FrameLayout>
+                
+                <!--作业结果查看、知识点掌握度结果查看  -->
+                <LinearLayout 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp">
+                    
+                    <!--作业结果查看  -->
+                     <FrameLayout
+			            android:id="@+id/homework_result_layout"
+			            android:layout_width="111dp"
+			            android:layout_height="76.67dp"
+			            android:layout_marginBottom="8dp"
+			            android:clickable="true" >
+		            
+			            <ImageView
+			                android:id="@+id/homework_result_img"
+			                android:layout_width="fill_parent"
+			                android:layout_height="fill_parent"
+			                android:background="@drawable/btn_homework_result" />	            
+		        	</FrameLayout>
+		        	
+                     <!-- 知识点查看 -->
+	                <FrameLayout
+			            android:id="@+id/knowledge_situation_layout"
+			            android:layout_width="111dp"
+			            android:layout_height="76.67dp"
+			            android:clickable="true" >
+		            
+			            <ImageView
+			                android:id="@+id/knowledge_situation_img"
+			                android:layout_width="fill_parent"
+			                android:layout_height="fill_parent"
+			                android:background="@drawable/btn_knowledge_point" />	            
+		        	</FrameLayout>	                      
+                </LinearLayout>                
+            </LinearLayout>
+            
+            <!--心理健康查看、作业布置查看  -->
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!--心理测试查看  -->
+                <FrameLayout 
+                    android:id="@+id/psychological_test_result_layout"
+                    android:layout_width="163.67dp"
+                    android:layout_height="90.67dp"
+                    android:clickable="true">
+                    
+                    <ImageView 
+                        android:id="@+id/psychological_test_result_img"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/btn_psy"/>
+                </FrameLayout>
+                
+                <!--家庭作业布置  -->
+                <FrameLayout 
+                    android:id="@+id/homework_arrangement_layout"
+                    android:layout_width="163.67dp"
+			        android:layout_height="90.67dp"
+			        android:clickable="true"
+			        android:layout_marginLeft="8dp">
+                    
+                    <ImageView 
+                        android:id="@+id/homework_arrangement_img"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/btn_homework_arrangment"/>
+                </FrameLayout>
+            </LinearLayout>
+	      </LinearLayout>
+    </LinearLayout>
+</ScrollView>

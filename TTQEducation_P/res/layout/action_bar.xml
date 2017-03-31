@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<!-- 类似于上面的anctionBar -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/actionBarHeight_size"
+    android:gravity="center_vertical"
+    android:background="@color/main_title_bg" 
+    android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/title_back_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/actionBarHeight_size"
+        android:background="@drawable/title_btn_back_color"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/title_back" />
+        <TextView 
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="返回"
+            android:textColor="@color/textWhite"
+            android:gravity="left"
+            android:textSize="16sp"/>             
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="@dimen/title_centretext_size"
+        android:textStyle="bold" />
+</RelativeLayout>

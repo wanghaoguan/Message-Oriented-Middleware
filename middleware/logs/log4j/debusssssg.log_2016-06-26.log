@@ -1,0 +1,4263 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jun 26 16:34:06 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.logging.LogFactory category">org.apache.ibatis.logging.LogFactory</td>
+<td title="Message">Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.</td>
+</tr>
+
+<tr>
+<td>32</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>33</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>33</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>34</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>199</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.transaction.jdbc.JdbcTransaction category">org.apache.ibatis.transaction.jdbc.JdbcTransaction</td>
+<td title="Message">Opening JDBC Connection</td>
+</tr>
+
+<tr>
+<td>461</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.database.DBOperationImpl category">com.push.server.database.DBOperationImpl</td>
+<td title="Message">failed to select message max ID</td>
+</tr>
+
+<tr>
+<td>486</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using Log4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>494</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.MultithreadEventLoopGroup category">io.netty.channel.MultithreadEventLoopGroup</td>
+<td title="Message">-Dio.netty.eventLoopThreads: 8</td>
+</tr>
+
+<tr>
+<td>532</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.noKeySetOptimization: false</td>
+</tr>
+
+<tr>
+<td>532</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.selectorAutoRebuildThreshold: 512</td>
+</tr>
+
+<tr>
+<td>628</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>629</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>629</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>632</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.ByteBuffer.cleaner: available</td>
+</tr>
+
+<tr>
+<td>633</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>636</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>636</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>637</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>637</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>638</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>640</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>640</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>640</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>641</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numHeapArenas: 4</td>
+</tr>
+
+<tr>
+<td>641</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numDirectArenas: 4</td>
+</tr>
+
+<tr>
+<td>641</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.pageSize: 8192</td>
+</tr>
+
+<tr>
+<td>642</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.maxOrder: 11</td>
+</tr>
+
+<tr>
+<td>642</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.chunkSize: 16777216</td>
+</tr>
+
+<tr>
+<td>974</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>987</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.processId: 14236 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1030</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.ThreadLocalRandom category">io.netty.util.internal.ThreadLocalRandom</td>
+<td title="Message">-Dio.netty.initialSeedUniquifier: 0xf40838f949869eca</td>
+</tr>
+
+<tr>
+<td>1040</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.ChannelOutboundBuffer category">io.netty.channel.ChannelOutboundBuffer</td>
+<td title="Message">-Dio.netty.threadLocalDirectBufferSize: 65536</td>
+</tr>
+
+<tr>
+<td>1174</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback interface: Software Loopback Interface 1</td>
+</tr>
+
+<tr>
+<td>1174</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /127.0.0.1 (primary)</td>
+</tr>
+
+<tr>
+<td>1175</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>1196</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x6a44a7a7] REGISTERED</td>
+</tr>
+
+<tr>
+<td>1202</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x6a44a7a7] BIND: /115.29.161.214:9050</td>
+</tr>
+
+<tr>
+<td>1206</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.Server category">com.push.server.Server</td>
+<td title="Message">ip:115.29.161.214 port:9050 starts running</td>
+</tr>
+
+<tr>
+<td>1209</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x6a44a7a7, /115.29.161.214:9050] ACTIVE</td>
+</tr>
+
+<tr>
+<td>1868</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x8d17c05c, /218.76.28.42:35776 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>1891</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.ResourceLeakDetector category">io.netty.util.ResourceLeakDetector</td>
+<td title="Message">-Dio.netty.leakDetectionLevel: simple</td>
+</tr>
+
+<tr>
+<td>1931</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>1941</td>
+<td title="defaultEventExecutorGroup-4-1 thread">defaultEventExecutorGroup-4-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001: has logined sucessfully push server</td>
+</tr>
+
+<tr>
+<td>2034</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init message cache successfully</td>
+</tr>
+
+<tr>
+<td>2575</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init offline user cache successfully</td>
+</tr>
+
+<tr>
+<td>3826</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0xa4c47082, /218.76.28.42:43242 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>3833</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>3836</td>
+<td title="defaultEventExecutorGroup-5-1 thread">defaultEventExecutorGroup-5-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001 has reconnected the push server</td>
+</tr>
+
+<tr>
+<td>3839</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>3840</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>3863</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>3864</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>3865</td>
+<td title="defaultEventExecutorGroup-5-1 thread">defaultEventExecutorGroup-5-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.ServerHandler category">com.push.server.ServerHandler</td>
+<td title="Message">410006001S20150001 user is exception  and is closed connection by server</td>
+</tr>
+
+<tr>
+<td>6835</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x753c60ff, /218.76.28.42:37163 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>6838</td>
+<td title="nioEventLoopGroup-3-3 thread">nioEventLoopGroup-3-3</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>6840</td>
+<td title="defaultEventExecutorGroup-6-1 thread">defaultEventExecutorGroup-6-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001: has logined sucessfully push server</td>
+</tr>
+
+<tr>
+<td>7899</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x7c50656a, /218.76.28.42:34925 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>7928</td>
+<td title="nioEventLoopGroup-3-4 thread">nioEventLoopGroup-3-4</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>7931</td>
+<td title="defaultEventExecutorGroup-7-1 thread">defaultEventExecutorGroup-7-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001 has reconnected the push server</td>
+</tr>
+
+<tr>
+<td>7932</td>
+<td title="nioEventLoopGroup-3-3 thread">nioEventLoopGroup-3-3</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>7933</td>
+<td title="nioEventLoopGroup-3-3 thread">nioEventLoopGroup-3-3</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>7956</td>
+<td title="nioEventLoopGroup-3-4 thread">nioEventLoopGroup-3-4</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>7957</td>
+<td title="nioEventLoopGroup-3-4 thread">nioEventLoopGroup-3-4</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>7957</td>
+<td title="defaultEventExecutorGroup-7-1 thread">defaultEventExecutorGroup-7-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.ServerHandler category">com.push.server.ServerHandler</td>
+<td title="Message">410006001S20150001 user is exception  and is closed connection by server</td>
+</tr>
+
+<tr>
+<td>16838</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x8dfebbc2, /218.76.28.42:41507 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>16841</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>16842</td>
+<td title="defaultEventExecutorGroup-8-1 thread">defaultEventExecutorGroup-8-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001: has logined sucessfully push server</td>
+</tr>
+
+<tr>
+<td>17356</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0xf0cdf1a4, /218.76.28.42:34397 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>17358</td>
+<td title="nioEventLoopGroup-3-6 thread">nioEventLoopGroup-3-6</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>17359</td>
+<td title="defaultEventExecutorGroup-9-1 thread">defaultEventExecutorGroup-9-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001 has reconnected the push server</td>
+</tr>
+
+<tr>
+<td>17360</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>17361</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>26825</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x8da94284, /218.76.28.42:56891 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>26827</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>26829</td>
+<td title="defaultEventExecutorGroup-10-1 thread">defaultEventExecutorGroup-10-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001 has reconnected the push server</td>
+</tr>
+
+<tr>
+<td>26830</td>
+<td title="nioEventLoopGroup-3-6 thread">nioEventLoopGroup-3-6</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>26830</td>
+<td title="nioEventLoopGroup-3-6 thread">nioEventLoopGroup-3-6</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>26831</td>
+<td title="defaultEventExecutorGroup-9-1 thread">defaultEventExecutorGroup-9-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.ServerHandler category">com.push.server.ServerHandler</td>
+<td title="Message">410006001S20150001 user is exception  and is closed connection by server</td>
+</tr>
+
+<tr>
+<td>32101</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x64b94056, /218.76.28.42:19363 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>32103</td>
+<td title="nioEventLoopGroup-3-8 thread">nioEventLoopGroup-3-8</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>34116</td>
+<td title="nioEventLoopGroup-3-8 thread">nioEventLoopGroup-3-8</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>34116</td>
+<td title="nioEventLoopGroup-3-8 thread">nioEventLoopGroup-3-8</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>34117</td>
+<td title="defaultEventExecutorGroup-11-1 thread">defaultEventExecutorGroup-11-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.ServerHandler category">com.push.server.ServerHandler</td>
+<td title="Message">push complete, and close the connection</td>
+</tr>
+
+<tr>
+<td>36812</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>36814</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>36814</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>56812</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>56813</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>56814</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>76812</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>76813</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>76814</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>96812</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>96813</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>96813</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>116815</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>116816</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>116816</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>138217</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>138218</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>138218</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>156812</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>156814</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>156814</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>176814</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>176816</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>176816</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>196812</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>196814</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>196814</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>216812</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>216814</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>216814</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>236805</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>236807</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>236807</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>256811</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>256812</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>256812</td>
+<td title="nioEventLoopGroup-3-7 thread">nioEventLoopGroup-3-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jun 26 16:42:01 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.logging.LogFactory category">org.apache.ibatis.logging.LogFactory</td>
+<td title="Message">Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>32</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>32</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>190</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.transaction.jdbc.JdbcTransaction category">org.apache.ibatis.transaction.jdbc.JdbcTransaction</td>
+<td title="Message">Opening JDBC Connection</td>
+</tr>
+
+<tr>
+<td>468</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.database.DBOperationImpl category">com.push.server.database.DBOperationImpl</td>
+<td title="Message">failed to select message max ID</td>
+</tr>
+
+<tr>
+<td>502</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using Log4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>510</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.MultithreadEventLoopGroup category">io.netty.channel.MultithreadEventLoopGroup</td>
+<td title="Message">-Dio.netty.eventLoopThreads: 8</td>
+</tr>
+
+<tr>
+<td>552</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.noKeySetOptimization: false</td>
+</tr>
+
+<tr>
+<td>553</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.selectorAutoRebuildThreshold: 512</td>
+</tr>
+
+<tr>
+<td>661</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>662</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>662</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>665</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.ByteBuffer.cleaner: available</td>
+</tr>
+
+<tr>
+<td>666</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>669</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>670</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>671</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>671</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>671</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>673</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>674</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>674</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>674</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numHeapArenas: 4</td>
+</tr>
+
+<tr>
+<td>674</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numDirectArenas: 4</td>
+</tr>
+
+<tr>
+<td>675</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.pageSize: 8192</td>
+</tr>
+
+<tr>
+<td>675</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.maxOrder: 11</td>
+</tr>
+
+<tr>
+<td>675</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.chunkSize: 16777216</td>
+</tr>
+
+<tr>
+<td>1053</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1057</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.processId: 6776 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1062</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.ThreadLocalRandom category">io.netty.util.internal.ThreadLocalRandom</td>
+<td title="Message">-Dio.netty.initialSeedUniquifier: 0x1e29607102e5b677</td>
+</tr>
+
+<tr>
+<td>1072</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.ChannelOutboundBuffer category">io.netty.channel.ChannelOutboundBuffer</td>
+<td title="Message">-Dio.netty.threadLocalDirectBufferSize: 65536</td>
+</tr>
+
+<tr>
+<td>1218</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback interface: Software Loopback Interface 1</td>
+</tr>
+
+<tr>
+<td>1218</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init message cache successfully</td>
+</tr>
+
+<tr>
+<td>1218</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /127.0.0.1 (primary)</td>
+</tr>
+
+<tr>
+<td>1219</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>1236</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x2a50de1d] REGISTERED</td>
+</tr>
+
+<tr>
+<td>1241</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x2a50de1d] BIND: /115.29.161.214:9050</td>
+</tr>
+
+<tr>
+<td>1246</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.Server category">com.push.server.Server</td>
+<td title="Message">ip:115.29.161.214 port:9050 starts running</td>
+</tr>
+
+<tr>
+<td>1248</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x2a50de1d, /115.29.161.214:9050] ACTIVE</td>
+</tr>
+
+<tr>
+<td>1749</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x1685836b, /218.76.28.42:36259 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>1772</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.ResourceLeakDetector category">io.netty.util.ResourceLeakDetector</td>
+<td title="Message">-Dio.netty.leakDetectionLevel: simple</td>
+</tr>
+
+<tr>
+<td>1815</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init offline user cache successfully</td>
+</tr>
+
+<tr>
+<td>1816</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>1831</td>
+<td title="defaultEventExecutorGroup-4-1 thread">defaultEventExecutorGroup-4-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001: has logined sucessfully push server</td>
+</tr>
+
+<tr>
+<td>2812</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x1c0fe5ee, /218.76.28.42:57482 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>2818</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>2820</td>
+<td title="defaultEventExecutorGroup-5-1 thread">defaultEventExecutorGroup-5-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001 has reconnected the push server</td>
+</tr>
+
+<tr>
+<td>2824</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>2825</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>2843</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>2844</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>2844</td>
+<td title="defaultEventExecutorGroup-5-1 thread">defaultEventExecutorGroup-5-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.ServerHandler category">com.push.server.ServerHandler</td>
+<td title="Message">410006001S20150001 user is exception  and is closed connection by server</td>
+</tr>
+
+<tr>
+<td>4853</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x2fce7665, /218.76.28.42:45679 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>4871</td>
+<td title="nioEventLoopGroup-3-3 thread">nioEventLoopGroup-3-3</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>4875</td>
+<td title="defaultEventExecutorGroup-6-1 thread">defaultEventExecutorGroup-6-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001: has logined sucessfully push server</td>
+</tr>
+
+<tr>
+<td>6771</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x2d9f9e9b, /218.76.28.42:37547 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>6797</td>
+<td title="nioEventLoopGroup-3-4 thread">nioEventLoopGroup-3-4</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>6803</td>
+<td title="defaultEventExecutorGroup-7-1 thread">defaultEventExecutorGroup-7-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001 has reconnected the push server</td>
+</tr>
+
+<tr>
+<td>6805</td>
+<td title="nioEventLoopGroup-3-3 thread">nioEventLoopGroup-3-3</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>6805</td>
+<td title="nioEventLoopGroup-3-3 thread">nioEventLoopGroup-3-3</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>6822</td>
+<td title="nioEventLoopGroup-3-4 thread">nioEventLoopGroup-3-4</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>6823</td>
+<td title="nioEventLoopGroup-3-4 thread">nioEventLoopGroup-3-4</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>6823</td>
+<td title="defaultEventExecutorGroup-7-1 thread">defaultEventExecutorGroup-7-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.ServerHandler category">com.push.server.ServerHandler</td>
+<td title="Message">410006001S20150001 user is exception  and is closed connection by server</td>
+</tr>
+
+<tr>
+<td>10539</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x352c8050, /218.76.28.42:44055 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>10541</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>10548</td>
+<td title="defaultEventExecutorGroup-8-1 thread">defaultEventExecutorGroup-8-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001: has logined sucessfully push server</td>
+</tr>
+
+<tr>
+<td>20520</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>20521</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>20521</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>35924</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x962aed59, /218.76.28.42:63746 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>35927</td>
+<td title="nioEventLoopGroup-3-6 thread">nioEventLoopGroup-3-6</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>40519</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>40521</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>40521</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>60520</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>60521</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>60522</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>80520</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>80522</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>80522</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>95929</td>
+<td title="nioEventLoopGroup-3-6 thread">nioEventLoopGroup-3-6</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.HeartBeat category">com.push.server.HeartBeat</td>
+<td title="Message">the user ID is null,so it is a short link</td>
+</tr>
+
+<tr>
+<td>95929</td>
+<td title="nioEventLoopGroup-3-6 thread">nioEventLoopGroup-3-6</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>95930</td>
+<td title="nioEventLoopGroup-3-6 thread">nioEventLoopGroup-3-6</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>100520</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>100521</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>100522</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>120521</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>120522</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>120523</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>133547</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>133548</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>133549</td>
+<td title="defaultEventExecutorGroup-8-1 thread">defaultEventExecutorGroup-8-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.ServerHandler category">com.push.server.ServerHandler</td>
+<td title="Message">410006001S20150001 user is exception  and is closed connection by server</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jun 26 17:10:12 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.logging.LogFactory category">org.apache.ibatis.logging.LogFactory</td>
+<td title="Message">Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>57</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>58</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>58</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>226</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.transaction.jdbc.JdbcTransaction category">org.apache.ibatis.transaction.jdbc.JdbcTransaction</td>
+<td title="Message">Opening JDBC Connection</td>
+</tr>
+
+<tr>
+<td>509</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.database.DBOperationImpl category">com.push.server.database.DBOperationImpl</td>
+<td title="Message">failed to select message max ID</td>
+</tr>
+
+<tr>
+<td>531</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using Log4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>538</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.MultithreadEventLoopGroup category">io.netty.channel.MultithreadEventLoopGroup</td>
+<td title="Message">-Dio.netty.eventLoopThreads: 8</td>
+</tr>
+
+<tr>
+<td>574</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.noKeySetOptimization: false</td>
+</tr>
+
+<tr>
+<td>575</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.selectorAutoRebuildThreshold: 512</td>
+</tr>
+
+<tr>
+<td>669</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>671</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>671</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>673</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.ByteBuffer.cleaner: available</td>
+</tr>
+
+<tr>
+<td>674</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>677</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>678</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>678</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>679</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>679</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>680</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>681</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>681</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>681</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numHeapArenas: 4</td>
+</tr>
+
+<tr>
+<td>682</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numDirectArenas: 4</td>
+</tr>
+
+<tr>
+<td>682</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.pageSize: 8192</td>
+</tr>
+
+<tr>
+<td>682</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.maxOrder: 11</td>
+</tr>
+
+<tr>
+<td>682</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.chunkSize: 16777216</td>
+</tr>
+
+<tr>
+<td>1014</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1030</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.processId: 18372 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1086</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.ThreadLocalRandom category">io.netty.util.internal.ThreadLocalRandom</td>
+<td title="Message">-Dio.netty.initialSeedUniquifier: 0x3d6bbddc68d5788d</td>
+</tr>
+
+<tr>
+<td>1097</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.ChannelOutboundBuffer category">io.netty.channel.ChannelOutboundBuffer</td>
+<td title="Message">-Dio.netty.threadLocalDirectBufferSize: 65536</td>
+</tr>
+
+<tr>
+<td>1223</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback interface: Software Loopback Interface 1</td>
+</tr>
+
+<tr>
+<td>1224</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /127.0.0.1 (primary)</td>
+</tr>
+
+<tr>
+<td>1225</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>1242</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x90c03fc5] REGISTERED</td>
+</tr>
+
+<tr>
+<td>1247</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x90c03fc5] BIND: /115.29.161.214:9050</td>
+</tr>
+
+<tr>
+<td>1252</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.Server category">com.push.server.Server</td>
+<td title="Message">ip:115.29.161.214 port:9050 starts running</td>
+</tr>
+
+<tr>
+<td>1254</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x90c03fc5, /115.29.161.214:9050] ACTIVE</td>
+</tr>
+
+<tr>
+<td>2072</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init message cache successfully</td>
+</tr>
+
+<tr>
+<td>2654</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init offline user cache successfully</td>
+</tr>
+
+<tr>
+<td>52051</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x90c03fc5, /115.29.161.214:9050] RECEIVED: [id: 0x7e53d80b, /218.76.28.42:58854 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>52074</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.ResourceLeakDetector category">io.netty.util.ResourceLeakDetector</td>
+<td title="Message">-Dio.netty.leakDetectionLevel: simple</td>
+</tr>
+
+<tr>
+<td>52116</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>52159</td>
+<td title="defaultEventExecutorGroup-4-1 thread">defaultEventExecutorGroup-4-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.push.PushMessage category">com.push.server.push.PushMessage</td>
+<td title="Message">252 :message has pushed</td>
+</tr>
+
+<tr>
+<td>53172</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>53173</td>
+<td title="nioEventLoopGroup-3-1 thread">nioEventLoopGroup-3-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>53175</td>
+<td title="defaultEventExecutorGroup-4-1 thread">defaultEventExecutorGroup-4-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.ServerHandler category">com.push.server.ServerHandler</td>
+<td title="Message">push complete, and close the connection</td>
+</tr>
+
+<tr>
+<td>66001</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x90c03fc5, /115.29.161.214:9050] RECEIVED: [id: 0x8aaa2eb5, /218.76.28.42:41171 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>66008</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>66013</td>
+<td title="defaultEventExecutorGroup-5-1 thread">defaultEventExecutorGroup-5-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001S20150001:offline user has successfully logined push server</td>
+</tr>
+
+<tr>
+<td>75980</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>75982</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>75982</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>81692</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x90c03fc5, /115.29.161.214:9050] RECEIVED: [id: 0xc9401898, /218.76.28.42:64406 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>81712</td>
+<td title="nioEventLoopGroup-3-3 thread">nioEventLoopGroup-3-3</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>81716</td>
+<td title="defaultEventExecutorGroup-6-1 thread">defaultEventExecutorGroup-6-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001T2015007:offline user has successfully logined push server</td>
+</tr>
+
+<tr>
+<td>88076</td>
+<td title="nioEventLoopGroup-3-3 thread">nioEventLoopGroup-3-3</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>88076</td>
+<td title="nioEventLoopGroup-3-3 thread">nioEventLoopGroup-3-3</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>88077</td>
+<td title="defaultEventExecutorGroup-6-1 thread">defaultEventExecutorGroup-6-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.ServerHandler category">com.push.server.ServerHandler</td>
+<td title="Message">410006001T2015007 user is exception  and is closed connection by server</td>
+</tr>
+
+<tr>
+<td>95992</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>95993</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>95993</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>115993</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>115994</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>115995</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>126461</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x90c03fc5, /115.29.161.214:9050] RECEIVED: [id: 0x6eaaade8, /218.76.28.42:38413 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>126463</td>
+<td title="nioEventLoopGroup-3-4 thread">nioEventLoopGroup-3-4</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>126465</td>
+<td title="defaultEventExecutorGroup-7-1 thread">defaultEventExecutorGroup-7-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.login.AndroidLogin category">com.push.server.login.AndroidLogin</td>
+<td title="Message">410006001T2015007: has logined sucessfully push server</td>
+</tr>
+
+<tr>
+<td>135992</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>135994</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>135994</td>
+<td title="nioEventLoopGroup-3-2 thread">nioEventLoopGroup-3-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>136433</td>
+<td title="nioEventLoopGroup-3-4 thread">nioEventLoopGroup-3-4</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>136435</td>
+<td title="nioEventLoopGroup-3-4 thread">nioEventLoopGroup-3-4</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>136435</td>
+<td title="nioEventLoopGroup-3-4 thread">nioEventLoopGroup-3-4</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelPipeline category">io.netty.channel.DefaultChannelPipeline</td>
+<td title="Message">Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.</td>
+</tr>
+
+<tr>
+<td>143213</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x90c03fc5, /115.29.161.214:9050] RECEIVED: [id: 0x1bbca6a3, /218.76.28.42:33080 =&gt; /115.29.161.214:9050]</td>
+</tr>
+
+<tr>
+<td>143221</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>143232</td>
+<td title="defaultEventExecutorGroup-8-1 thread">defaultEventExecutorGroup-8-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.push.PushToAndroid category">com.push.server.push.PushToAndroid</td>
+<td title="Message">android user------push server sends message:368$4$来自：章宽家长$你好...$410006001T2015007$ to the user:410006001S20150001</td>
+</tr>
+
+<tr>
+<td>143233</td>
+<td title="defaultEventExecutorGroup-8-1 thread">defaultEventExecutorGroup-8-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.push.PushMessage category">com.push.server.push.PushMessage</td>
+<td title="Message">253 :message has pushed</td>
+</tr>
+
+<tr>
+<td>143259</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">push server has received the message</td>
+</tr>
+
+<tr>
+<td>143260</td>
+<td title="nioEventLoopGroup-3-5 thread">nioEventLoopGroup-3-5</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.decode.MessageDecoder category">com.push.server.decode.MessageDecoder</td>
+<td title="Message">the data from bytebuf is null</td>
+</tr>
+
+<tr>
+<td>143260</td>
+<td title="defaultEventExecutorGroup-8-1 thread">defaultEventExecutorGroup-8-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.push.server.ServerHandler category">com.push.server.ServerHandler</td>
+<td title="Message">push complete, and close the connection</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jun 26 20:39:23 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.logging.LogFactory category">org.apache.ibatis.logging.LogFactory</td>
+<td title="Message">Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>28</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>28</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>29</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>181</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.transaction.jdbc.JdbcTransaction category">org.apache.ibatis.transaction.jdbc.JdbcTransaction</td>
+<td title="Message">Opening JDBC Connection</td>
+</tr>
+
+<tr>
+<td>454</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.database.DBOperationImpl category">com.push.server.database.DBOperationImpl</td>
+<td title="Message">failed to select message max ID</td>
+</tr>
+
+<tr>
+<td>480</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using Log4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>487</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.MultithreadEventLoopGroup category">io.netty.channel.MultithreadEventLoopGroup</td>
+<td title="Message">-Dio.netty.eventLoopThreads: 8</td>
+</tr>
+
+<tr>
+<td>530</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.noKeySetOptimization: false</td>
+</tr>
+
+<tr>
+<td>530</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.selectorAutoRebuildThreshold: 512</td>
+</tr>
+
+<tr>
+<td>655</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>657</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>657</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>660</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.ByteBuffer.cleaner: available</td>
+</tr>
+
+<tr>
+<td>660</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>663</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>664</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>665</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>665</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>666</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>668</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>668</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>668</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>668</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numHeapArenas: 4</td>
+</tr>
+
+<tr>
+<td>669</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numDirectArenas: 4</td>
+</tr>
+
+<tr>
+<td>669</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.pageSize: 8192</td>
+</tr>
+
+<tr>
+<td>669</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.maxOrder: 11</td>
+</tr>
+
+<tr>
+<td>670</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.chunkSize: 16777216</td>
+</tr>
+
+<tr>
+<td>1094</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1098</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.processId: 9124 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1103</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.ThreadLocalRandom category">io.netty.util.internal.ThreadLocalRandom</td>
+<td title="Message">-Dio.netty.initialSeedUniquifier: 0x03d0d5798eeb0ac1</td>
+</tr>
+
+<tr>
+<td>1114</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.ChannelOutboundBuffer category">io.netty.channel.ChannelOutboundBuffer</td>
+<td title="Message">-Dio.netty.threadLocalDirectBufferSize: 65536</td>
+</tr>
+
+<tr>
+<td>1184</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init message cache successfully</td>
+</tr>
+
+<tr>
+<td>1277</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback interface: Software Loopback Interface 1</td>
+</tr>
+
+<tr>
+<td>1278</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /127.0.0.1 (primary)</td>
+</tr>
+
+<tr>
+<td>1278</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>1310</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x06a3c5de] REGISTERED</td>
+</tr>
+
+<tr>
+<td>1315</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x06a3c5de] BIND: /115.29.161.214:9050</td>
+</tr>
+
+<tr>
+<td>1322</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x06a3c5de, /115.29.161.214:9050] ACTIVE</td>
+</tr>
+
+<tr>
+<td>1322</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.Server category">com.push.server.Server</td>
+<td title="Message">ip:115.29.161.214 port:9050 starts running</td>
+</tr>
+
+<tr>
+<td>1755</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init offline user cache successfully</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jun 26 20:43:13 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.logging.LogFactory category">org.apache.ibatis.logging.LogFactory</td>
+<td title="Message">Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>174</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.transaction.jdbc.JdbcTransaction category">org.apache.ibatis.transaction.jdbc.JdbcTransaction</td>
+<td title="Message">Opening JDBC Connection</td>
+</tr>
+
+<tr>
+<td>438</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.database.DBOperationImpl category">com.push.server.database.DBOperationImpl</td>
+<td title="Message">failed to select message max ID</td>
+</tr>
+
+<tr>
+<td>459</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using Log4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>468</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.MultithreadEventLoopGroup category">io.netty.channel.MultithreadEventLoopGroup</td>
+<td title="Message">-Dio.netty.eventLoopThreads: 8</td>
+</tr>
+
+<tr>
+<td>504</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.noKeySetOptimization: false</td>
+</tr>
+
+<tr>
+<td>505</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.selectorAutoRebuildThreshold: 512</td>
+</tr>
+
+<tr>
+<td>610</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>611</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>612</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>614</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.ByteBuffer.cleaner: available</td>
+</tr>
+
+<tr>
+<td>615</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>617</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>619</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>619</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>620</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>620</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>622</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>622</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>622</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>623</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numHeapArenas: 4</td>
+</tr>
+
+<tr>
+<td>623</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numDirectArenas: 4</td>
+</tr>
+
+<tr>
+<td>623</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.pageSize: 8192</td>
+</tr>
+
+<tr>
+<td>623</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.maxOrder: 11</td>
+</tr>
+
+<tr>
+<td>624</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.chunkSize: 16777216</td>
+</tr>
+
+<tr>
+<td>1020</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1025</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.processId: 8920 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1030</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.ThreadLocalRandom category">io.netty.util.internal.ThreadLocalRandom</td>
+<td title="Message">-Dio.netty.initialSeedUniquifier: 0x05eeed8d2af4d9c0</td>
+</tr>
+
+<tr>
+<td>1041</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.ChannelOutboundBuffer category">io.netty.channel.ChannelOutboundBuffer</td>
+<td title="Message">-Dio.netty.threadLocalDirectBufferSize: 65536</td>
+</tr>
+
+<tr>
+<td>1131</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init message cache successfully</td>
+</tr>
+
+<tr>
+<td>1192</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback interface: Software Loopback Interface 1</td>
+</tr>
+
+<tr>
+<td>1193</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /127.0.0.1 (primary)</td>
+</tr>
+
+<tr>
+<td>1193</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>1216</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0xfb758e75] REGISTERED</td>
+</tr>
+
+<tr>
+<td>1222</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0xfb758e75] BIND: /115.29.161.214:9050</td>
+</tr>
+
+<tr>
+<td>1229</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0xfb758e75, /115.29.161.214:9050] ACTIVE</td>
+</tr>
+
+<tr>
+<td>1231</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.Server category">com.push.server.Server</td>
+<td title="Message">ip:115.29.161.214 port:9050 starts running</td>
+</tr>
+
+<tr>
+<td>1672</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init offline user cache successfully</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jun 26 21:49:04 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.logging.LogFactory category">org.apache.ibatis.logging.LogFactory</td>
+<td title="Message">Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>175</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.transaction.jdbc.JdbcTransaction category">org.apache.ibatis.transaction.jdbc.JdbcTransaction</td>
+<td title="Message">Opening JDBC Connection</td>
+</tr>
+
+<tr>
+<td>445</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.database.DBOperationImpl category">com.push.server.database.DBOperationImpl</td>
+<td title="Message">failed to select message max ID</td>
+</tr>
+
+<tr>
+<td>467</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using Log4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>474</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.MultithreadEventLoopGroup category">io.netty.channel.MultithreadEventLoopGroup</td>
+<td title="Message">-Dio.netty.eventLoopThreads: 8</td>
+</tr>
+
+<tr>
+<td>513</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.noKeySetOptimization: false</td>
+</tr>
+
+<tr>
+<td>513</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.selectorAutoRebuildThreshold: 512</td>
+</tr>
+
+<tr>
+<td>623</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>624</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>624</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>627</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.ByteBuffer.cleaner: available</td>
+</tr>
+
+<tr>
+<td>628</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>631</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>632</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>633</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>633</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>634</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>635</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>635</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>636</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>636</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numHeapArenas: 4</td>
+</tr>
+
+<tr>
+<td>636</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numDirectArenas: 4</td>
+</tr>
+
+<tr>
+<td>636</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.pageSize: 8192</td>
+</tr>
+
+<tr>
+<td>636</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.maxOrder: 11</td>
+</tr>
+
+<tr>
+<td>636</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.chunkSize: 16777216</td>
+</tr>
+
+<tr>
+<td>1033</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1048</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.processId: 928 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1085</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.ThreadLocalRandom category">io.netty.util.internal.ThreadLocalRandom</td>
+<td title="Message">-Dio.netty.initialSeedUniquifier: 0xc2fc53af600d871d</td>
+</tr>
+
+<tr>
+<td>1095</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.ChannelOutboundBuffer category">io.netty.channel.ChannelOutboundBuffer</td>
+<td title="Message">-Dio.netty.threadLocalDirectBufferSize: 65536</td>
+</tr>
+
+<tr>
+<td>1238</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback interface: Software Loopback Interface 1</td>
+</tr>
+
+<tr>
+<td>1239</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /127.0.0.1 (primary)</td>
+</tr>
+
+<tr>
+<td>1239</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>1258</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x64a06212] REGISTERED</td>
+</tr>
+
+<tr>
+<td>1263</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x64a06212] BIND: /115.29.161.214:9050</td>
+</tr>
+
+<tr>
+<td>1267</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.Server category">com.push.server.Server</td>
+<td title="Message">ip:115.29.161.214 port:9050 starts running</td>
+</tr>
+
+<tr>
+<td>1270</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x64a06212, /115.29.161.214:9050] ACTIVE</td>
+</tr>
+
+<tr>
+<td>1970</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init message cache successfully</td>
+</tr>
+
+<tr>
+<td>2528</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init offline user cache successfully</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jun 26 22:10:08 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.logging.LogFactory category">org.apache.ibatis.logging.LogFactory</td>
+<td title="Message">Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>178</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.transaction.jdbc.JdbcTransaction category">org.apache.ibatis.transaction.jdbc.JdbcTransaction</td>
+<td title="Message">Opening JDBC Connection</td>
+</tr>
+
+<tr>
+<td>432</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.database.DBOperationImpl category">com.push.server.database.DBOperationImpl</td>
+<td title="Message">failed to select message max ID</td>
+</tr>
+
+<tr>
+<td>454</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using Log4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>461</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.MultithreadEventLoopGroup category">io.netty.channel.MultithreadEventLoopGroup</td>
+<td title="Message">-Dio.netty.eventLoopThreads: 8</td>
+</tr>
+
+<tr>
+<td>496</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.noKeySetOptimization: false</td>
+</tr>
+
+<tr>
+<td>497</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.selectorAutoRebuildThreshold: 512</td>
+</tr>
+
+<tr>
+<td>591</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>592</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>592</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>594</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.ByteBuffer.cleaner: available</td>
+</tr>
+
+<tr>
+<td>595</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>598</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>599</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>600</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>600</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>600</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>602</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>602</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>603</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>603</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numHeapArenas: 4</td>
+</tr>
+
+<tr>
+<td>603</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numDirectArenas: 4</td>
+</tr>
+
+<tr>
+<td>604</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.pageSize: 8192</td>
+</tr>
+
+<tr>
+<td>604</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.maxOrder: 11</td>
+</tr>
+
+<tr>
+<td>604</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.chunkSize: 16777216</td>
+</tr>
+
+<tr>
+<td>976</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>989</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.processId: 7356 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>1023</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.ThreadLocalRandom category">io.netty.util.internal.ThreadLocalRandom</td>
+<td title="Message">-Dio.netty.initialSeedUniquifier: 0xd059a6e111fca474</td>
+</tr>
+
+<tr>
+<td>1035</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.ChannelOutboundBuffer category">io.netty.channel.ChannelOutboundBuffer</td>
+<td title="Message">-Dio.netty.threadLocalDirectBufferSize: 65536</td>
+</tr>
+
+<tr>
+<td>1176</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback interface: Software Loopback Interface 1</td>
+</tr>
+
+<tr>
+<td>1177</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /127.0.0.1 (primary)</td>
+</tr>
+
+<tr>
+<td>1177</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>1195</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x599d2448] REGISTERED</td>
+</tr>
+
+<tr>
+<td>1200</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x599d2448] BIND: /115.29.161.214:9050</td>
+</tr>
+
+<tr>
+<td>1204</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.Server category">com.push.server.Server</td>
+<td title="Message">ip:115.29.161.214 port:9050 starts running</td>
+</tr>
+
+<tr>
+<td>1207</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0x599d2448, /115.29.161.214:9050] ACTIVE</td>
+</tr>
+
+<tr>
+<td>1916</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init message cache successfully</td>
+</tr>
+
+<tr>
+<td>2458</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init offline user cache successfully</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jun 26 22:15:26 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.logging.LogFactory category">org.apache.ibatis.logging.LogFactory</td>
+<td title="Message">Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.datasource.pooled.PooledDataSource category">org.apache.ibatis.datasource.pooled.PooledDataSource</td>
+<td title="Message">PooledDataSource forcefully closed/removed all connections.</td>
+</tr>
+
+<tr>
+<td>173</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.ibatis.transaction.jdbc.JdbcTransaction category">org.apache.ibatis.transaction.jdbc.JdbcTransaction</td>
+<td title="Message">Opening JDBC Connection</td>
+</tr>
+
+<tr>
+<td>438</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.database.DBOperationImpl category">com.push.server.database.DBOperationImpl</td>
+<td title="Message">failed to select message max ID</td>
+</tr>
+
+<tr>
+<td>460</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using Log4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>468</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.MultithreadEventLoopGroup category">io.netty.channel.MultithreadEventLoopGroup</td>
+<td title="Message">-Dio.netty.eventLoopThreads: 8</td>
+</tr>
+
+<tr>
+<td>503</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.noKeySetOptimization: false</td>
+</tr>
+
+<tr>
+<td>504</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.nio.NioEventLoop category">io.netty.channel.nio.NioEventLoop</td>
+<td title="Message">-Dio.netty.selectorAutoRebuildThreshold: 512</td>
+</tr>
+
+<tr>
+<td>598</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>599</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>599</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>601</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.ByteBuffer.cleaner: available</td>
+</tr>
+
+<tr>
+<td>601</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>604</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>605</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>606</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>606</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>607</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>608</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>608</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>609</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>609</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numHeapArenas: 4</td>
+</tr>
+
+<tr>
+<td>609</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.numDirectArenas: 4</td>
+</tr>
+
+<tr>
+<td>610</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.pageSize: 8192</td>
+</tr>
+
+<tr>
+<td>610</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.maxOrder: 11</td>
+</tr>
+
+<tr>
+<td>610</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.buffer.PooledByteBufAllocator category">io.netty.buffer.PooledByteBufAllocator</td>
+<td title="Message">-Dio.netty.allocator.chunkSize: 16777216</td>
+</tr>
+
+<tr>
+<td>975</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>979</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.DefaultChannelId category">io.netty.channel.DefaultChannelId</td>
+<td title="Message">-Dio.netty.processId: 14132 (auto-detected)</td>
+</tr>
+
+<tr>
+<td>983</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.ThreadLocalRandom category">io.netty.util.internal.ThreadLocalRandom</td>
+<td title="Message">-Dio.netty.initialSeedUniquifier: 0x0a423ffae707b24f</td>
+</tr>
+
+<tr>
+<td>994</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.channel.ChannelOutboundBuffer category">io.netty.channel.ChannelOutboundBuffer</td>
+<td title="Message">-Dio.netty.threadLocalDirectBufferSize: 65536</td>
+</tr>
+
+<tr>
+<td>1132</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback interface: Software Loopback Interface 1</td>
+</tr>
+
+<tr>
+<td>1133</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /127.0.0.1 (primary)</td>
+</tr>
+
+<tr>
+<td>1133</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.NetUtil category">io.netty.util.NetUtil</td>
+<td title="Message">Loopback address: /0:0:0:0:0:0:0:1</td>
+</tr>
+
+<tr>
+<td>1140</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init message cache successfully</td>
+</tr>
+
+<tr>
+<td>1149</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0xbc57f185] REGISTERED</td>
+</tr>
+
+<tr>
+<td>1154</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0xbc57f185] BIND: /115.29.161.214:9050</td>
+</tr>
+
+<tr>
+<td>1158</td>
+<td title="Thread-2 thread">Thread-2</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.Server category">com.push.server.Server</td>
+<td title="Message">ip:115.29.161.214 port:9050 starts running</td>
+</tr>
+
+<tr>
+<td>1160</td>
+<td title="nioEventLoopGroup-2-1 thread">nioEventLoopGroup-2-1</td>
+<td title="Level">INFO</td>
+<td title="io.netty.handler.logging.LoggingHandler category">io.netty.handler.logging.LoggingHandler</td>
+<td title="Message">[id: 0xbc57f185, /115.29.161.214:9050] ACTIVE</td>
+</tr>
+
+<tr>
+<td>1671</td>
+<td title="Thread-1 thread">Thread-1</td>
+<td title="Level">INFO</td>
+<td title="com.push.server.other.InitCache category">com.push.server.other.InitCache</td>
+<td title="Message">init offline user cache successfully</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jun 27 17:38:38 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>

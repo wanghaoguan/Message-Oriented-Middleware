@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:background="@drawable/choose_school_bg">
+    
+     <ImageView
+        android:id="@+id/ivChooseSchool"
+        android:layout_width="284dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/task_type_choose_top"
+        android:scaleType="centerCrop"/>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    
+ <!--    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="12sp"
+        android:textColor="@color/textWhite"/>
+  -->       
+        
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="www.guansir.me"
+        android:textSize="12sp"
+        android:textColor="@color/textWhite"/>
+     
+</LinearLayout>

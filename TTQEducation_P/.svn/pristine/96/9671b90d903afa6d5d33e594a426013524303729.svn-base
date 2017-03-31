@@ -1,0 +1,255 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical" 
+    android:background="@color/textWhite">
+
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+    
+    <!-- 下面是主界面顶部部分 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#efefef" >
+
+        <LinearLayout
+            android:id="@+id/knowledge_chinese_layout"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:orientation="vertical"
+            android:background="#efefef"
+            android:layout_weight="1"
+            android:gravity="center">
+            
+            <LinearLayout 
+                android:id="@+id/chinese_image"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_circle_red_round"
+                android:gravity="center">
+
+	            <TextView
+	                android:id="@+id/chinese_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:text="语文"
+	                android:textColor="@color/textWhite"
+	                android:textSize="20sp" 
+	                android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/knowledge_math_layout"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:orientation="vertical"
+            android:background="#efefef"
+            android:layout_weight="1"
+            android:gravity="center">
+            
+            <LinearLayout 
+                android:id="@+id/math_image"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center">
+	            <TextView
+	                android:id="@+id/math_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:text="数学"
+	                android:textColor="@color/textGray"
+	                android:textSize="20sp" 
+	                android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/knowledge_english_layout"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:orientation="vertical"
+            android:background="#efefef"
+            android:layout_weight="1"
+            android:gravity="center">
+            
+            <LinearLayout 
+                android:id="@+id/english_image"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                >
+	            <TextView
+	                android:id="@+id/english_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:text="英语"
+	                android:textColor="@color/textGray"
+	                android:textSize="20sp" 
+	                android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>        
+    </LinearLayout>
+    
+    <!-- 中间部分的点击按钮 -->
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/task_condition_choose_bg">
+        
+        <ImageView 
+            android:id="@+id/select_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_select_change_pic"/>
+        
+    </LinearLayout>
+    
+    <!-- 下半部分的按条件查询 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+        
+        <!-- 以下是选择的条件 -->
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">  
+            <ImageView 
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:background="@drawable/time_pic"
+                android:layout_marginLeft="10dp"/>         
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="10dp"
+                android:text="时间类型："
+                android:textSize="18sp"
+                android:textColor="@color/textGray"               
+                android:gravity="center"/>
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:gravity="center">
+                <TextView 
+                    android:id="@+id/knowledge_date_textview"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btn_circle_green"
+                    android:text="日期"
+                    android:textSize="15sp"
+                    android:textColor="@color/textWhite"
+                    android:gravity="center"/>
+            </LinearLayout>  
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:gravity="center">               
+                <TextView 
+                    android:id="@+id/knowledge_week_textview"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btn_circle_gray"
+                    android:text="周"
+                    android:textSize="15sp"
+                    android:textColor="@color/textGray"
+                    android:gravity="center"/>               
+            </LinearLayout>  
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:gravity="center">                
+                <TextView 
+                    android:id="@+id/knowledge_weekstop_textview"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btn_circle_gray"
+                    android:text="截止"
+                    android:textSize="15sp"
+                    android:textColor="@color/textGray"
+                    android:gravity="center"/>               
+            </LinearLayout>       
+        </LinearLayout>
+               
+        <!--  下面是时间选择  具体的值 -->
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center">
+
+            <!-- 日期设置  手滑动 -->
+            <DatePicker
+		        android:id="@+id/datePicker"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:calendarViewShown="false"
+		        android:visibility="visible"/>
+            <!-- 周设置  手滑动 -->
+            <LinearLayout 
+                android:id="@+id/week_layout"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第"
+                    android:textColor="@color/textGray"
+                    android:textSize="23sp"/>
+                <!--  
+                <DatePicker
+			        android:id="@+id/weekPicker"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:calendarViewShown="false"
+			        android:startYear="1"
+			        android:endYear="50"/>
+			        -->
+                <com.ttqeducation.myViews.PickerView
+                    android:id="@+id/weekPicker"
+                    android:layout_width="80dp"
+                    android:layout_height="120dp"/>
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周"
+                    android:textColor="@color/textGray"
+                    android:textSize="23sp"/>
+            </LinearLayout>
+                       
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

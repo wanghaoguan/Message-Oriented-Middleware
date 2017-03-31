@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<include 
+	    android:id="@+id/action_bar"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    layout= "@layout/action_bar"
+	    />
+    
+	<!--题号与姓名  -->
+	<LinearLayout 
+	    android:layout_width ="match_parent"
+	    android:layout_height="49dp"
+	    android:orientation="horizontal"
+	    android:background="@color/white">
+	    <LinearLayout 
+	        android:id = "@+id/llQues"
+	        android:layout_width = "0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+	        android:orientation = "horizontal"
+	        android:gravity="center"
+	        >
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"	            
+	            >
+	            <TextView 
+	                android:id="@+id/tvQues"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	                
+	                android:text="无题目"
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	            <ImageView		          
+		          android:layout_width="11.67dp"
+		          android:layout_height="6.33dp"
+		          android:layout_marginLeft="8dp" 
+		          android:layout_gravity="center_vertical"
+		          android:src="@drawable/item_task_result_b" />
+	        </LinearLayout>"
+	    </LinearLayout>
+	    
+	    <View 
+	        android:layout_width="0.1dp"
+	        android:layout_height="32dp"
+	        android:background="@color/textGray"
+	        android:layout_gravity="center_vertical"
+	        />
+	    
+	    
+	    <LinearLayout 
+	        android:id = "@+id/llStuName"
+	        android:layout_width = "0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+	        android:orientation = "horizontal"
+	        android:gravity="center">
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">	 
+	             <ImageView 
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:src="@drawable/image_student"
+	                 android:layout_marginTop="3dp"
+	                 />"
+	             <TextView	                
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	
+	                android:layout_marginLeft="3dp"                
+	                android:text="姓名："
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	             <TextView	    
+	                android:id="@+id/tvName"            
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	
+	                android:layout_marginLeft="3dp"                
+	                android:text="无"
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	        </LinearLayout>
+	    </LinearLayout>
+	</LinearLayout>
+	
+	<View 
+	    android:layout_width="wrap_content"
+	    android:layout_height="0.1dp"
+	    android:background="@color/textGray"/>
+	
+	<ViewFlipper 
+        android:id="@+id/viewFlipper_subjective_homework"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+	
+		<FrameLayout 
+		    android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="8dp">
+		
+			<ScrollView 
+			    android:id="@+id/scrollView1"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    >
+			    <LinearLayout 
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:orientation="vertical">	  
+			        <LinearLayout 
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="horizontal"
+			            android:gravity="center_vertical">
+			           
+			            <TextView	       
+			                android:id ="@+id/tvQuestionCode"                  
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"	                       
+			                android:layout_marginTop="5dp"
+			                android:layout_marginLeft="8dp"
+			                android:text="无"	  
+			                android:textColor="#3E3E3E"              
+			                android:textSize="14sp"
+			                />  		           
+			        </LinearLayout>
+			        
+			        <WebView 
+				         android:id="@+id/web_view1"
+				         android:layout_width="match_parent"
+				         android:layout_height="250dp"			         
+				         android:layout_marginTop="15dp"
+				         android:layout_marginLeft="8dp"
+				         android:layout_marginRight="8dp"
+				         android:layout_marginBottom="5dp"/>
+			        
+			        <ImageView 
+			            android:id="@+id/ivQuestionPic"
+			            android:layout_width="wrap_content" 
+			            android:layout_height="wrap_content"
+			            android:layout_marginLeft="8dp"
+			            android:layout_marginRight="8dp"
+			            android:layout_marginTop="10dp"			            
+			            android:scaleType="centerCrop"/>
+			        
+			        <TextView	       	                               
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"	                       
+		                android:layout_marginTop="15dp"
+		                android:layout_gravity="center_horizontal"
+		                android:text="教师评语"	                
+		                android:textSize="16sp"
+		                android:textColor="#3E3E3E"/> 
+		            <EditText 
+		                android:id="@+id/etReply"
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:gravity="top"
+		                android:inputType="textMultiLine"
+		                android:layout_marginLeft="8dp"
+		                android:layout_marginRight="8dp"
+		                android:layout_marginTop="10dp"
+		                android:layout_marginBottom="5dp"
+		                android:minLines="5"
+		                android:maxLines="8"
+		                android:scrollbars="vertical"
+		                android:textSize="14sp"
+		                android:background="@drawable/linearlayout_frame_circle"
+		                android:textColor="#3E3E3E"/>
+		            
+		            <TextView                                
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"	                       
+		                android:layout_marginTop="5dp"
+		                android:layout_marginLeft="8dp"
+		                android:layout_marginBottom="15dp"
+		                android:text="温馨提示：左右滑动切换学生"	  
+		                android:textColor="@color/textGreen2"              
+		                android:textSize="14sp"
+		                />  
+			    </LinearLayout>
+			</ScrollView>
+			
+			<!-- 题目选择界面 -->
+	        <LinearLayout
+	    	    android:id="@+id/llChooseQuestion" 
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="match_parent"
+	    	    android:orientation="vertical"
+	    	    android:background="#1E000000"
+	    	    android:visibility="gone">
+	    	    <ListView
+			        android:id="@+id/lvChooseQuestion"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:dividerHeight="0.2dp"
+			        android:background="#FFFFFF"
+			        android:divider="#7d7d7d" 
+			        >        
+	    		</ListView>    		
+	    	</LinearLayout>    	
+		</FrameLayout>
+	</ViewFlipper>
+</LinearLayout>

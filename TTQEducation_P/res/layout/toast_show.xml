@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_center_bg"
+    android:orientation="vertical" >
+    <!-- toastShow 对话框 -->
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="@color/textGreen"
+	    android:orientation="horizontal"
+	    android:paddingLeft="20dp"
+	    android:paddingRight="20dp"
+	    android:gravity="center">
+
+	    <ImageView
+	        android:layout_width="25dp"
+	        android:layout_height="25dp"
+	        android:background="@drawable/yes"/>/
+	    <TextView
+	        android:id="@+id/yes_textView" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="20dp"
+	        android:gravity="center"
+	        android:text="申请试用成功"
+	        android:textColor="@color/textWhite"
+	        android:textSize="18sp"/>
+
+	</LinearLayout>
+   
+</LinearLayout>

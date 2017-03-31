@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该文件是针对Button按钮 点击  橘红色变为灰色  -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_enabled="true" android:state_pressed="true">
+	    <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+	    	<corners android:radius="8dp"/>
+	    	<solid android:color="@color/login_button_gray"/><!-- 填充 -->	
+	    	<stroke android:width="0.1dp" android:color="#E6E6E6"/>
+		</shape>
+    </item>
+    
+    <item android:state_enabled="true" android:state_pressed="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+		    <corners android:radius="8dp"/>
+		    <solid android:color="#FF6552"/><!-- 填充 -->		    
+		    <stroke android:width="0.1dp" android:color="#E6E6E6"/>
+		</shape>
+	</item>
+</selector>

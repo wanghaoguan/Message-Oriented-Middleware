@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 实现功能： 圆形按钮 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- 内部颜色  白色--> 
+    <solid android:color="#fffffb" /> 
+    
+    <!-- 圆角 -->
+    <corners android:radius="5dp"/>
+    
+    <!-- padding: Button 里面的文字与Button边界的间隔 
+     <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp"
+     />
+     -->
+
+</shape>

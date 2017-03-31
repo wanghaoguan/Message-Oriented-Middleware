@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/actionBarHeight_size"
+    android:textSize="16sp"
+    android:paddingLeft="16dp"
+    android:textColor="@drawable/tv_choose_subject"
+    android:gravity="center_vertical" >
+</TextView>

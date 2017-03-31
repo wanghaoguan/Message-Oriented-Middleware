@@ -1,0 +1,75 @@
+11:21:30,011 DEBUG LogFactory:115 : Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 11:21:30,120 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 11:21:30,121 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 11:21:30,121 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 11:21:30,121 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 11:21:30,201 DEBUG JdbcTransaction:129 : Opening JDBC Connection
+ 11:21:31,473  INFO DBOperationImpl:91 : failed to select message max ID
+ 12:16:24,756 DEBUG LogFactory:115 : Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 12:16:24,769 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 12:16:24,770 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 12:16:24,770 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 12:16:24,770 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 12:16:24,858 DEBUG JdbcTransaction:129 : Opening JDBC Connection
+ 12:16:25,947  INFO DBOperationImpl:91 : failed to select message max ID
+ 12:17:29,562 DEBUG InternalLoggerFactory:59 : Using Log4J as the default logging framework
+ 12:17:29,586 DEBUG MultithreadEventLoopGroup:41 : -Dio.netty.eventLoopThreads: 8
+ 12:17:29,719 DEBUG PlatformDependent0:75 : java.nio.Buffer.address: available
+ 12:17:29,720 DEBUG PlatformDependent0:83 : sun.misc.Unsafe.theUnsafe: available
+ 12:17:29,720 DEBUG PlatformDependent0:92 : sun.misc.Unsafe.copyMemory: available
+ 12:17:29,720 DEBUG PlatformDependent0:132 : java.nio.Bits.unaligned: true
+ 12:17:29,721 DEBUG PlatformDependent:452 : Platform: Windows
+ 12:17:29,721 DEBUG PlatformDependent:583 : Java version: 7
+ 12:17:29,722 DEBUG PlatformDependent:590 : -Dio.netty.noUnsafe: false
+ 12:17:29,722 DEBUG PlatformDependent:617 : sun.misc.Unsafe: available
+ 12:17:29,732 DEBUG PlatformDependent:700 : -Dio.netty.noJavassist: false
+ 12:17:29,732 DEBUG PlatformDependent:713 : Javassist: unavailable
+ 12:17:29,732 DEBUG PlatformDependent:714 : You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ 12:17:29,733 DEBUG PlatformDependent:732 : -Dio.netty.tmpdir: C:\Users\guan\AppData\Local\Temp (java.io.tmpdir)
+ 12:17:29,733 DEBUG PlatformDependent:811 : -Dio.netty.bitMode: 32 (sun.arch.data.model)
+ 12:17:29,733 DEBUG PlatformDependent:87 : -Dio.netty.noPreferDirect: false
+ 12:17:29,735 DEBUG NioEventLoop:87 : -Dio.netty.noKeySetOptimization: false
+ 12:17:29,735 DEBUG NioEventLoop:88 : -Dio.netty.selectorAutoRebuildThreshold: 512
+ 12:17:29,830 DEBUG DefaultChannelId:90 : -Dio.netty.processId: 4040 (auto-detected)
+ 12:17:29,896 DEBUG DefaultChannelId:110 : -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+ 12:17:29,900 DEBUG ThreadLocalRandom:199 : -Dio.netty.initialSeedUniquifier: 0x5648c16e07e01e98 (took 80 ms)
+ 12:17:29,956 DEBUG PooledByteBufAllocator:98 : -Dio.netty.allocator.numHeapArenas: 2
+ 12:17:29,956 DEBUG PooledByteBufAllocator:99 : -Dio.netty.allocator.numDirectArenas: 2
+ 12:17:29,956 DEBUG PooledByteBufAllocator:101 : -Dio.netty.allocator.pageSize: 8192
+ 12:17:29,956 DEBUG PooledByteBufAllocator:106 : -Dio.netty.allocator.maxOrder: 11
+ 12:17:29,956 DEBUG PooledByteBufAllocator:110 : -Dio.netty.allocator.chunkSize: 16777216
+ 12:17:29,957 DEBUG PooledByteBufAllocator:111 : -Dio.netty.allocator.tinyCacheSize: 512
+ 12:17:29,957 DEBUG PooledByteBufAllocator:112 : -Dio.netty.allocator.smallCacheSize: 256
+ 12:17:29,957 DEBUG PooledByteBufAllocator:113 : -Dio.netty.allocator.normalCacheSize: 64
+ 12:17:29,957 DEBUG PooledByteBufAllocator:114 : -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 12:17:29,957 DEBUG PooledByteBufAllocator:115 : -Dio.netty.allocator.cacheTrimInterval: 8192
+ 12:17:29,961 DEBUG ByteBufUtil:66 : -Dio.netty.allocator.type: pooled
+ 12:17:29,962 DEBUG ByteBufUtil:75 : -Dio.netty.threadLocalDirectBufferSize: 65536
+ 12:17:29,979 DEBUG ResourceLeakDetector:79 : -Dio.netty.leakDetectionLevel: simple
+ 12:17:30,004  WARN ChannelInitializer:74 : Failed to initialize a channel. Closing: [id: 0x12ca2006]
+ java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.push.server.Client.buildMessage(Client.java:200)
+	at com.push.server.Client$LoginAuthReqHandler.<init>(Client.java:228)
+	at com.push.server.Client$1.initChannel(Client.java:142)
+	at com.push.server.Client$1.initChannel(Client.java:1)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:69)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelRegisteredNow(ChannelHandlerInvokerUtil.java:32)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRegistered(DefaultChannelHandlerInvoker.java:50)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRegistered(PausableChannelEventExecutor.java:56)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:843)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:519)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:422)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:492)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:328)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)

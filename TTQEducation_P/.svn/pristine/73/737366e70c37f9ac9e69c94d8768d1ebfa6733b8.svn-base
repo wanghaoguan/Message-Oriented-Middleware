@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_send_info"
+    android:orientation="vertical" >
+    <!-- 申请试用 alertDialog 对话框 -->
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_frame_circle_top"
+        android:gravity="center"
+        android:text="申请试用"
+        android:textColor="@color/textBlack"
+        android:textSize="20sp"/>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0f1f2"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:gravity="center_vertical"
+        android:text="        用户您好，本软件可能会有部分功能需要购买后方可使用，如果您没有购买付费功能，可以选择申请试用所有的功能(一次机会)，有效期为30天。"
+        android:textSize="16sp"
+        android:textColor="@color/textGray"/>
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:orientation="horizontal"
+	    android:background="@drawable/btn_frame_circle_bottom">
+	    <TextView 
+	        android:id="@+id/giveUp_textView"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/btn_frame_circle_bottom_left"
+	        android:gravity="center"
+	        android:text="放弃"
+	        android:textColor="@color/textBlue"
+	        android:textSize="18sp"/>
+	    <TextView
+	        android:id="@+id/tryout_textView" 
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/btn_frame_circle_bottom_right"
+	        android:gravity="center"
+	        android:text="试用"
+	        android:textColor="@color/textBlue"
+	        android:textSize="18sp"/>
+	</LinearLayout>
+    
+</LinearLayout>

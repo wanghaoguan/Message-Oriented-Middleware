@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+	<LinearLayout
+	    android:id="@+id/zhifubao_layout" 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:background="@drawable/listview_item_color"
+	    android:gravity="center_vertical">
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:text="选择支付宝支付"
+	        android:textSize="18sp"
+	        android:textColor="@color/textGray"/>	    
+	</LinearLayout>
+	<ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/gridline"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+	<LinearLayout 
+	    android:id="@+id/weixin_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:background="@drawable/listview_item_color"
+	    android:gravity="center_vertical">
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:text="选择微信支付"
+	        android:textSize="18sp"
+	        android:textColor="@color/textGray"/>	    
+	</LinearLayout>
+    
+</LinearLayout>

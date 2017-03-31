@@ -1,0 +1,401 @@
+package com.ttqeducation.activitys.others;
+
+/**
+ * 吕杰
+ * 
+ */
+
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.xmlpull.v1.XmlPullParserException;
+
+import com.ttqeducation.R;
+import com.ttqeducation.activitys.payment.CaiFuTongActivity;
+import com.ttqeducation.activitys.payment.PayDemoActivity;
+import com.ttqeducation.beans.DataTable;
+import com.ttqeducation.beans.TestInfo;
+import com.ttqeducation.beans.UserCurrentState;
+import com.ttqeducation.beans.UserInfo;
+import com.ttqeducation.beans.dataTableWrongException;
+import com.ttqeducation.myViews.MyListView;
+import com.ttqeducation.myViews.RefreshView;
+import com.ttqeducation.network.GetDataByWS;
+import com.ttqeducation.tools.DensityUtils;
+import com.ttqeducation.tools.DesUtil;
+
+import android.app.Activity;
+import android.app.Dialog;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Resources;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.DisplayMetrics;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.BaseAdapter;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+
+public class ServePaymentConditionActivity extends Activity {	
+	
+	// 标题栏部分；
+	private LinearLayout titleBackLayout = null; // 标题栏返回按钮；
+	private TextView titleTextView = null;			// 标题栏文字；
+	private RefreshView refreshView = null;
+		
+	private MyListView myListView = null;
+	private MyAdapter mAdapter = null; // 得到一个MyAdapter对象,用于与listview绑定；
+	
+	private List<TestInfo> listPaymentConditions = new ArrayList<TestInfo>();
+	
+	private Dialog paymentPlatformChooseDialog = null; // 支付平台选择对话框；
+	
+	// 该变量的作用是在下一个界面当支付成功，销毁掉这个界面，方便下一个界面直接跳到主界面；
+	public static ServePaymentConditionActivity instance = null;
+	
+	private int position = 0;		// 点击的条目是第几条；
+	
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_server_payment_condition);
+		
+		instance = this;
+		this.refreshView = new RefreshView(this, R.style.full_screen_dialog);
+//		generateData();
+//		initView();
+		SharedPreferences pre = getSharedPreferences("TTQAndroid",MODE_PRIVATE);
+		String schoolCode = pre.getString("schoolCode", "");
+		Log.i("lvjie", "schoolCode = "+schoolCode);
+		getPaymentConditionInfoByWS(schoolCode);
+	}
+
+	public void initView(){
+		// 标题栏部分 实例化；
+		this.titleTextView = (TextView) (super.findViewById(R.id.action_bar).findViewById(R.id.title_text));
+		this.titleTextView.setText("选择开通项");
+		this.titleBackLayout = (LinearLayout) (super
+				.findViewById(R.id.action_bar).findViewById(R.id.title_back_layout));
+		this.titleBackLayout.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				ServePaymentConditionActivity.this.finish();
+			}
+		});
+		
+
+		this.myListView = (MyListView) super.findViewById(R.id.listView_payment_choose);
+		this.myListView.setPullRefreshEnable(false); // 不提供下拉刷新功能；
+		this.myListView.setPullLoadEnable(false); // 不提供上拉加载功能；
+
+		this.mAdapter = new MyAdapter(this);
+		this.myListView.setAdapter(this.mAdapter);
+		this.myListView.setOnItemClickListener(new OnItemClickListener(){
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view,
+					int position, long id) {
+				// TODO Auto-generated method stub			
+				ServePaymentConditionActivity.this.position = position-1;
+				initPaymentPlatformChooseDialog();	// 初始化支付平台选择对话框；
+			}
+			
+		});
+	}
+	
+	// 模拟数据；
+	public void generateData(){
+		TestInfo testInfo;
+		for(int i=0; i<5; i++){
+			testInfo = new TestInfo(i+"", "开通付费项目 "+i);
+			this.listPaymentConditions.add(testInfo);
+		}
+	}
+	
+	public void initPaymentPlatformChooseDialog(){
+		if (this.paymentPlatformChooseDialog == null) {
+			View view = LayoutInflater.from(ServePaymentConditionActivity.this).inflate(
+					R.layout.dialog_payment_platform_choice, null);
+			this.paymentPlatformChooseDialog = new Dialog(ServePaymentConditionActivity.this,
+					R.style.alertdialog_style);
+			this.paymentPlatformChooseDialog.setContentView(view);
+			this.paymentPlatformChooseDialog.setCanceledOnTouchOutside(true);
+			this.paymentPlatformChooseDialog.show();
+
+			// 动态设置界面大小；
+			DisplayMetrics metrics = getResources().getDisplayMetrics(); // 用来获取屏幕的分辨率；
+			int screenWidthPX = metrics.widthPixels;
+			int screenWidthDP = (int) DensityUtils.px2dp(ServePaymentConditionActivity.this,
+					screenWidthPX);
+
+			// 设置图片的大小；
+			int layoutWidthDP = (screenWidthDP * 4) / 5;
+			int layoutWidthPX = DensityUtils
+					.dp2px(ServePaymentConditionActivity.this, layoutWidthDP);
+
+			LayoutParams params = view.getLayoutParams();
+			params.width = layoutWidthPX;
+			view.setLayoutParams(params);
+
+			// 添加点击事件
+			view.findViewById(R.id.zhifubao_layout).setOnClickListener(
+					new MyOnClickListener());
+			view.findViewById(R.id.caifutong_layout).setOnClickListener(
+					new MyOnClickListener());
+			
+
+		} else {
+			this.paymentPlatformChooseDialog.show();
+		}
+	}
+	
+	private class MyOnClickListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			switch (v.getId()) {
+			case R.id.zhifubao_layout:		// 选择支付宝支付；
+
+				// 进入到下一个界面；  服务缴费目前还存在问题，如：缴费成功，如何回到主界面，更新标识；
+				Intent zhifubao = new Intent(ServePaymentConditionActivity.this, PayDemoActivity.class);
+//				zhifubao.putExtra("businessTypeID", myPickerView.getTextKey());
+//				zhifubao.putExtra("typeNameAndFee", myPickerView.getTextValue());
+				zhifubao.putExtra("businessTypeID", listPaymentConditions.get(
+						ServePaymentConditionActivity.this.position).getUseID());
+				zhifubao.putExtra("typeNameAndFee", listPaymentConditions.get(
+						ServePaymentConditionActivity.this.position).getTestName());
+				
+				startActivityForResult(zhifubao, 100);
+				ServePaymentConditionActivity.this.paymentPlatformChooseDialog.dismiss();
+				break;
+				
+			case R.id.caifutong_layout:		// 选择财付通支付；
+				
+				Intent caifutong = new Intent(ServePaymentConditionActivity.this, CaiFuTongActivity.class);
+//				caifutong.putExtra("businessTypeID", myPickerView.getTextKey());
+//				caifutong.putExtra("typeNameAndFee", myPickerView.getTextValue());
+				
+				caifutong.putExtra("businessTypeID", listPaymentConditions.get(
+						ServePaymentConditionActivity.this.position).getUseID());
+				caifutong.putExtra("typeNameAndFee", listPaymentConditions.get(
+						ServePaymentConditionActivity.this.position).getTestName());
+				
+				startActivity(caifutong);
+				ServePaymentConditionActivity.this.paymentPlatformChooseDialog.dismiss();
+				break;
+
+			default:
+				break;
+			}
+		}
+		
+	}
+
+	// 从服务端获取付费条件信息；
+	public void getPaymentConditionInfoByWS(String schoolCode){
+		new AsyncTask<Object, Object, DataTable>() {
+
+			@Override
+			protected void onPreExecute() {
+				// TODO Auto-generated method stub
+				super.onPreExecute();
+				refreshView.show();
+			}
+			
+			@Override
+			protected DataTable doInBackground(Object... params) {
+				// TODO Auto-generated method stub
+				DataTable dt_paymentConditionInfos = new DataTable();
+
+				// 方法名
+				String methodName = "APP_getPaymentOptionsInfoBySchoolCode";
+				// 存放参数的map
+				Map<String, String> paramsMap = new HashMap<String, String>();
+				paramsMap.put("schoolCode", params[0].toString());
+				paramsMap.put("TokenID", DesUtil.getDesTokenID(UserCurrentState.getInstance().userID, "Admin203", 1));
+
+				// 获取数据
+				GetDataByWS getDataTool = GetDataByWS.getInstance();
+				// 从本地获取学校URL
+				Resources res = getResources();
+				String companyURL = res.getString(R.string.company_service_url);
+				if (companyURL == null) {// 如果没有值
+					return null;
+				}
+				getDataTool.setURL(companyURL);
+				try {
+					dt_paymentConditionInfos = getDataTool.getDataAsTable(methodName,paramsMap);
+				} catch (dataTableWrongException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (XmlPullParserException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				return dt_paymentConditionInfos;
+			}
+			
+			protected void onPostExecute(DataTable result) {
+				if (result != null) {
+					TestInfo paymentCondition;
+					int count = result.getRowCount();
+					for (int i = 0; i < count; i++) {
+						try {
+							String businessTypeID = result.getCell(i, "businessTypeID");
+							String typeName = result.getCell(i, "typeName");
+							String fee = result.getCell(i, "fee");
+							int validDays = Integer.parseInt(result.getCell(i, "validDays"));
+							
+							Log.i("lvjie", "businessTypeID="+businessTypeID+"  typeName="+typeName+"  fee="+fee);
+							paymentCondition = new TestInfo(businessTypeID, typeName+"            ￥"+fee, validDays);
+							listPaymentConditions.add(paymentCondition);
+						} catch (dataTableWrongException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+				}else {
+				}
+				Log.i("lvjie", "关闭刷新");
+				// 关闭刷新；
+				refreshView.dismiss();
+				// 获取完数据后，初始化界面
+				initView();
+			};
+			
+		}.execute(schoolCode);
+	}
+	
+	// 窗口提示信息；
+	public void showToast(String toastMessage) {
+		Toast toast = Toast.makeText(this, toastMessage,
+				Toast.LENGTH_SHORT);
+		toast.show();
+	}
+
+	
+	@Override
+	// 从下一个界面传递参数到此界面；
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		// TODO Auto-generated method stub
+		Log.i("lvjie", "ServePaymentConditionActivity--->onActivityResult()...");
+		if(requestCode == 100){		// 表示是从支付宝支付传递返回过来；
+			if(resultCode == 10){	// 表示支付成功
+				setModuleUseTrue();
+				Intent intent = new Intent();
+				setResult(10, intent);
+				finish();
+			}
+		}else if(requestCode == 200){	// 表示从财付通支付传递返回过来；
+			if(resultCode == 20){	// 表示支付成功
+				setModuleUseTrue();
+				Intent intent = new Intent();
+				setResult(10, intent);
+				finish();
+			}
+		}
+		super.onActivityResult(requestCode, resultCode, data);
+	}
+	
+	// 设置模块都可以使用；
+	public void setModuleUseTrue(){
+		int len = UserInfo.getInstance().moduleUse.length;
+		for(int i=0; i<len; i++){
+			UserInfo.getInstance().moduleUse[i] = 1;
+		}
+	}
+	
+	// 新建一个类继承BaseAdapter，实现listview与数据的绑定
+	private class MyAdapter extends BaseAdapter {
+
+		private LayoutInflater mInflater; // 得到一个LayoutInfalter对象用来导入布局
+
+		public MyAdapter(Context context) {
+			this.mInflater = LayoutInflater.from(context);
+		}
+
+		@Override
+		public int getCount() {
+			return listPaymentConditions.size(); // 返回数组的长度
+		}
+
+		@Override
+		public View getView(final int position, View view, ViewGroup parent) {
+			ViewChild viewChild;
+			if (view == null) {
+				view = mInflater.inflate(
+						R.layout.payment_choose_item_one, null);
+				viewChild = new ViewChild();
+				/* 得到各个控件的对象 */
+				viewChild.paymentInfoTextView= (TextView) view
+						.findViewById(R.id.payment_info_textview);
+				viewChild.paymentBuyTextView = (TextView) view
+						.findViewById(R.id.payment_buy_textview);
+				viewChild.rightLayout = (LinearLayout) view.findViewById(R.id.right_layout);
+
+				view.setTag(viewChild); // 绑定ViewHolder对象
+			} else {
+				viewChild = (ViewChild) view.getTag(); // 取出ViewHolder对象
+			}
+
+			/* 设置TextView显示的内容，即我们存放在listHomeworkArrageConditions中的数据 */
+			viewChild.paymentInfoTextView.setText(listPaymentConditions.get(position).getTestName());
+			viewChild.paymentBuyTextView.setText("购买");
+		
+			// 控制右边背景色；
+			int value = position % 3;
+			if(value == 0){
+				viewChild.rightLayout.setBackgroundResource(R.drawable.linearlayout_frame_circle_right_blue);
+			}else if(value == 1){
+				viewChild.rightLayout.setBackgroundResource(R.drawable.linearlayout_frame_circle_right_red);
+			}else{
+				viewChild.rightLayout.setBackgroundResource(R.drawable.linearlayout_frame_circle_right_orange);
+			}
+
+			return view;
+		}
+
+		@Override
+		public Object getItem(int position) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		@Override
+		public long getItemId(int position) {
+			// TODO Auto-generated method stub
+			return 0;
+		}
+	}
+
+	// 存放列表子项的控件，用于在MyAdapter中设置;
+	public final class ViewChild {
+		public TextView paymentInfoTextView; // 付费信息;
+		public TextView paymentBuyTextView; // 购买;
+		
+		public LinearLayout rightLayout;	  // 右边的背景图；
+	}
+	
+	
+}

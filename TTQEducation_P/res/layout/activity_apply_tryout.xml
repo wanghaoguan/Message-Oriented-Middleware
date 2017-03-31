@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<!-- 类似于上面的anctionBar -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_bg">
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/apply_tryout_top"/>
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="        尊敬的用户您好，本软件可能会有部分功能需要购买后方可使用，如果您没有购买付费功能，可以选择申请试用所有的功能(一次机会)，有效期为30天。"
+        android:textColor="#595757"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/btn_ok_apply" 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/loginbutton"
+        android:text="确认申请"
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"/>
+</LinearLayout>

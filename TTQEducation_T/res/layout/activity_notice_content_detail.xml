@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_center_bg"
+    android:orientation="vertical">
+	  <!-- 高雨寒 -->
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView 
+            android:layout_width="match_parent"
+        	android:layout_height="50dp"
+        	android:background="@drawable/message_top"/>
+    </LinearLayout>
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- 中间部分显示标题和时间 -->
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" 
+		        android:layout_marginTop="20dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:background="@drawable/linearlayout_frame_circle_gray">
+		      <LinearLayout 
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical"
+		            android:layout_marginTop="5dp"
+		            android:layout_marginLeft="15dp"
+		            android:layout_marginRight="10dp">
+		            <TextView 
+		                android:id="@+id/notice_content_title_textview"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="数据加载中..."
+		                android:textSize="20sp"
+		                android:textColor="@color/textBlack"/>
+		            <TextView
+					       android:id="@+id/notice_content_publishTime_textview"
+				           android:layout_width="wrap_content"
+				           android:layout_height="wrap_content"
+				           android:layout_marginTop="2dp"
+				           android:layout_marginBottom="2dp"
+				           android:text="2015.02.10"          
+				           android:textSize="14sp"
+				           android:textColor="@color/textGray"/> 
+			   </LinearLayout>      
+		    </LinearLayout>
+    
+		   <!-- 下部 通知内容主体 -->
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:orientation="vertical" 
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:background="@drawable/linearlayout_frame_circle_gray">
+			    <LinearLayout 
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical" 
+			        android:layout_margin="10dp"
+			        >
+		            <TextView 
+		                android:id="@+id/notice_content_textview"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="数据加载中..."
+		                android:textSize="16sp"
+		                android:textColor="@color/textGray"/>
+		           <TextView
+		               android:id="@+id/notice_publisher_textview"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:layout_gravity="right|bottom"
+		               android:layout_marginTop="26dp"
+		               android:layout_marginBottom="2dp"
+		               android:layout_marginRight="10dp"
+		               android:text="来自：程勇"
+		               android:textSize="16sp"
+		               android:textColor="#595757"/>
+				   </LinearLayout>    
+		    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+    
+
+</LinearLayout>

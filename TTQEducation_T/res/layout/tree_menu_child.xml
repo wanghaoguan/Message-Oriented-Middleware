@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+        android:id="@+id/layout_treeMenu"
+        android:layout_width="match_parent"
+    	android:layout_height="50dp"
+    	android:orientation="horizontal"
+    	android:gravity="center_vertical"
+    	android:paddingLeft="10dp">
+    	
+        <ImageView 
+            android:id="@+id/parent_img"
+            android:layout_width="30dp"
+    		android:layout_height="30dp"
+    		android:background="@drawable/stu_man"/>
+        <TextView
+            android:id="@+id/name_textView" 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="15sp"
+    		android:text="王晓明"
+    		android:textColor="@color/textBlack"
+    		android:textSize="14sp"/>
+        <View 
+            android:layout_width="0dp"
+          	android:layout_height="match_parent"
+          	android:layout_weight="1"/>
+        <TextView 
+          	android:id="@+id/new_textView"
+          	android:layout_width="wrap_content"
+          	android:layout_height="wrap_content"
+          	android:layout_marginRight="14dp"
+          	android:text="12"
+          	android:textColor="@color/textWhite"
+          	android:textSize="12sp"
+          	android:background="@drawable/btn_circle_red_round"/>
+        
+    </LinearLayout>
+
+    
+
+</LinearLayout>

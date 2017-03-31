@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.push.server.database.DBOperation">
+    
+    <select id="selectAllOfflineUser" resultType="com.push.server.database.OfflineUser">
+        select * from tb_yry_offlineuser order by userID asc
+    </select>
+    
+    <insert id="insertOfflineUser" parameterType="com.push.server.database.OfflineUser">
+        insert into tb_yry_offlineuser(userID,messageID) values(#{userID},#{messageID})
+    </insert>
+    
+    <delete id="deleteOfflineUser" parameterType="String">
+        delete from tb_yry_offlineuser where userID=#{userID}
+    </delete>
+    
+    <delete id="deleteOfflineUser1" parameterType="com.push.server.database.OfflineUser">
+        delete from tb_yry_offlineuser where userID=#{userID} and messageID=#{messageID}
+    </delete>
+    
+    <select id="selectAllMessage" resultType="com.push.server.database.Message">
+        select * from tb_yry_message order by messageID asc
+    </select>
+    
+    <insert id="insertMessage" parameterType="com.push.server.database.Message">
+        insert into tb_yry_message(messageID,message,time) values(#{messageID},#{message},#{time})
+    </insert>
+    
+    <delete id="deleteMessage" parameterType="Integer">
+        delete from tb_yry_message where messageID=#{messageID}
+    </delete>
+    
+    <select id="selectMessageMaxID" resultType="int">
+    	select max(messageID) from tb_yry_message
+    </select>
+    
+</mapper>

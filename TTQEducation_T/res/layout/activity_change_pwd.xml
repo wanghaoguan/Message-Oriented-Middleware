@@ -1,0 +1,202 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical">
+    
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+    
+    <ScrollView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@color/light_gray">
+	    
+	    <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" 
+		    android:background="@color/light_gray"> 
+
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@color/title_bg"
+	            android:gravity="center_horizontal" >
+	
+	            <ImageView
+	                android:id="@+id/changepwd_main_top_img"
+	                android:layout_width="wrap_content"
+	                android:layout_height="160dp"
+	                android:background="@drawable/main_top" />
+	        </LinearLayout>
+	        
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="78dp"
+	        android:background="@drawable/linearlayout_frame_circle"
+	        android:orientation="vertical"
+	        android:padding="2dp"
+	        android:layout_marginLeft="30dp"
+			android:layout_marginRight="30dp"
+			android:layout_marginTop="20dp">
+		    <!-- 实体内容部分 -->
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="38dp"
+		        android:background="@color/white"
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        android:padding="6dp">
+		        <TextView 
+		            android:layout_width="80dp"
+		            android:layout_height="wrap_content"
+		            android:text="当前账号 :"
+		            android:textColor="@color/textGray"
+		            android:textSize="16sp"/>
+				<EditText 
+		            android:id="@+id/currentId_textView"
+		            android:layout_width="0dp"
+		            android:layout_height="35dp"
+		            android:layout_weight="1"
+		            android:layout_marginLeft="6dp"
+		            android:background="@null"
+		            android:hint="12345678"
+		            android:textSize="14sp"
+		            android:textColorHint="#959595"/>
+		    </LinearLayout>
+		    <ImageView 
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="@color/gridline"/>
+		    <!-- 下面是当前密码输入框 -->
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="38dp"
+		        android:background="@color/white"
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        android:padding="6dp">
+		        <TextView 
+		            android:layout_width="80dp"
+		            android:layout_height="wrap_content"
+		            android:text="当前密码 :"
+		            android:textColor="@color/textGray"
+		            android:textSize="16sp"/>
+		        <EditText 
+		            android:id="@+id/oldPwd_editText"
+		            android:layout_width="0dp"
+		            android:layout_height="35dp"
+		            android:layout_weight="1"
+		            android:layout_marginLeft="6dp"
+		            android:background="@null"
+		            android:inputType="textCapCharacters|textPassword"
+		            android:hint="输入原始密码"
+		            android:textSize="14sp"
+		            android:textColorHint="#959595"/>
+		    </LinearLayout>
+	    </LinearLayout>
+	    <!-- 以下是新密码输入框 -->
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="78dp"
+	        android:background="@drawable/linearlayout_frame_circle"
+	        android:orientation="vertical"
+	        android:padding="2dp"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginLeft="30dp"
+			android:layout_marginRight="30dp">
+	        <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="38dp"
+		        android:background="@color/white"
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        android:padding="6dp">
+		        <TextView 
+		            android:layout_width="80dp"
+		            android:layout_height="wrap_content"
+		            android:text="新  密  码 :"
+		            android:textColor="@color/textGray"
+		            android:textSize="16sp"/>
+	
+		        <EditText
+		            android:id="@+id/firstPwd_editText"
+		            android:layout_width="0dp"
+		            android:layout_height="35dp"
+		            android:layout_marginLeft="6dp"
+		            android:layout_weight="1"
+		            android:background="@null"
+		            android:ems="10"
+		            android:hint="输入新密码"
+		            android:inputType="textCapCharacters|textPassword"
+		            android:textColorHint="#959595"
+		            android:textSize="14sp" >
+		            <requestFocus />
+		        </EditText>
+	
+		    </LinearLayout>
+		    <ImageView 
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="@color/gridline"/>
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="38dp"
+		        android:background="@color/white"
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        android:padding="6dp">
+		        <TextView 
+		            android:layout_width="80dp"
+		            android:layout_height="wrap_content"
+		            android:text="确认密码 :"
+		            android:textColor="@color/textGray"
+		            android:textSize="16sp"/>
+		        <EditText 
+		            android:id="@+id/secondPwd_editText"
+		            android:layout_width="0dp"
+		            android:layout_height="35dp"
+		            android:layout_weight="1"
+		            android:layout_marginLeft="6dp"
+		            android:background="@null"
+		            android:inputType="textCapCharacters|textPassword"
+		            android:hint="再次输入密码"
+		            android:textSize="14sp"
+		            android:textColorHint="#959595"/>
+		    </LinearLayout>
+	    </LinearLayout>
+	    
+	    <CheckBox 
+	        android:id="@+id/isShowPwd_checkBox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="30dp"
+	        android:text="显示密码"
+	        android:textColor="@color/textGray"/>
+	    
+	    
+	    <Button 
+	        android:id="@+id/ok_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="46dp"
+	        android:background="@drawable/btn_change_psw_blue_deeper"
+	        android:layout_margin="20dp"
+	        android:gravity="center"
+	        android:text="确认"
+	        android:textColor="@color/textWhite"
+	        android:textSize="18sp"/>
+	
+	</LinearLayout>
+	    
+	</ScrollView>
+    
+    
+</LinearLayout>
+

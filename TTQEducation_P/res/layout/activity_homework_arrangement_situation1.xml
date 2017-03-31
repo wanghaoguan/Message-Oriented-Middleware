@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/> 
+    
+    <!-- 下面是主界面顶部部分 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#efefef" >
+
+        <LinearLayout
+            android:id="@+id/homework_chinese_layout"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:orientation="vertical"
+            android:background="#efefef"
+            android:layout_weight="1"
+            android:gravity="center">
+            
+            <LinearLayout 
+                android:id="@+id/chinese_image"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_circle_red_round"
+                android:gravity="center">
+                
+	            <TextView
+	                android:id="@+id/chinese_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:text="语文"
+	                android:textColor="@color/textWhite"
+	                android:textSize="20sp" 
+	                android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/homework_math_layout"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:orientation="vertical"
+            android:background="#efefef"
+            android:layout_weight="1"
+            android:gravity="center">
+            
+            <LinearLayout 
+                android:id="@+id/math_image"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center">
+
+	            <TextView
+	                android:id="@+id/math_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:text="数学"
+	                android:textColor="@color/textGray"
+	                android:textSize="20sp" 
+	                android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/homework_english_layout"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:orientation="vertical"
+            android:background="#efefef"
+            android:layout_weight="1"
+            android:gravity="center">
+            
+            <LinearLayout 
+                android:id="@+id/english_image"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                >
+	            <TextView
+	                android:id="@+id/english_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:text="英语"
+	                android:textColor="@color/textGray"
+	                android:textSize="20sp" 
+	                android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>        
+    </LinearLayout>
+    
+    <!-- 下面是界面中间主体部分 -->
+    <FrameLayout
+        android:id="@+id/homework_arrangement_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:background="@color/textWhite">
+    </FrameLayout>
+    
+</LinearLayout>

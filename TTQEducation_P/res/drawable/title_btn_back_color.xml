@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 实现功能： 下边为圆角  按下时颜色加深 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@color/back_button_pressed" android:state_enabled="true" android:state_pressed="true" />
+    <item android:drawable="@color/main_title_bg" android:state_enabled="true" android:state_pressed="false"/>
+</selector>

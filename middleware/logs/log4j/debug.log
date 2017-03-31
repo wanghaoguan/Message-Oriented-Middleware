@@ -1,0 +1,481 @@
+[framework] 2016-06-26 20:43:13,342 - org.apache.ibatis.logging.LogFactory -0    [main] DEBUG org.apache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [framework] 2016-06-26 20:43:13,367 - org.apache.ibatis.datasource.pooled.PooledDataSource -25   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 20:43:13,367 - org.apache.ibatis.datasource.pooled.PooledDataSource -25   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 20:43:13,368 - org.apache.ibatis.datasource.pooled.PooledDataSource -26   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 20:43:13,368 - org.apache.ibatis.datasource.pooled.PooledDataSource -26   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 20:43:13,516 - org.apache.ibatis.transaction.jdbc.JdbcTransaction -174  [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+ [framework] 2016-06-26 20:43:13,780 - com.push.server.database.DBOperationImpl -438  [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2016-06-26 20:43:13,801 - io.netty.util.internal.logging.InternalLoggerFactory -459  [Thread-2] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+ [framework] 2016-06-26 20:43:13,810 - io.netty.channel.MultithreadEventLoopGroup -468  [Thread-2] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 8
+ [framework] 2016-06-26 20:43:13,846 - io.netty.channel.nio.NioEventLoop -504  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+ [framework] 2016-06-26 20:43:13,847 - io.netty.channel.nio.NioEventLoop -505  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+ [framework] 2016-06-26 20:43:13,952 - io.netty.util.internal.PlatformDependent -610  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+ [framework] 2016-06-26 20:43:13,953 - io.netty.util.internal.PlatformDependent -611  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Java version: 7
+ [framework] 2016-06-26 20:43:13,954 - io.netty.util.internal.PlatformDependent -612  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noUnsafe: false
+ [framework] 2016-06-26 20:43:13,956 - io.netty.util.internal.PlatformDependent0 -614  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.ByteBuffer.cleaner: available
+ [framework] 2016-06-26 20:43:13,957 - io.netty.util.internal.PlatformDependent0 -615  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+ [framework] 2016-06-26 20:43:13,959 - io.netty.util.internal.PlatformDependent0 -617  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+ [framework] 2016-06-26 20:43:13,961 - io.netty.util.internal.PlatformDependent0 -619  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+ [framework] 2016-06-26 20:43:13,961 - io.netty.util.internal.PlatformDependent0 -619  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: true
+ [framework] 2016-06-26 20:43:13,962 - io.netty.util.internal.PlatformDependent -620  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+ [framework] 2016-06-26 20:43:13,962 - io.netty.util.internal.PlatformDependent -620  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noJavassist: false
+ [framework] 2016-06-26 20:43:13,964 - io.netty.util.internal.PlatformDependent -622  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Javassist: unavailable
+ [framework] 2016-06-26 20:43:13,964 - io.netty.util.internal.PlatformDependent -622  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ [framework] 2016-06-26 20:43:13,964 - io.netty.util.internal.PlatformDependent -622  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+ [framework] 2016-06-26 20:43:13,965 - io.netty.buffer.PooledByteBufAllocator -623  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 4
+ [framework] 2016-06-26 20:43:13,965 - io.netty.buffer.PooledByteBufAllocator -623  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 4
+ [framework] 2016-06-26 20:43:13,965 - io.netty.buffer.PooledByteBufAllocator -623  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+ [framework] 2016-06-26 20:43:13,965 - io.netty.buffer.PooledByteBufAllocator -623  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+ [framework] 2016-06-26 20:43:13,966 - io.netty.buffer.PooledByteBufAllocator -624  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+ [framework] 2016-06-26 20:43:14,362 - io.netty.channel.DefaultChannelId -1020 [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ [framework] 2016-06-26 20:43:14,367 - io.netty.channel.DefaultChannelId -1025 [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 8920 (auto-detected)
+ [framework] 2016-06-26 20:43:14,372 - io.netty.util.internal.ThreadLocalRandom -1030 [Thread-2] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0x05eeed8d2af4d9c0
+ [framework] 2016-06-26 20:43:14,383 - io.netty.channel.ChannelOutboundBuffer -1041 [Thread-2] DEBUG io.netty.channel.ChannelOutboundBuffer  - -Dio.netty.threadLocalDirectBufferSize: 65536
+ [framework] 2016-06-26 20:43:14,473 - com.push.server.other.InitCache -1131 [Thread-1] INFO  com.push.server.other.InitCache  - init message cache successfully
+ [framework] 2016-06-26 20:43:14,534 - io.netty.util.NetUtil -1192 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback interface: Software Loopback Interface 1
+ [framework] 2016-06-26 20:43:14,535 - io.netty.util.NetUtil -1193 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback address: /127.0.0.1 (primary)
+ [framework] 2016-06-26 20:43:14,535 - io.netty.util.NetUtil -1193 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback address: /0:0:0:0:0:0:0:1
+ [framework] 2016-06-26 20:43:14,558 - io.netty.handler.logging.LoggingHandler -1216 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xfb758e75] REGISTERED
+ [framework] 2016-06-26 20:43:14,564 - io.netty.handler.logging.LoggingHandler -1222 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xfb758e75] BIND: /115.29.161.214:9050
+ [framework] 2016-06-26 20:43:14,571 - io.netty.handler.logging.LoggingHandler -1229 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xfb758e75, /115.29.161.214:9050] ACTIVE
+ [framework] 2016-06-26 20:43:14,573 - com.push.server.Server -1231 [Thread-2] INFO  com.push.server.Server  - ip:115.29.161.214 port:9050 starts running
+ [framework] 2016-06-26 20:43:15,014 - com.push.server.other.InitCache -1672 [Thread-1] INFO  com.push.server.other.InitCache  - init offline user cache successfully
+ [framework] 2016-06-26 21:49:04,396 - org.apache.ibatis.logging.LogFactory -0    [main] DEBUG org.apache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [framework] 2016-06-26 21:49:04,421 - org.apache.ibatis.datasource.pooled.PooledDataSource -25   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 21:49:04,421 - org.apache.ibatis.datasource.pooled.PooledDataSource -25   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 21:49:04,421 - org.apache.ibatis.datasource.pooled.PooledDataSource -25   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 21:49:04,422 - org.apache.ibatis.datasource.pooled.PooledDataSource -26   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 21:49:04,571 - org.apache.ibatis.transaction.jdbc.JdbcTransaction -175  [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+ [framework] 2016-06-26 21:49:04,841 - com.push.server.database.DBOperationImpl -445  [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2016-06-26 21:49:04,863 - io.netty.util.internal.logging.InternalLoggerFactory -467  [Thread-2] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+ [framework] 2016-06-26 21:49:04,870 - io.netty.channel.MultithreadEventLoopGroup -474  [Thread-2] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 8
+ [framework] 2016-06-26 21:49:04,909 - io.netty.channel.nio.NioEventLoop -513  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+ [framework] 2016-06-26 21:49:04,909 - io.netty.channel.nio.NioEventLoop -513  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+ [framework] 2016-06-26 21:49:05,019 - io.netty.util.internal.PlatformDependent -623  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+ [framework] 2016-06-26 21:49:05,020 - io.netty.util.internal.PlatformDependent -624  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Java version: 7
+ [framework] 2016-06-26 21:49:05,020 - io.netty.util.internal.PlatformDependent -624  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noUnsafe: false
+ [framework] 2016-06-26 21:49:05,023 - io.netty.util.internal.PlatformDependent0 -627  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.ByteBuffer.cleaner: available
+ [framework] 2016-06-26 21:49:05,024 - io.netty.util.internal.PlatformDependent0 -628  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+ [framework] 2016-06-26 21:49:05,027 - io.netty.util.internal.PlatformDependent0 -631  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+ [framework] 2016-06-26 21:49:05,028 - io.netty.util.internal.PlatformDependent0 -632  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+ [framework] 2016-06-26 21:49:05,029 - io.netty.util.internal.PlatformDependent0 -633  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: true
+ [framework] 2016-06-26 21:49:05,029 - io.netty.util.internal.PlatformDependent -633  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+ [framework] 2016-06-26 21:49:05,030 - io.netty.util.internal.PlatformDependent -634  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noJavassist: false
+ [framework] 2016-06-26 21:49:05,031 - io.netty.util.internal.PlatformDependent -635  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Javassist: unavailable
+ [framework] 2016-06-26 21:49:05,031 - io.netty.util.internal.PlatformDependent -635  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ [framework] 2016-06-26 21:49:05,032 - io.netty.util.internal.PlatformDependent -636  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+ [framework] 2016-06-26 21:49:05,032 - io.netty.buffer.PooledByteBufAllocator -636  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 4
+ [framework] 2016-06-26 21:49:05,032 - io.netty.buffer.PooledByteBufAllocator -636  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 4
+ [framework] 2016-06-26 21:49:05,032 - io.netty.buffer.PooledByteBufAllocator -636  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+ [framework] 2016-06-26 21:49:05,032 - io.netty.buffer.PooledByteBufAllocator -636  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+ [framework] 2016-06-26 21:49:05,032 - io.netty.buffer.PooledByteBufAllocator -636  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+ [framework] 2016-06-26 21:49:05,429 - io.netty.channel.DefaultChannelId -1033 [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ [framework] 2016-06-26 21:49:05,444 - io.netty.channel.DefaultChannelId -1048 [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 928 (auto-detected)
+ [framework] 2016-06-26 21:49:05,481 - io.netty.util.internal.ThreadLocalRandom -1085 [Thread-2] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0xc2fc53af600d871d
+ [framework] 2016-06-26 21:49:05,491 - io.netty.channel.ChannelOutboundBuffer -1095 [Thread-2] DEBUG io.netty.channel.ChannelOutboundBuffer  - -Dio.netty.threadLocalDirectBufferSize: 65536
+ [framework] 2016-06-26 21:49:05,634 - io.netty.util.NetUtil -1238 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback interface: Software Loopback Interface 1
+ [framework] 2016-06-26 21:49:05,635 - io.netty.util.NetUtil -1239 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback address: /127.0.0.1 (primary)
+ [framework] 2016-06-26 21:49:05,635 - io.netty.util.NetUtil -1239 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback address: /0:0:0:0:0:0:0:1
+ [framework] 2016-06-26 21:49:05,654 - io.netty.handler.logging.LoggingHandler -1258 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x64a06212] REGISTERED
+ [framework] 2016-06-26 21:49:05,659 - io.netty.handler.logging.LoggingHandler -1263 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x64a06212] BIND: /115.29.161.214:9050
+ [framework] 2016-06-26 21:49:05,663 - com.push.server.Server -1267 [Thread-2] INFO  com.push.server.Server  - ip:115.29.161.214 port:9050 starts running
+ [framework] 2016-06-26 21:49:05,666 - io.netty.handler.logging.LoggingHandler -1270 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x64a06212, /115.29.161.214:9050] ACTIVE
+ [framework] 2016-06-26 21:49:06,366 - com.push.server.other.InitCache -1970 [Thread-1] INFO  com.push.server.other.InitCache  - init message cache successfully
+ [framework] 2016-06-26 21:49:06,924 - com.push.server.other.InitCache -2528 [Thread-1] INFO  com.push.server.other.InitCache  - init offline user cache successfully
+ [framework] 2016-06-26 22:10:08,989 - org.apache.ibatis.logging.LogFactory -0    [main] DEBUG org.apache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [framework] 2016-06-26 22:10:09,013 - org.apache.ibatis.datasource.pooled.PooledDataSource -24   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 22:10:09,014 - org.apache.ibatis.datasource.pooled.PooledDataSource -25   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 22:10:09,014 - org.apache.ibatis.datasource.pooled.PooledDataSource -25   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 22:10:09,014 - org.apache.ibatis.datasource.pooled.PooledDataSource -25   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 22:10:09,167 - org.apache.ibatis.transaction.jdbc.JdbcTransaction -178  [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+ [framework] 2016-06-26 22:10:09,421 - com.push.server.database.DBOperationImpl -432  [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2016-06-26 22:10:09,443 - io.netty.util.internal.logging.InternalLoggerFactory -454  [Thread-2] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+ [framework] 2016-06-26 22:10:09,450 - io.netty.channel.MultithreadEventLoopGroup -461  [Thread-2] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 8
+ [framework] 2016-06-26 22:10:09,485 - io.netty.channel.nio.NioEventLoop -496  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+ [framework] 2016-06-26 22:10:09,486 - io.netty.channel.nio.NioEventLoop -497  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+ [framework] 2016-06-26 22:10:09,580 - io.netty.util.internal.PlatformDependent -591  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+ [framework] 2016-06-26 22:10:09,581 - io.netty.util.internal.PlatformDependent -592  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Java version: 7
+ [framework] 2016-06-26 22:10:09,581 - io.netty.util.internal.PlatformDependent -592  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noUnsafe: false
+ [framework] 2016-06-26 22:10:09,583 - io.netty.util.internal.PlatformDependent0 -594  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.ByteBuffer.cleaner: available
+ [framework] 2016-06-26 22:10:09,584 - io.netty.util.internal.PlatformDependent0 -595  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+ [framework] 2016-06-26 22:10:09,587 - io.netty.util.internal.PlatformDependent0 -598  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+ [framework] 2016-06-26 22:10:09,588 - io.netty.util.internal.PlatformDependent0 -599  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+ [framework] 2016-06-26 22:10:09,589 - io.netty.util.internal.PlatformDependent0 -600  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: true
+ [framework] 2016-06-26 22:10:09,589 - io.netty.util.internal.PlatformDependent -600  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+ [framework] 2016-06-26 22:10:09,589 - io.netty.util.internal.PlatformDependent -600  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noJavassist: false
+ [framework] 2016-06-26 22:10:09,591 - io.netty.util.internal.PlatformDependent -602  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Javassist: unavailable
+ [framework] 2016-06-26 22:10:09,591 - io.netty.util.internal.PlatformDependent -602  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ [framework] 2016-06-26 22:10:09,592 - io.netty.util.internal.PlatformDependent -603  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+ [framework] 2016-06-26 22:10:09,592 - io.netty.buffer.PooledByteBufAllocator -603  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 4
+ [framework] 2016-06-26 22:10:09,592 - io.netty.buffer.PooledByteBufAllocator -603  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 4
+ [framework] 2016-06-26 22:10:09,593 - io.netty.buffer.PooledByteBufAllocator -604  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+ [framework] 2016-06-26 22:10:09,593 - io.netty.buffer.PooledByteBufAllocator -604  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+ [framework] 2016-06-26 22:10:09,593 - io.netty.buffer.PooledByteBufAllocator -604  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+ [framework] 2016-06-26 22:10:09,965 - io.netty.channel.DefaultChannelId -976  [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ [framework] 2016-06-26 22:10:09,978 - io.netty.channel.DefaultChannelId -989  [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 7356 (auto-detected)
+ [framework] 2016-06-26 22:10:10,012 - io.netty.util.internal.ThreadLocalRandom -1023 [Thread-2] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0xd059a6e111fca474
+ [framework] 2016-06-26 22:10:10,024 - io.netty.channel.ChannelOutboundBuffer -1035 [Thread-2] DEBUG io.netty.channel.ChannelOutboundBuffer  - -Dio.netty.threadLocalDirectBufferSize: 65536
+ [framework] 2016-06-26 22:10:10,165 - io.netty.util.NetUtil -1176 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback interface: Software Loopback Interface 1
+ [framework] 2016-06-26 22:10:10,166 - io.netty.util.NetUtil -1177 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback address: /127.0.0.1 (primary)
+ [framework] 2016-06-26 22:10:10,166 - io.netty.util.NetUtil -1177 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback address: /0:0:0:0:0:0:0:1
+ [framework] 2016-06-26 22:10:10,184 - io.netty.handler.logging.LoggingHandler -1195 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x599d2448] REGISTERED
+ [framework] 2016-06-26 22:10:10,189 - io.netty.handler.logging.LoggingHandler -1200 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x599d2448] BIND: /115.29.161.214:9050
+ [framework] 2016-06-26 22:10:10,193 - com.push.server.Server -1204 [Thread-2] INFO  com.push.server.Server  - ip:115.29.161.214 port:9050 starts running
+ [framework] 2016-06-26 22:10:10,196 - io.netty.handler.logging.LoggingHandler -1207 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x599d2448, /115.29.161.214:9050] ACTIVE
+ [framework] 2016-06-26 22:10:10,905 - com.push.server.other.InitCache -1916 [Thread-1] INFO  com.push.server.other.InitCache  - init message cache successfully
+ [framework] 2016-06-26 22:10:11,447 - com.push.server.other.InitCache -2458 [Thread-1] INFO  com.push.server.other.InitCache  - init offline user cache successfully
+ [framework] 2016-06-26 22:15:27,267 - org.apache.ibatis.logging.LogFactory -0    [main] DEBUG org.apache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [framework] 2016-06-26 22:15:27,292 - org.apache.ibatis.datasource.pooled.PooledDataSource -25   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 22:15:27,293 - org.apache.ibatis.datasource.pooled.PooledDataSource -26   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 22:15:27,293 - org.apache.ibatis.datasource.pooled.PooledDataSource -26   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 22:15:27,294 - org.apache.ibatis.datasource.pooled.PooledDataSource -27   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-26 22:15:27,440 - org.apache.ibatis.transaction.jdbc.JdbcTransaction -173  [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+ [framework] 2016-06-26 22:15:27,705 - com.push.server.database.DBOperationImpl -438  [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2016-06-26 22:15:27,727 - io.netty.util.internal.logging.InternalLoggerFactory -460  [Thread-2] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+ [framework] 2016-06-26 22:15:27,735 - io.netty.channel.MultithreadEventLoopGroup -468  [Thread-2] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 8
+ [framework] 2016-06-26 22:15:27,770 - io.netty.channel.nio.NioEventLoop -503  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+ [framework] 2016-06-26 22:15:27,771 - io.netty.channel.nio.NioEventLoop -504  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+ [framework] 2016-06-26 22:15:27,865 - io.netty.util.internal.PlatformDependent -598  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+ [framework] 2016-06-26 22:15:27,866 - io.netty.util.internal.PlatformDependent -599  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Java version: 7
+ [framework] 2016-06-26 22:15:27,866 - io.netty.util.internal.PlatformDependent -599  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noUnsafe: false
+ [framework] 2016-06-26 22:15:27,868 - io.netty.util.internal.PlatformDependent0 -601  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.ByteBuffer.cleaner: available
+ [framework] 2016-06-26 22:15:27,868 - io.netty.util.internal.PlatformDependent0 -601  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+ [framework] 2016-06-26 22:15:27,871 - io.netty.util.internal.PlatformDependent0 -604  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+ [framework] 2016-06-26 22:15:27,872 - io.netty.util.internal.PlatformDependent0 -605  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+ [framework] 2016-06-26 22:15:27,873 - io.netty.util.internal.PlatformDependent0 -606  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: true
+ [framework] 2016-06-26 22:15:27,873 - io.netty.util.internal.PlatformDependent -606  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+ [framework] 2016-06-26 22:15:27,874 - io.netty.util.internal.PlatformDependent -607  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noJavassist: false
+ [framework] 2016-06-26 22:15:27,875 - io.netty.util.internal.PlatformDependent -608  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Javassist: unavailable
+ [framework] 2016-06-26 22:15:27,875 - io.netty.util.internal.PlatformDependent -608  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ [framework] 2016-06-26 22:15:27,876 - io.netty.util.internal.PlatformDependent -609  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+ [framework] 2016-06-26 22:15:27,876 - io.netty.buffer.PooledByteBufAllocator -609  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 4
+ [framework] 2016-06-26 22:15:27,876 - io.netty.buffer.PooledByteBufAllocator -609  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 4
+ [framework] 2016-06-26 22:15:27,877 - io.netty.buffer.PooledByteBufAllocator -610  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+ [framework] 2016-06-26 22:15:27,877 - io.netty.buffer.PooledByteBufAllocator -610  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+ [framework] 2016-06-26 22:15:27,877 - io.netty.buffer.PooledByteBufAllocator -610  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+ [framework] 2016-06-26 22:15:28,242 - io.netty.channel.DefaultChannelId -975  [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ [framework] 2016-06-26 22:15:28,246 - io.netty.channel.DefaultChannelId -979  [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 14132 (auto-detected)
+ [framework] 2016-06-26 22:15:28,250 - io.netty.util.internal.ThreadLocalRandom -983  [Thread-2] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0x0a423ffae707b24f
+ [framework] 2016-06-26 22:15:28,261 - io.netty.channel.ChannelOutboundBuffer -994  [Thread-2] DEBUG io.netty.channel.ChannelOutboundBuffer  - -Dio.netty.threadLocalDirectBufferSize: 65536
+ [framework] 2016-06-26 22:15:28,399 - io.netty.util.NetUtil -1132 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback interface: Software Loopback Interface 1
+ [framework] 2016-06-26 22:15:28,400 - io.netty.util.NetUtil -1133 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback address: /127.0.0.1 (primary)
+ [framework] 2016-06-26 22:15:28,400 - io.netty.util.NetUtil -1133 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback address: /0:0:0:0:0:0:0:1
+ [framework] 2016-06-26 22:15:28,407 - com.push.server.other.InitCache -1140 [Thread-1] INFO  com.push.server.other.InitCache  - init message cache successfully
+ [framework] 2016-06-26 22:15:28,416 - io.netty.handler.logging.LoggingHandler -1149 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xbc57f185] REGISTERED
+ [framework] 2016-06-26 22:15:28,421 - io.netty.handler.logging.LoggingHandler -1154 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xbc57f185] BIND: /115.29.161.214:9050
+ [framework] 2016-06-26 22:15:28,425 - com.push.server.Server -1158 [Thread-2] INFO  com.push.server.Server  - ip:115.29.161.214 port:9050 starts running
+ [framework] 2016-06-26 22:15:28,427 - io.netty.handler.logging.LoggingHandler -1160 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xbc57f185, /115.29.161.214:9050] ACTIVE
+ [framework] 2016-06-26 22:15:28,938 - com.push.server.other.InitCache -1671 [Thread-1] INFO  com.push.server.other.InitCache  - init offline user cache successfully
+ [framework] 2016-06-27 17:38:38,572 - org.apache.ibatis.logging.LogFactory -0    [main] DEBUG org.apache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [framework] 2016-06-27 17:38:38,602 - org.apache.ibatis.datasource.pooled.PooledDataSource -30   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-27 17:38:38,603 - org.apache.ibatis.datasource.pooled.PooledDataSource -31   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-27 17:38:38,603 - org.apache.ibatis.datasource.pooled.PooledDataSource -31   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-27 17:38:38,604 - org.apache.ibatis.datasource.pooled.PooledDataSource -32   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2016-06-27 17:38:38,754 - org.apache.ibatis.transaction.jdbc.JdbcTransaction -182  [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+ [framework] 2016-06-27 17:38:39,020 - com.push.server.database.DBOperationImpl -448  [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2016-06-27 17:38:39,041 - io.netty.util.internal.logging.InternalLoggerFactory -469  [Thread-2] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+ [framework] 2016-06-27 17:38:39,055 - io.netty.channel.MultithreadEventLoopGroup -483  [Thread-2] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 8
+ [framework] 2016-06-27 17:38:39,136 - io.netty.util.internal.PlatformDependent0 -564  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+ [framework] 2016-06-27 17:38:39,548 - io.netty.util.internal.PlatformDependent0 -976  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+ [framework] 2016-06-27 17:38:39,549 - io.netty.util.internal.PlatformDependent0 -977  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+ [framework] 2016-06-27 17:38:39,550 - io.netty.util.internal.PlatformDependent0 -978  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: true
+ [framework] 2016-06-27 17:38:39,551 - io.netty.util.internal.PlatformDependent -979  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+ [framework] 2016-06-27 17:38:39,552 - io.netty.util.internal.PlatformDependent -980  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Java version: 7
+ [framework] 2016-06-27 17:38:39,553 - io.netty.util.internal.PlatformDependent -981  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noUnsafe: false
+ [framework] 2016-06-27 17:38:39,557 - io.netty.util.internal.PlatformDependent -985  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+ [framework] 2016-06-27 17:38:39,558 - io.netty.util.internal.PlatformDependent -986  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noJavassist: false
+ [framework] 2016-06-27 17:38:39,560 - io.netty.util.internal.PlatformDependent -988  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Javassist: unavailable
+ [framework] 2016-06-27 17:38:39,561 - io.netty.util.internal.PlatformDependent -989  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ [framework] 2016-06-27 17:38:39,561 - io.netty.util.internal.PlatformDependent -989  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+ [framework] 2016-06-27 17:38:39,562 - io.netty.util.internal.PlatformDependent -990  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ [framework] 2016-06-27 17:38:39,562 - io.netty.util.internal.PlatformDependent -990  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+ [framework] 2016-06-27 17:38:39,563 - io.netty.channel.nio.NioEventLoop -991  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+ [framework] 2016-06-27 17:38:39,564 - io.netty.channel.nio.NioEventLoop -992  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+ [framework] 2016-06-27 17:38:39,648 - io.netty.buffer.PooledByteBufAllocator -1076 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 4
+ [framework] 2016-06-27 17:38:39,648 - io.netty.buffer.PooledByteBufAllocator -1076 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 4
+ [framework] 2016-06-27 17:38:39,648 - io.netty.buffer.PooledByteBufAllocator -1076 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+ [framework] 2016-06-27 17:38:39,649 - io.netty.buffer.PooledByteBufAllocator -1077 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+ [framework] 2016-06-27 17:38:39,649 - io.netty.buffer.PooledByteBufAllocator -1077 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+ [framework] 2016-06-27 17:38:39,649 - io.netty.buffer.PooledByteBufAllocator -1077 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.tinyCacheSize: 512
+ [framework] 2016-06-27 17:38:39,650 - io.netty.buffer.PooledByteBufAllocator -1078 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+ [framework] 2016-06-27 17:38:39,650 - io.netty.buffer.PooledByteBufAllocator -1078 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+ [framework] 2016-06-27 17:38:39,650 - io.netty.buffer.PooledByteBufAllocator -1078 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ [framework] 2016-06-27 17:38:39,650 - io.netty.buffer.PooledByteBufAllocator -1078 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+ [framework] 2016-06-27 17:38:39,742 - io.netty.channel.DefaultChannelId -1170 [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 4360 (auto-detected)
+ [framework] 2016-06-27 17:38:39,898 - io.netty.channel.DefaultChannelId -1326 [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+ [framework] 2016-06-27 17:38:39,898 - io.netty.util.internal.ThreadLocalRandom -1326 [Thread-2] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0x2428598f58218574 (took 18 ms)
+ [framework] 2016-06-27 17:38:39,938 - io.netty.buffer.ByteBufUtil -1366 [Thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+ [framework] 2016-06-27 17:38:39,938 - io.netty.buffer.ByteBufUtil -1366 [Thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 65536
+ [framework] 2016-06-27 17:38:40,066 - io.netty.util.NetUtil -1494 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ [framework] 2016-06-27 17:38:40,067 - io.netty.util.NetUtil -1495 [Thread-2] DEBUG io.netty.util.NetUtil  - \proc\sys\net\core\somaxconn: 200 (non-existent)
+ [framework] 2016-06-27 17:38:40,090 - io.netty.handler.logging.LoggingHandler -1518 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xd713ddf4] REGISTERED
+ [framework] 2016-06-27 17:38:40,096 - io.netty.handler.logging.LoggingHandler -1524 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xd713ddf4] BIND: /115.29.161.214:9050
+ [framework] 2016-06-27 17:38:40,100 - com.push.server.Server -1528 [Thread-2] INFO  com.push.server.Server  - ip:115.29.161.214 port:9050 starts running
+ [framework] 2016-06-27 17:38:40,103 - io.netty.handler.logging.LoggingHandler -1531 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xd713ddf4, /115.29.161.214:9050] ACTIVE
+ [framework] 2016-06-27 17:38:40,606 - com.push.server.other.InitCache -2034 [Thread-1] INFO  com.push.server.other.InitCache  - init message cache successfully
+ [framework] 2016-06-27 17:38:41,154 - com.push.server.other.InitCache -2582 [Thread-1] INFO  com.push.server.other.InitCache  - init offline user cache successfully
+ [framework] 2017-02-24 19:10:46,687 - io.netty.util.internal.logging.InternalLoggerFactory -0    [Thread-2] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+ [framework] 2017-02-24 19:10:46,703 - io.netty.channel.MultithreadEventLoopGroup -16   [Thread-2] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 8
+ [framework] 2017-02-24 19:10:46,766 - io.netty.util.internal.PlatformDependent0 -79   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent0 -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent0 -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent0 -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: true
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Java version: 7
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noUnsafe: false
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noJavassist: false
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Javassist: unavailable
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+ [framework] 2017-02-24 19:10:46,781 - io.netty.util.internal.PlatformDependent -94   [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+ [framework] 2017-02-24 19:10:46,781 - io.netty.channel.nio.NioEventLoop -94   [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+ [framework] 2017-02-24 19:10:46,781 - io.netty.channel.nio.NioEventLoop -94   [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+ [framework] 2017-02-24 19:10:46,984 - io.netty.channel.DefaultChannelId -297  [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 6072 (auto-detected)
+ [framework] 2017-02-24 19:10:47,593 - io.netty.channel.DefaultChannelId -906  [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: f8:2f:a8:ff:fe:be:83:2d (auto-detected)
+ [framework] 2017-02-24 19:10:47,593 - io.netty.util.internal.ThreadLocalRandom -906  [Thread-2] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0x85b2be0f65e2884e (took 37 ms)
+ [framework] 2017-02-24 19:10:47,671 - io.netty.buffer.PooledByteBufAllocator -984  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 2
+ [framework] 2017-02-24 19:10:47,671 - io.netty.buffer.PooledByteBufAllocator -984  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 2
+ [framework] 2017-02-24 19:10:47,671 - io.netty.buffer.PooledByteBufAllocator -984  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+ [framework] 2017-02-24 19:10:47,671 - io.netty.buffer.PooledByteBufAllocator -984  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+ [framework] 2017-02-24 19:10:47,671 - io.netty.buffer.PooledByteBufAllocator -984  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+ [framework] 2017-02-24 19:10:47,671 - io.netty.buffer.PooledByteBufAllocator -984  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.tinyCacheSize: 512
+ [framework] 2017-02-24 19:10:47,671 - io.netty.buffer.PooledByteBufAllocator -984  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+ [framework] 2017-02-24 19:10:47,671 - io.netty.buffer.PooledByteBufAllocator -984  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+ [framework] 2017-02-24 19:10:47,671 - io.netty.buffer.PooledByteBufAllocator -984  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ [framework] 2017-02-24 19:10:47,671 - io.netty.buffer.PooledByteBufAllocator -984  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+ [framework] 2017-02-24 19:10:47,686 - io.netty.buffer.ByteBufUtil -999  [Thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+ [framework] 2017-02-24 19:10:47,686 - io.netty.buffer.ByteBufUtil -999  [Thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 65536
+ [framework] 2017-02-24 19:10:47,749 - io.netty.util.ResourceLeakDetector -1062 [nioEventLoopGroup-0-0] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetectionLevel: simple
+ [framework] 2017-02-24 19:10:47,764 - io.netty.channel.ChannelInitializer -1077 [nioEventLoopGroup-0-0] WARN  io.netty.channel.ChannelInitializer  - Failed to initialize a channel. Closing: [id: 0x5461429c]
+ java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.push.server.Client.buildMessage(Client.java:200)
+	at com.push.server.Client$LoginAuthReqHandler.<init>(Client.java:228)
+	at com.push.server.Client$1.initChannel(Client.java:142)
+	at com.push.server.Client$1.initChannel(Client.java:1)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:69)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelRegisteredNow(ChannelHandlerInvokerUtil.java:32)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRegistered(DefaultChannelHandlerInvoker.java:50)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRegistered(PausableChannelEventExecutor.java:56)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:843)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:519)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:422)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:492)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:328)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+[framework] 2017-02-24 19:12:12,679 - org.apache.ibatis.logging.LogFactory -0    [main] DEBUG org.apache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [framework] 2017-02-24 19:12:12,695 - org.apache.ibatis.datasource.pooled.PooledDataSource -16   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-02-24 19:12:12,695 - org.apache.ibatis.datasource.pooled.PooledDataSource -16   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-02-24 19:12:12,695 - org.apache.ibatis.datasource.pooled.PooledDataSource -16   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-02-24 19:12:12,695 - org.apache.ibatis.datasource.pooled.PooledDataSource -16   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-02-24 19:12:12,835 - org.apache.ibatis.transaction.jdbc.JdbcTransaction -156  [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+ [framework] 2017-02-24 19:12:14,052 - com.push.server.database.DBOperationImpl -1373 [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2017-02-24 19:12:14,068 - io.netty.util.internal.logging.InternalLoggerFactory -1389 [Thread-2] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+ [framework] 2017-02-24 19:12:14,084 - io.netty.channel.MultithreadEventLoopGroup -1405 [Thread-2] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 8
+ [framework] 2017-02-24 19:12:14,147 - io.netty.util.internal.PlatformDependent0 -1468 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+ [framework] 2017-02-24 19:12:14,147 - io.netty.util.internal.PlatformDependent0 -1468 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+ [framework] 2017-02-24 19:12:14,147 - io.netty.util.internal.PlatformDependent0 -1468 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+ [framework] 2017-02-24 19:12:14,147 - io.netty.util.internal.PlatformDependent0 -1468 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: true
+ [framework] 2017-02-24 19:12:14,147 - io.netty.util.internal.PlatformDependent -1468 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+ [framework] 2017-02-24 19:12:14,162 - io.netty.util.internal.PlatformDependent -1483 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Java version: 7
+ [framework] 2017-02-24 19:12:14,162 - io.netty.util.internal.PlatformDependent -1483 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noUnsafe: false
+ [framework] 2017-02-24 19:12:14,162 - io.netty.util.internal.PlatformDependent -1483 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+ [framework] 2017-02-24 19:12:14,162 - io.netty.util.internal.PlatformDependent -1483 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noJavassist: false
+ [framework] 2017-02-24 19:12:14,162 - io.netty.util.internal.PlatformDependent -1483 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Javassist: unavailable
+ [framework] 2017-02-24 19:12:14,162 - io.netty.util.internal.PlatformDependent -1483 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ [framework] 2017-02-24 19:12:14,162 - io.netty.util.internal.PlatformDependent -1483 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+ [framework] 2017-02-24 19:12:14,162 - io.netty.util.internal.PlatformDependent -1483 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+ [framework] 2017-02-24 19:12:14,162 - io.netty.util.internal.PlatformDependent -1483 [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+ [framework] 2017-02-24 19:12:14,162 - io.netty.channel.nio.NioEventLoop -1483 [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+ [framework] 2017-02-24 19:12:14,162 - io.netty.channel.nio.NioEventLoop -1483 [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+ [framework] 2017-02-24 19:12:14,225 - io.netty.buffer.PooledByteBufAllocator -1546 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 2
+ [framework] 2017-02-24 19:12:14,225 - io.netty.buffer.PooledByteBufAllocator -1546 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 2
+ [framework] 2017-02-24 19:12:14,225 - io.netty.buffer.PooledByteBufAllocator -1546 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+ [framework] 2017-02-24 19:12:14,225 - io.netty.buffer.PooledByteBufAllocator -1546 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+ [framework] 2017-02-24 19:12:14,225 - io.netty.buffer.PooledByteBufAllocator -1546 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+ [framework] 2017-02-24 19:12:14,225 - io.netty.buffer.PooledByteBufAllocator -1546 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.tinyCacheSize: 512
+ [framework] 2017-02-24 19:12:14,225 - io.netty.buffer.PooledByteBufAllocator -1546 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+ [framework] 2017-02-24 19:12:14,225 - io.netty.buffer.PooledByteBufAllocator -1546 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+ [framework] 2017-02-24 19:12:14,225 - io.netty.buffer.PooledByteBufAllocator -1546 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ [framework] 2017-02-24 19:12:14,225 - io.netty.buffer.PooledByteBufAllocator -1546 [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+ [framework] 2017-02-24 19:12:14,318 - io.netty.channel.DefaultChannelId -1639 [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 7212 (auto-detected)
+ [framework] 2017-02-24 19:12:14,802 - io.netty.channel.DefaultChannelId -2123 [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: f8:2f:a8:ff:fe:be:83:2d (auto-detected)
+ [framework] 2017-02-24 19:12:14,802 - io.netty.util.internal.ThreadLocalRandom -2123 [Thread-2] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0x7cc444db1aedec90 (took 85 ms)
+ [framework] 2017-02-24 19:12:14,833 - io.netty.buffer.ByteBufUtil -2154 [Thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+ [framework] 2017-02-24 19:12:14,833 - io.netty.buffer.ByteBufUtil -2154 [Thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 65536
+ [framework] 2017-02-24 19:12:15,254 - io.netty.util.NetUtil -2575 [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ [framework] 2017-02-24 19:12:15,254 - io.netty.util.NetUtil -2575 [Thread-2] DEBUG io.netty.util.NetUtil  - \proc\sys\net\core\somaxconn: 200 (non-existent)
+ [framework] 2017-02-24 19:12:15,270 - io.netty.handler.logging.LoggingHandler -2591 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xb0345072] REGISTERED
+ [framework] 2017-02-24 19:12:15,270 - io.netty.handler.logging.LoggingHandler -2591 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xb0345072] BIND: /115.29.161.214:9050
+ [framework] 2017-02-24 19:12:15,270 - io.netty.handler.logging.LoggingHandler -2591 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xb0345072] CLOSE
+ [framework] 2017-02-24 19:12:15,285 - io.netty.handler.logging.LoggingHandler -2606 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xb0345072] UNREGISTERED
+ [framework] 2017-02-24 19:12:15,285 - com.push.server.Server -2606 [Thread-2] INFO  com.push.server.Server  - the push server has been shut down
+ [framework] 2017-02-24 19:12:15,285 - com.push.server.Server -2606 [Thread-2] ERROR com.push.server.Server  - starting push server has failed
+ java.net.BindException: Cannot assign requested address: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:554)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1237)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:109)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.PausableChannelEventExecutor.invokeBind(PausableChannelEventExecutor.java:101)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:481)
+	at io.netty.handler.logging.LoggingHandler.bind(LoggingHandler.java:243)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:109)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.PausableChannelEventExecutor.invokeBind(PausableChannelEventExecutor.java:101)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:481)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:1013)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:236)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:328)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+[framework] 2017-02-24 19:12:25,131 - javapns.notification.Payload -0    [main] DEBUG javapns.notification.Payload  - Adding alert [1,�������磬������~~~~~~]
+ [framework] 2017-02-24 19:12:25,147 - javapns.notification.Payload -16   [main] DEBUG javapns.notification.Payload  - Adding badge [2]
+ [framework] 2017-02-24 19:12:25,661 - javapns.notification.PushNotificationManager -530  [main] DEBUG javapns.notification.PushNotificationManager  - Building Raw message from deviceToken and payload
+ [framework] 2017-02-24 19:12:25,661 - javapns.notification.PushNotificationManager -530  [main] DEBUG javapns.notification.PushNotificationManager  - Built raw message ID 1 of total length 125
+ [framework] 2017-02-24 19:12:25,661 - javapns.notification.PushNotificationManager -530  [main] ERROR javapns.notification.PushNotificationManager  - Delivery error: java.lang.NullPointerException
+ [framework] 2017-02-24 19:12:25,661 - javapns.notification.PushNotificationManager -530  [main] ERROR javapns.notification.PushNotificationManager  - Closing connection after error
+ [framework] 2017-02-24 19:12:25,661 - javapns.notification.PushNotificationManager -530  [main] DEBUG javapns.notification.PushNotificationManager  - Reading responses
+ [framework] 2017-02-24 19:12:25,677 - javapns.notification.PushNotificationManager -546  [main] DEBUG javapns.notification.PushNotificationManager  - Closing connection
+ [framework] 2017-02-24 19:12:25,677 - com.push.server.push.PushToIOS -546  [main] INFO  com.push.server.push.PushToIOS  - 消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71
+ [framework] 2017-02-25 10:36:55,531 - io.netty.util.internal.logging.InternalLoggerFactory -0    [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+ [framework] 2017-02-25 10:36:55,728 - io.netty.util.internal.PlatformDependent0 -197  [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+ [framework] 2017-02-25 10:36:55,728 - io.netty.util.internal.PlatformDependent0 -197  [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+ [framework] 2017-02-25 10:36:55,737 - io.netty.util.internal.PlatformDependent0 -206  [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+ [framework] 2017-02-25 10:36:55,738 - io.netty.util.internal.PlatformDependent0 -207  [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: true
+ [framework] 2017-02-25 10:36:55,739 - io.netty.util.internal.PlatformDependent -208  [main] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+ [framework] 2017-02-25 10:36:55,741 - io.netty.util.internal.PlatformDependent -210  [main] DEBUG io.netty.util.internal.PlatformDependent  - Java version: 7
+ [framework] 2017-02-25 10:36:55,741 - io.netty.util.internal.PlatformDependent -210  [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noUnsafe: false
+ [framework] 2017-02-25 10:36:55,741 - io.netty.util.internal.PlatformDependent -210  [main] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+ [framework] 2017-02-25 10:36:55,753 - io.netty.util.internal.PlatformDependent -222  [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noJavassist: false
+ [framework] 2017-02-25 10:36:55,755 - io.netty.util.internal.PlatformDependent -224  [main] DEBUG io.netty.util.internal.PlatformDependent  - Javassist: unavailable
+ [framework] 2017-02-25 10:36:55,755 - io.netty.util.internal.PlatformDependent -224  [main] DEBUG io.netty.util.internal.PlatformDependent  - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ [framework] 2017-02-25 10:36:55,756 - io.netty.util.internal.PlatformDependent -225  [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+ [framework] 2017-02-25 10:36:55,757 - io.netty.util.internal.PlatformDependent -226  [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+ [framework] 2017-02-25 10:36:55,757 - io.netty.util.internal.PlatformDependent -226  [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+ [framework] 2017-02-25 10:38:58,579 - javapns.notification.Payload -0    [main] DEBUG javapns.notification.Payload  - Adding alert [1,�������磬������~~~~~~]
+ [framework] 2017-02-25 10:38:58,609 - javapns.notification.Payload -30   [main] DEBUG javapns.notification.Payload  - Adding badge [2]
+ [framework] 2017-02-25 10:38:59,415 - javapns.notification.PushNotificationManager -836  [main] DEBUG javapns.notification.PushNotificationManager  - Building Raw message from deviceToken and payload
+ [framework] 2017-02-25 10:38:59,416 - javapns.notification.PushNotificationManager -837  [main] DEBUG javapns.notification.PushNotificationManager  - Built raw message ID 1 of total length 125
+ [framework] 2017-02-25 10:38:59,417 - javapns.notification.PushNotificationManager -838  [main] ERROR javapns.notification.PushNotificationManager  - Delivery error: java.lang.NullPointerException
+ [framework] 2017-02-25 10:38:59,448 - javapns.notification.PushNotificationManager -869  [main] ERROR javapns.notification.PushNotificationManager  - Closing connection after error
+ [framework] 2017-02-25 10:38:59,448 - javapns.notification.PushNotificationManager -869  [main] DEBUG javapns.notification.PushNotificationManager  - Reading responses
+ [framework] 2017-02-25 10:38:59,450 - javapns.notification.PushNotificationManager -871  [main] DEBUG javapns.notification.PushNotificationManager  - Closing connection
+ [framework] 2017-02-25 10:38:59,450 - com.push.server.push.PushToIOS -871  [main] INFO  com.push.server.push.PushToIOS  - 消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71
+ [framework] 2017-02-25 10:41:21,244 - javapns.notification.Payload -0    [main] DEBUG javapns.notification.Payload  - Adding alert [1,�������磬������~~~~~~]
+ [framework] 2017-02-25 10:41:21,255 - javapns.notification.Payload -11   [main] DEBUG javapns.notification.Payload  - Adding badge [2]
+ [framework] 2017-02-25 10:41:21,663 - javapns.notification.PushNotificationManager -419  [main] DEBUG javapns.notification.PushNotificationManager  - Building Raw message from deviceToken and payload
+ [framework] 2017-02-25 10:41:21,663 - javapns.notification.PushNotificationManager -419  [main] DEBUG javapns.notification.PushNotificationManager  - Built raw message ID 1 of total length 125
+ [framework] 2017-02-25 10:41:21,664 - javapns.notification.PushNotificationManager -420  [main] ERROR javapns.notification.PushNotificationManager  - Delivery error: java.lang.NullPointerException
+ [framework] 2017-02-25 10:41:21,677 - javapns.notification.PushNotificationManager -433  [main] ERROR javapns.notification.PushNotificationManager  - Closing connection after error
+ [framework] 2017-02-25 10:41:21,677 - javapns.notification.PushNotificationManager -433  [main] DEBUG javapns.notification.PushNotificationManager  - Reading responses
+ [framework] 2017-02-25 10:41:21,679 - javapns.notification.PushNotificationManager -435  [main] DEBUG javapns.notification.PushNotificationManager  - Closing connection
+ [framework] 2017-02-25 10:41:21,679 - com.push.server.push.PushToIOS -435  [main] INFO  com.push.server.push.PushToIOS  - 消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71
+ [framework] 2017-02-25 10:41:34,852 - javapns.notification.Payload -0    [main] DEBUG javapns.notification.Payload  - Adding alert [1,�������磬������~~~~~~]
+ [framework] 2017-02-25 10:41:34,858 - javapns.notification.Payload -6    [main] DEBUG javapns.notification.Payload  - Adding badge [2]
+ [framework] 2017-02-25 10:41:35,253 - javapns.notification.PushNotificationManager -401  [main] DEBUG javapns.notification.PushNotificationManager  - Building Raw message from deviceToken and payload
+ [framework] 2017-02-25 10:41:35,253 - javapns.notification.PushNotificationManager -401  [main] DEBUG javapns.notification.PushNotificationManager  - Built raw message ID 1 of total length 125
+ [framework] 2017-02-25 10:41:35,255 - javapns.notification.PushNotificationManager -403  [main] ERROR javapns.notification.PushNotificationManager  - Delivery error: java.lang.NullPointerException
+ [framework] 2017-02-25 10:41:35,256 - javapns.notification.PushNotificationManager -404  [main] ERROR javapns.notification.PushNotificationManager  - Closing connection after error
+ [framework] 2017-02-25 10:41:35,256 - javapns.notification.PushNotificationManager -404  [main] DEBUG javapns.notification.PushNotificationManager  - Reading responses
+ [framework] 2017-02-25 10:41:35,258 - javapns.notification.PushNotificationManager -406  [main] DEBUG javapns.notification.PushNotificationManager  - Closing connection
+ [framework] 2017-02-25 10:41:35,258 - com.push.server.push.PushToIOS -406  [main] INFO  com.push.server.push.PushToIOS  - 消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71
+ [framework] 2017-03-16 11:21:30,011 - org.apache.ibatis.logging.LogFactory -0    [main] DEBUG org.apache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [framework] 2017-03-16 11:21:30,120 - org.apache.ibatis.datasource.pooled.PooledDataSource -109  [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-03-16 11:21:30,121 - org.apache.ibatis.datasource.pooled.PooledDataSource -110  [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-03-16 11:21:30,121 - org.apache.ibatis.datasource.pooled.PooledDataSource -110  [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-03-16 11:21:30,121 - org.apache.ibatis.datasource.pooled.PooledDataSource -110  [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-03-16 11:21:30,201 - org.apache.ibatis.transaction.jdbc.JdbcTransaction -190  [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+ [framework] 2017-03-16 11:21:31,473 - com.push.server.database.DBOperationImpl -1462 [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2017-03-16 12:16:24,756 - org.apache.ibatis.logging.LogFactory -0    [main] DEBUG org.apache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [framework] 2017-03-16 12:16:24,769 - org.apache.ibatis.datasource.pooled.PooledDataSource -13   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-03-16 12:16:24,770 - org.apache.ibatis.datasource.pooled.PooledDataSource -14   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-03-16 12:16:24,770 - org.apache.ibatis.datasource.pooled.PooledDataSource -14   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-03-16 12:16:24,770 - org.apache.ibatis.datasource.pooled.PooledDataSource -14   [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+ [framework] 2017-03-16 12:16:24,858 - org.apache.ibatis.transaction.jdbc.JdbcTransaction -102  [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+ [framework] 2017-03-16 12:16:25,947 - com.push.server.database.DBOperationImpl -1191 [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2017-03-16 12:17:29,562 - io.netty.util.internal.logging.InternalLoggerFactory -0    [Thread-2] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+ [framework] 2017-03-16 12:17:29,586 - io.netty.channel.MultithreadEventLoopGroup -24   [Thread-2] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 8
+ [framework] 2017-03-16 12:17:29,719 - io.netty.util.internal.PlatformDependent0 -157  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+ [framework] 2017-03-16 12:17:29,720 - io.netty.util.internal.PlatformDependent0 -158  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+ [framework] 2017-03-16 12:17:29,720 - io.netty.util.internal.PlatformDependent0 -158  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+ [framework] 2017-03-16 12:17:29,720 - io.netty.util.internal.PlatformDependent0 -158  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: true
+ [framework] 2017-03-16 12:17:29,721 - io.netty.util.internal.PlatformDependent -159  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+ [framework] 2017-03-16 12:17:29,721 - io.netty.util.internal.PlatformDependent -159  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Java version: 7
+ [framework] 2017-03-16 12:17:29,722 - io.netty.util.internal.PlatformDependent -160  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noUnsafe: false
+ [framework] 2017-03-16 12:17:29,722 - io.netty.util.internal.PlatformDependent -160  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+ [framework] 2017-03-16 12:17:29,732 - io.netty.util.internal.PlatformDependent -170  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noJavassist: false
+ [framework] 2017-03-16 12:17:29,732 - io.netty.util.internal.PlatformDependent -170  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Javassist: unavailable
+ [framework] 2017-03-16 12:17:29,732 - io.netty.util.internal.PlatformDependent -170  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ [framework] 2017-03-16 12:17:29,733 - io.netty.util.internal.PlatformDependent -171  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: C:\Users\guan\AppData\Local\Temp (java.io.tmpdir)
+ [framework] 2017-03-16 12:17:29,733 - io.netty.util.internal.PlatformDependent -171  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+ [framework] 2017-03-16 12:17:29,733 - io.netty.util.internal.PlatformDependent -171  [Thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+ [framework] 2017-03-16 12:17:29,735 - io.netty.channel.nio.NioEventLoop -173  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+ [framework] 2017-03-16 12:17:29,735 - io.netty.channel.nio.NioEventLoop -173  [Thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+ [framework] 2017-03-16 12:17:29,830 - io.netty.channel.DefaultChannelId -268  [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 4040 (auto-detected)
+ [framework] 2017-03-16 12:17:29,896 - io.netty.channel.DefaultChannelId -334  [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+ [framework] 2017-03-16 12:17:29,900 - io.netty.util.internal.ThreadLocalRandom -338  [Thread-2] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0x5648c16e07e01e98 (took 80 ms)
+ [framework] 2017-03-16 12:17:29,956 - io.netty.buffer.PooledByteBufAllocator -394  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 2
+ [framework] 2017-03-16 12:17:29,956 - io.netty.buffer.PooledByteBufAllocator -394  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 2
+ [framework] 2017-03-16 12:17:29,956 - io.netty.buffer.PooledByteBufAllocator -394  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+ [framework] 2017-03-16 12:17:29,956 - io.netty.buffer.PooledByteBufAllocator -394  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+ [framework] 2017-03-16 12:17:29,956 - io.netty.buffer.PooledByteBufAllocator -394  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+ [framework] 2017-03-16 12:17:29,957 - io.netty.buffer.PooledByteBufAllocator -395  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.tinyCacheSize: 512
+ [framework] 2017-03-16 12:17:29,957 - io.netty.buffer.PooledByteBufAllocator -395  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+ [framework] 2017-03-16 12:17:29,957 - io.netty.buffer.PooledByteBufAllocator -395  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+ [framework] 2017-03-16 12:17:29,957 - io.netty.buffer.PooledByteBufAllocator -395  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ [framework] 2017-03-16 12:17:29,957 - io.netty.buffer.PooledByteBufAllocator -395  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+ [framework] 2017-03-16 12:17:29,961 - io.netty.buffer.ByteBufUtil -399  [Thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+ [framework] 2017-03-16 12:17:29,962 - io.netty.buffer.ByteBufUtil -400  [Thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 65536
+ [framework] 2017-03-16 12:17:29,979 - io.netty.util.ResourceLeakDetector -417  [nioEventLoopGroup-0-0] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetectionLevel: simple
+ [framework] 2017-03-16 12:17:30,004 - io.netty.channel.ChannelInitializer -442  [nioEventLoopGroup-0-0] WARN  io.netty.channel.ChannelInitializer  - Failed to initialize a channel. Closing: [id: 0x12ca2006]
+ java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.push.server.Client.buildMessage(Client.java:200)
+	at com.push.server.Client$LoginAuthReqHandler.<init>(Client.java:228)
+	at com.push.server.Client$1.initChannel(Client.java:142)
+	at com.push.server.Client$1.initChannel(Client.java:1)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:69)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelRegisteredNow(ChannelHandlerInvokerUtil.java:32)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRegistered(DefaultChannelHandlerInvoker.java:50)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRegistered(PausableChannelEventExecutor.java:56)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:843)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:519)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:422)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:492)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:328)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)

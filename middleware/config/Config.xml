@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<server port = "9050" ip = "192.168.137.25" >
+		<format waitingUserNumber = "1024" delimiter = "$_" idDelimiter = "," messageDelimiter = ";" 
+		delimiterMaxFrameLength = "1048576" heartBeatTime = "60" defaultEventExecutorGroup = "10"
+		clearCacheTime = "2" clearCacheInterval = "3">
+			<message length = "4" type = "4"/>
+		</format>
+	</server>
+
+</config>

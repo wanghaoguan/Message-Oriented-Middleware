@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/light_gray">
+    
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/action_bar"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:orientation="vertical"
+        android:background="@color/white" >
+        
+        <!-- 科目选择、时间节点选择、时间回看选择 -->
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+	    	android:paddingRight="16dp"
+	    	android:orientation="horizontal"
+	    	android:background="@color/white"
+            >
+            
+            <!-- 科目选择 -->
+            <LinearLayout 
+                android:id="@+id/llSubject"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|left"
+                android:background="@color/white">
+                
+                <TextView 
+                    android:id="@+id/tvSubject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="科目"
+                    android:textSize="16sp"
+                    android:textColor="#3E3E3E"/>
+                
+                <ImageView
+		            android:id="@+id/ivSubject" 
+		            android:layout_width="11.67dp"
+		            android:layout_height="6.33dp"
+		            android:layout_marginLeft="8dp" 
+		            android:src="@drawable/item_task_result_b" />
+            </LinearLayout>
+            
+            <!-- 时间节点选择 -->
+            <LinearLayout 
+                android:id="@+id/llTimeType"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/white" >
+                
+                <TextView
+	                android:id="@+id/tvTimeType"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="时间节点"
+	                android:textColor="#3E3E3E"
+	                android:textSize="16sp" />
+                
+                <ImageView
+		            android:id="@+id/ivTimeType" 
+		            android:layout_width="11.67dp"
+		            android:layout_height="6.33dp"
+		            android:layout_marginLeft="8dp"
+		            android:src="@drawable/item_task_result_b" />                
+            </LinearLayout>
+            
+            <!-- 时间回看选择 -->
+	        <LinearLayout
+	            android:id="@+id/llDate"  
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:orientation="horizontal"
+			    android:gravity="center_vertical|right"
+			    android:background="@color/white" >
+			    <TextView
+		            android:id="@+id/tvDate" 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="时间回看"
+		            android:textSize="16sp"
+		            android:textColor="#3E3E3E" />
+			    
+			    <ImageView
+		            android:id="@+id/ivDate" 
+		            android:layout_width="11.67dp"
+		            android:layout_height="6.33dp"
+		            android:layout_marginLeft="8dp"
+		            android:src="@drawable/item_task_result_b" />
+	        </LinearLayout>
+        </LinearLayout>
+        
+        <!--分割线  -->
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/textGray"/>
+        
+        <!-- 查看曲线图、关注班级 -->
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+	    	android:paddingRight="16dp"
+	    	android:orientation="horizontal"
+	    	android:background="@color/white"
+            >            
+            
+            <!-- 曲线图 -->
+            <LinearLayout 
+                android:id="@+id/llGraph"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|left"
+                android:background="@color/white">
+			    
+                
+                
+                <TextView
+		            android:id="@+id/tvGraph" 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"		           
+		            
+		            android:text="曲线图"
+		            android:textSize="16sp"
+		            android:textColor="#3E3E3E" />
+                
+                <ImageView
+		            android:id="@+id/ivGraph" 
+		            android:layout_width="15dp"
+		            android:layout_height="12dp"
+		            android:layout_marginLeft="10dp"
+		            android:src="@drawable/knowledge_point_1" />
+            </LinearLayout>
+            
+             <!--分割线  -->
+            <View 
+                android:id="@+id/vdivide1"
+                android:layout_width="0.1dp"
+                android:layout_height="32dp"
+                android:background="@color/textGray"
+                android:layout_gravity="center_vertical"
+                android:visibility="visible"/>
+            
+            <!--关注班级  -->
+            <LinearLayout 
+                android:id="@+id/llCaredClass"
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:orientation="horizontal"
+			    android:gravity="center"
+			    android:background="@color/white" >		    
+			   
+			   
+                
+			    <TextView
+		            android:id="@+id/tvCaredClass" 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"		           
+		           
+		            android:text="关注班级"
+		            android:textSize="16sp"
+		            android:textColor="#3E3E3E" />	
+		            
+			    <ImageView
+		            android:id="@+id/ivCaredClass" 
+		            android:layout_width="11.67dp"
+		            android:layout_height="6.33dp"
+		            android:layout_marginLeft="8dp"
+		            android:src="@drawable/item_task_result_b" />         	    
+	        </LinearLayout>	 
+	        
+            <!--分割线  -->
+            <View 
+                android:id="@+id/vdivide2"
+                android:layout_width="0.1dp"
+                android:layout_height="32dp"
+                android:background="@color/textGray"
+                android:layout_gravity="center_vertical"
+                android:visibility="visible"/>
+            
+            <!--知识点掌握度  -->
+	        <LinearLayout 
+		        android:id="@+id/llKnowledgePoint"
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:orientation="horizontal"
+			    android:gravity="center"
+			    android:background="@color/white" >
+		    
+			    
+			    
+			    <TextView
+		            android:id="@+id/tvKnowledgePoint" 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"		           
+		            android:layout_marginLeft="8dp"
+		            android:text="知识点明细"
+		            android:textSize="16sp"
+		            android:textColor="#3E3E3E" />		    
+	       </LinearLayout>	
+        </LinearLayout>
+        
+        <!--分割线  -->
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/textGray"/>
+        
+         
+    </LinearLayout>
+    
+    <!--科目选择、时间节点、时间查看、概述界面  -->
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        
+        <!--概述界面  -->
+        <ListView 
+            android:id="@+id/lvKnowledgePoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="8dp"
+            android:divider="@color/light_gray">            
+        </ListView>
+            
+        <!-- 科目选择界面 -->
+        <LinearLayout
+    	    android:id="@+id/llChooseSubject" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#1E000000"
+    	    android:visibility="gone">
+    	    <ListView
+		        android:id="@+id/lvChooseSubject"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="8dp"
+		        android:background="#FFFFFF"
+		        android:divider="#FFFFFF" >        
+    		</ListView>
+    	</LinearLayout>  
+    	
+        <!-- 时间节点选择 -->
+	    <LinearLayout
+    	    android:id="@+id/llChooseTimeType" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#1E000000"
+    	    android:visibility="gone">
+    	    <ListView
+		        android:id="@+id/lvChooseTimeType"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="8dp"
+		        android:background="#FFFFFF"
+		        android:divider="#FFFFFF" >        
+    		</ListView>
+    	</LinearLayout>
+    	
+	    <!-- 日历界面 -->
+    	<LinearLayout
+    	    android:id="@+id/llChooseDate" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#FFFFFF"
+    	    android:visibility="gone">
+    	    <include layout="@layout/calendar_for_knowledge_point"/>
+    	</LinearLayout>
+    	
+    	<!-- 选择周、月 -->
+	    <LinearLayout
+    	    android:id="@+id/llChooseWeekOrMonth" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#1E000000"
+    	    android:visibility="gone">
+    	    <ListView
+		        android:id="@+id/lvChooseWeekOrMonth"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="8dp"
+		        android:background="#FFFFFF"
+		        android:divider="#FFFFFF" >        
+    		</ListView>
+    	</LinearLayout>
+    	<LinearLayout 
+    	    android:id="@+id/llChooseCaredClass" 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:orientation="vertical"
+    	    android:background="#1E000000"
+    	    android:visibility="gone">
+    	    
+    	    <ListView
+		        android:id="@+id/lvChooseCaredClass"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="8dp"
+		        android:background="#FFFFFF"
+		        android:divider="#FFFFFF" >        
+    		</ListView>
+    	</LinearLayout>
+    </FrameLayout>
+    
+</LinearLayout>

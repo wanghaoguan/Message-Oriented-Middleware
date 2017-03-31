@@ -1,0 +1,271 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical" 
+    android:background="@color/textWhite">
+
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+    
+    <!-- 下面是主界面顶部部分 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/main_view_linearlayout_frame" >
+
+        <LinearLayout
+            android:id="@+id/testRanking_chinese_layout"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="@color/textWhite"
+            android:layout_weight="1"
+            android:gravity="center">
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center">
+                
+                <ImageView
+	                android:id="@+id/chinese_image"
+	                android:layout_width="38dp"
+	                android:layout_height="40dp"
+	                android:background="@drawable/chinese_pre" />
+	            <TextView
+	                android:id="@+id/chinese_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:text="语文"
+	                android:textColor="@color/textGreen"
+	                android:textSize="20sp" />
+            </LinearLayout>
+            <ImageView 
+                android:id="@+id/chinese_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/textGreen"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/testRanking_math_layout"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="@color/main_center_bg"
+            android:layout_weight="1">
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                
+                <ImageView
+	                android:id="@+id/math_image"
+	                android:layout_width="38dp"
+	                android:layout_height="40dp"
+	                android:background="@drawable/math" />
+	            <TextView
+	                android:id="@+id/math_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:text="数学"
+	                android:textColor="@color/textGray"
+	                android:textSize="20sp" />
+            </LinearLayout>
+            <ImageView 
+                android:id="@+id/math_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/main_center_bg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/testRanking_english_layout"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="@color/main_center_bg"
+            android:layout_weight="1"
+            android:gravity="center">
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+                
+                <ImageView
+	                android:id="@+id/english_image"
+	                android:layout_width="38dp"
+	                android:layout_height="40dp"
+	                android:background="@drawable/english" />
+	            <TextView
+	                android:id="@+id/english_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:text="英语"
+	                android:textColor="@color/textGray"
+	                android:textSize="20sp" />
+            </LinearLayout>
+            <ImageView 
+                android:id="@+id/english_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/main_center_bg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+        </LinearLayout>        
+    </LinearLayout>
+    
+    <!-- 中间部分的点击按钮 -->
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        
+        <ImageView 
+            android:id="@+id/select_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/select"/>
+        
+    </LinearLayout>
+    
+    <!-- 下半部分的按条件查询 -->
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/textGray"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical">
+        
+        <!-- 以下是选择的条件 -->
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">           
+            <TextView 
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="时间类型:"
+                android:textSize="23sp"
+                android:textColor="@color/textGray"               
+                android:gravity="center"/>
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:gravity="center">
+                <TextView 
+                    android:id="@+id/testRanking_stopweek_textview"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btn_circle_green"
+                    android:text="截止"
+                    android:textSize="15sp"
+                    android:textColor="@color/textWhite"
+                    android:gravity="center"/>
+            </LinearLayout>  
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:gravity="center">               
+                <TextView 
+                    android:id="@+id/testRanking_test_textview"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btn_circle_gray"
+                    android:text="考试"
+                    android:textSize="15sp"
+                    android:textColor="@color/textGray"
+                    android:gravity="center"/>               
+            </LinearLayout>         
+        </LinearLayout>
+        <ImageView 
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="@color/textGray"/>
+        
+        
+        <!--  下面是时间选择  具体的值 -->
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center">
+
+            <!-- 周设置  手滑动 -->
+            <LinearLayout 
+                android:id="@+id/weekStop_layout"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第"
+                    android:textColor="@color/textGray"
+                    android:textSize="23sp"/>
+                <DatePicker
+			        android:id="@+id/weekStopPicker"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:calendarViewShown="false"
+			        android:startYear="1"
+			        android:endYear="50"/>
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周"
+                    android:textColor="@color/textGray"
+                    android:textSize="23sp"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:id="@+id/test_layout"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                
+            </LinearLayout>
+                       
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

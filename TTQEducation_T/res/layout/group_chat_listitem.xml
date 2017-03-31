@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 发送消息时会显示的信息 -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#f0f0f0" >
+    
+    <TextView 
+	        android:id="@+id/time_textView"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="12:23"
+	        android:textColor="@color/textGray"
+	        android:textSize="14sp"/>
+    
+    <RelativeLayout 
+        android:id="@+id/layout_me"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="#f0f0f0" 
+	    android:paddingLeft="40dp"
+	    android:paddingRight="8dp"
+	    android:paddingBottom="20dp"
+	    android:paddingTop="4dp">
+	    	        
+	    <ImageView 
+	        android:id="@+id/image_me"
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:layout_marginLeft="5dp"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/parent"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/image_me"
+	        android:layout_alignTop="@id/image_me"
+	        android:paddingTop="12dp"
+	        android:paddingBottom="12dp"
+	        android:background="@drawable/balloon_back_right">	        
+	        <TextView 
+		        android:id="@+id/sendInfo_textView"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="会忽悠了gyughiulhlluihui过"
+		        android:textSize="15sp"
+		        android:textColor="@color/textBlack"
+		        />	        
+	    </LinearLayout>
+	    	    
+	</RelativeLayout>
+	
+    <RelativeLayout
+        android:id="@+id/layout_other"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#f0f0f0" 
+	    android:paddingRight="40dp"
+	    android:paddingLeft="8dp"
+	    android:paddingBottom="20dp"
+	    android:paddingTop="4dp">
+	     
+	    <ImageView 
+	        android:id="@+id/image_other"
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:layout_marginRight="5dp"
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/teacher"/>
+	    <TextView 
+	        android:id="@+id/otherName_textView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/image_other"
+	        android:layout_alignTop="@id/image_other"
+	        android:text="王小二"/>
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/image_other"
+	        android:layout_below="@id/otherName_textView"
+	        android:paddingTop="12dp"
+	        android:paddingBottom="12dp"
+	        android:background="@drawable/balloon_back_left">
+	        <TextView   
+		        android:id="@+id/recieveInfo_textView"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+		        android:text="hewdfb"
+		        android:textSize="15sp"
+		        android:textColor="@color/textBlack"		        
+		        />
+	    </LinearLayout>
+	    
+	    
+	</RelativeLayout>
+    
+    
+</LinearLayout>

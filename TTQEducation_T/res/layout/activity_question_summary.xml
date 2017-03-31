@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/action_bar"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">  
+              
+        <EditText 
+            android:id="@+id/etSummary"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:scrollbars="vertical"
+            android:textSize="14sp"
+            android:background="@drawable/linearlayout_frame_circle"
+            android:textColor="#3E3E3E"/>
+        
+        <LinearLayout 
+            android:id="@+id/llOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/linearlayout_frame_circle_background_blue"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">  
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+	            android:layout_marginRight="20dp"
+	            android:layout_marginTop="10dp"
+	            android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/textWhite"
+                android:text="确定"/>          
+        </LinearLayout>
+    </LinearLayout>
+        "
+
+</LinearLayout>

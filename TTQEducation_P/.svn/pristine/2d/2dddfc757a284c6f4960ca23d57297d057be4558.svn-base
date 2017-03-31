@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/launch_bg">
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="湖南堂堂清教育科技有限公司"
+        android:textSize="12sp"
+        android:textColor="@color/textWhite"/>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="www.hnttq.com"
+        android:textSize="12sp"
+        android:textColor="@color/textWhite"/>
+     
+</LinearLayout>

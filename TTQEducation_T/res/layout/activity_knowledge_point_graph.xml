@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/light_gray">
+    
+	<!--action bar  -->
+	<include 
+	    android:id="@id/action_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/action_bar"
+	    />
+	
+	<!--用于月查询时单科全科间的切换  -->
+	<LinearLayout 
+	    android:id="@+id/llChartCurveTypeByMonth"
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginBottom="8dp"
+	    android:background="@color/light_gray"
+	    android:visibility="gone">
+	    
+	    <!--单科目  -->
+	    <LinearLayout 
+	        android:id="@+id/llSingleSubject"
+	        android:layout_width="0dp"
+	        android:layout_height="30dp"
+	        android:layout_weight="1"
+	        android:orientation="vertical"
+	        android:background="@color/light_gray"
+	        android:layout_marginLeft="16dp"
+	        android:gravity="center">
+	        
+	        <LinearLayout 
+	            android:id="@+id/llSingleSubjectImage"
+	            android:layout_width="match_parent"
+	            android:layout_height="28dp"
+	            android:orientation="horizontal"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:gravity="center"
+	            android:background="@drawable/btn_circle_red_round">
+	            
+	            <TextView
+	                android:id="@+id/tvSingleSubjectText"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="单科目"
+	                android:textColor="@color/textWhite"
+	                android:textSize="20sp"
+	                android:textStyle="bold"/>"
+	        </LinearLayout>
+	    </LinearLayout>
+	    
+	     <!--全科目  -->
+	    <LinearLayout 
+	        android:id="@+id/llAllSubject"
+	        android:layout_width="0dp"
+	        android:layout_height="30dp"
+	        android:layout_weight="1"
+	        android:orientation="vertical"
+	        android:background="@color/light_gray"
+	        android:layout_marginLeft="16dp"
+	        android:gravity="center">
+	        
+	        <LinearLayout 
+	            android:id="@+id/llAllSubjectImage"
+	            android:layout_width="match_parent"
+	            android:layout_height="28dp"
+	            android:orientation="horizontal"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:gravity="center" >
+	            
+	            <TextView
+	                android:id="@+id/tvAllSubjectText"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="全科目"
+	                android:textColor="@color/textGray"
+	                android:textSize="20sp"
+	                android:textStyle="bold"/>
+	        </LinearLayout>
+	    </LinearLayout>	    
+	</LinearLayout>
+	
+	<!--暂无数据  -->
+    <LinearLayout  
+        android:id="@+id/llNoData"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:orientation="horizontal"
+        android:visibility="gone">	    
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:text="暂无数据"
+            android:textSize="20sp"/>
+    </LinearLayout>
+	
+	<RelativeLayout 
+	    android:id="@+id/chart_line_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="320dp"
+	    android:background="@color/light_gray">	    
+	</RelativeLayout>
+</LinearLayout>

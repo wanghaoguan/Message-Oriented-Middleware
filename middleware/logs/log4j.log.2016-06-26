@@ -1,0 +1,508 @@
+16:34:06,332 DEBUG LogFactory:115 : Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 16:34:06,364 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 16:34:06,365 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 16:34:06,365 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 16:34:06,366 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 16:34:06,531 DEBUG JdbcTransaction:129 : Opening JDBC Connection
+ 16:34:06,793  INFO DBOperationImpl:91 : failed to select message max ID
+ 16:34:06,818 DEBUG InternalLoggerFactory:45 : Using Log4J as the default logging framework
+ 16:34:06,826 DEBUG MultithreadEventLoopGroup:43 : -Dio.netty.eventLoopThreads: 8
+ 16:34:06,864 DEBUG NioEventLoop:88 : -Dio.netty.noKeySetOptimization: false
+ 16:34:06,864 DEBUG NioEventLoop:89 : -Dio.netty.selectorAutoRebuildThreshold: 512
+ 16:34:06,960 DEBUG PlatformDependent:317 : Platform: Windows
+ 16:34:06,961 DEBUG PlatformDependent:447 : Java version: 7
+ 16:34:06,961 DEBUG PlatformDependent:454 : -Dio.netty.noUnsafe: false
+ 16:34:06,964 DEBUG PlatformDependent0:61 : java.nio.ByteBuffer.cleaner: available
+ 16:34:06,965 DEBUG PlatformDependent0:80 : java.nio.Buffer.address: available
+ 16:34:06,968 DEBUG PlatformDependent0:88 : sun.misc.Unsafe.theUnsafe: available
+ 16:34:06,968 DEBUG PlatformDependent0:98 : sun.misc.Unsafe.copyMemory: available
+ 16:34:06,969 DEBUG PlatformDependent0:138 : java.nio.Bits.unaligned: true
+ 16:34:06,969 DEBUG PlatformDependent:481 : sun.misc.Unsafe: available
+ 16:34:06,970 DEBUG PlatformDependent:559 : -Dio.netty.noJavassist: false
+ 16:34:06,972 DEBUG PlatformDependent:571 : Javassist: unavailable
+ 16:34:06,972 DEBUG PlatformDependent:572 : You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ 16:34:06,972 DEBUG PlatformDependent:76 : -Dio.netty.noPreferDirect: false
+ 16:34:06,973 DEBUG PooledByteBufAllocator:79 : -Dio.netty.allocator.numHeapArenas: 4
+ 16:34:06,973 DEBUG PooledByteBufAllocator:80 : -Dio.netty.allocator.numDirectArenas: 4
+ 16:34:06,973 DEBUG PooledByteBufAllocator:82 : -Dio.netty.allocator.pageSize: 8192
+ 16:34:06,974 DEBUG PooledByteBufAllocator:87 : -Dio.netty.allocator.maxOrder: 11
+ 16:34:06,974 DEBUG PooledByteBufAllocator:91 : -Dio.netty.allocator.chunkSize: 16777216
+ 16:34:07,306 DEBUG DefaultChannelId:75 : -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ 16:34:07,319 DEBUG DefaultChannelId:101 : -Dio.netty.processId: 14236 (auto-detected)
+ 16:34:07,362 DEBUG ThreadLocalRandom:138 : -Dio.netty.initialSeedUniquifier: 0xf40838f949869eca
+ 16:34:07,372 DEBUG ChannelOutboundBuffer:55 : -Dio.netty.threadLocalDirectBufferSize: 65536
+ 16:34:07,506 DEBUG NetUtil:100 : Loopback interface: Software Loopback Interface 1
+ 16:34:07,506 DEBUG NetUtil:105 : Loopback address: /127.0.0.1 (primary)
+ 16:34:07,507 DEBUG NetUtil:108 : Loopback address: /0:0:0:0:0:0:0:1
+ 16:34:07,528  INFO LoggingHandler:150 : [id: 0x6a44a7a7] REGISTERED
+ 16:34:07,534  INFO LoggingHandler:150 : [id: 0x6a44a7a7] BIND: /115.29.161.214:9050
+ 16:34:07,538  INFO Server:98 : ip:115.29.161.214 port:9050 starts running
+ 16:34:07,541  INFO LoggingHandler:150 : [id: 0x6a44a7a7, /115.29.161.214:9050] ACTIVE
+ 16:34:08,200  INFO LoggingHandler:150 : [id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x8d17c05c, /218.76.28.42:35776 => /115.29.161.214:9050]
+ 16:34:08,223 DEBUG ResourceLeakDetector:79 : -Dio.netty.leakDetectionLevel: simple
+ 16:34:08,263  INFO MessageDecoder:25 : push server has received the message
+ 16:34:08,273  INFO AndroidLogin:158 : 410006001S20150001: has logined sucessfully push server
+ 16:34:08,366  INFO InitCache:62 : init message cache successfully
+ 16:34:08,907  INFO InitCache:45 : init offline user cache successfully
+ 16:34:10,158  INFO LoggingHandler:150 : [id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0xa4c47082, /218.76.28.42:43242 => /115.29.161.214:9050]
+ 16:34:10,165  INFO MessageDecoder:25 : push server has received the message
+ 16:34:10,168  INFO AndroidLogin:89 : 410006001S20150001 has reconnected the push server
+ 16:34:10,171  INFO MessageDecoder:25 : push server has received the message
+ 16:34:10,172 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:34:10,195  INFO MessageDecoder:25 : push server has received the message
+ 16:34:10,196 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:34:10,197 ERROR ServerHandler:93 : 410006001S20150001 user is exception  and is closed connection by server
+ 16:34:13,167  INFO LoggingHandler:150 : [id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x753c60ff, /218.76.28.42:37163 => /115.29.161.214:9050]
+ 16:34:13,170  INFO MessageDecoder:25 : push server has received the message
+ 16:34:13,172  INFO AndroidLogin:158 : 410006001S20150001: has logined sucessfully push server
+ 16:34:14,231  INFO LoggingHandler:150 : [id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x7c50656a, /218.76.28.42:34925 => /115.29.161.214:9050]
+ 16:34:14,260  INFO MessageDecoder:25 : push server has received the message
+ 16:34:14,263  INFO AndroidLogin:89 : 410006001S20150001 has reconnected the push server
+ 16:34:14,264  INFO MessageDecoder:25 : push server has received the message
+ 16:34:14,265 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:34:14,288  INFO MessageDecoder:25 : push server has received the message
+ 16:34:14,289 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:34:14,289 ERROR ServerHandler:93 : 410006001S20150001 user is exception  and is closed connection by server
+ 16:34:23,170  INFO LoggingHandler:150 : [id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x8dfebbc2, /218.76.28.42:41507 => /115.29.161.214:9050]
+ 16:34:23,173  INFO MessageDecoder:25 : push server has received the message
+ 16:34:23,174  INFO AndroidLogin:158 : 410006001S20150001: has logined sucessfully push server
+ 16:34:23,688  INFO LoggingHandler:150 : [id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0xf0cdf1a4, /218.76.28.42:34397 => /115.29.161.214:9050]
+ 16:34:23,690  INFO MessageDecoder:25 : push server has received the message
+ 16:34:23,691  INFO AndroidLogin:89 : 410006001S20150001 has reconnected the push server
+ 16:34:23,692  INFO MessageDecoder:25 : push server has received the message
+ 16:34:23,693 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:34:33,157  INFO LoggingHandler:150 : [id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x8da94284, /218.76.28.42:56891 => /115.29.161.214:9050]
+ 16:34:33,159  INFO MessageDecoder:25 : push server has received the message
+ 16:34:33,161  INFO AndroidLogin:89 : 410006001S20150001 has reconnected the push server
+ 16:34:33,162  INFO MessageDecoder:25 : push server has received the message
+ 16:34:33,162 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:34:33,163 ERROR ServerHandler:93 : 410006001S20150001 user is exception  and is closed connection by server
+ 16:34:38,433  INFO LoggingHandler:150 : [id: 0x6a44a7a7, /115.29.161.214:9050] RECEIVED: [id: 0x64b94056, /218.76.28.42:19363 => /115.29.161.214:9050]
+ 16:34:38,435  INFO MessageDecoder:25 : push server has received the message
+ 16:34:40,448  INFO MessageDecoder:25 : push server has received the message
+ 16:34:40,448 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:34:40,449 ERROR ServerHandler:104 : push complete, and close the connection
+ 16:34:43,144  INFO MessageDecoder:25 : push server has received the message
+ 16:34:43,146 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:34:43,146 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:35:03,144  INFO MessageDecoder:25 : push server has received the message
+ 16:35:03,145 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:35:03,146 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:35:23,144  INFO MessageDecoder:25 : push server has received the message
+ 16:35:23,145 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:35:23,146 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:35:43,144  INFO MessageDecoder:25 : push server has received the message
+ 16:35:43,145 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:35:43,145 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:36:03,147  INFO MessageDecoder:25 : push server has received the message
+ 16:36:03,148 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:36:03,148 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:36:24,549  INFO MessageDecoder:25 : push server has received the message
+ 16:36:24,550 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:36:24,550 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:36:43,144  INFO MessageDecoder:25 : push server has received the message
+ 16:36:43,146 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:36:43,146 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:37:03,146  INFO MessageDecoder:25 : push server has received the message
+ 16:37:03,148 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:37:03,148 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:37:23,144  INFO MessageDecoder:25 : push server has received the message
+ 16:37:23,146 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:37:23,146 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:37:43,144  INFO MessageDecoder:25 : push server has received the message
+ 16:37:43,146 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:37:43,146 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:38:03,137  INFO MessageDecoder:25 : push server has received the message
+ 16:38:03,139 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:38:03,139 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:38:23,143  INFO MessageDecoder:25 : push server has received the message
+ 16:38:23,144 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:38:23,144 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:42:01,467 DEBUG LogFactory:115 : Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 16:42:01,498 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 16:42:01,498 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 16:42:01,499 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 16:42:01,499 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 16:42:01,657 DEBUG JdbcTransaction:129 : Opening JDBC Connection
+ 16:42:01,935  INFO DBOperationImpl:91 : failed to select message max ID
+ 16:42:01,969 DEBUG InternalLoggerFactory:45 : Using Log4J as the default logging framework
+ 16:42:01,977 DEBUG MultithreadEventLoopGroup:43 : -Dio.netty.eventLoopThreads: 8
+ 16:42:02,019 DEBUG NioEventLoop:88 : -Dio.netty.noKeySetOptimization: false
+ 16:42:02,020 DEBUG NioEventLoop:89 : -Dio.netty.selectorAutoRebuildThreshold: 512
+ 16:42:02,128 DEBUG PlatformDependent:317 : Platform: Windows
+ 16:42:02,129 DEBUG PlatformDependent:447 : Java version: 7
+ 16:42:02,129 DEBUG PlatformDependent:454 : -Dio.netty.noUnsafe: false
+ 16:42:02,132 DEBUG PlatformDependent0:61 : java.nio.ByteBuffer.cleaner: available
+ 16:42:02,133 DEBUG PlatformDependent0:80 : java.nio.Buffer.address: available
+ 16:42:02,136 DEBUG PlatformDependent0:88 : sun.misc.Unsafe.theUnsafe: available
+ 16:42:02,137 DEBUG PlatformDependent0:98 : sun.misc.Unsafe.copyMemory: available
+ 16:42:02,138 DEBUG PlatformDependent0:138 : java.nio.Bits.unaligned: true
+ 16:42:02,138 DEBUG PlatformDependent:481 : sun.misc.Unsafe: available
+ 16:42:02,138 DEBUG PlatformDependent:559 : -Dio.netty.noJavassist: false
+ 16:42:02,140 DEBUG PlatformDependent:571 : Javassist: unavailable
+ 16:42:02,141 DEBUG PlatformDependent:572 : You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ 16:42:02,141 DEBUG PlatformDependent:76 : -Dio.netty.noPreferDirect: false
+ 16:42:02,141 DEBUG PooledByteBufAllocator:79 : -Dio.netty.allocator.numHeapArenas: 4
+ 16:42:02,141 DEBUG PooledByteBufAllocator:80 : -Dio.netty.allocator.numDirectArenas: 4
+ 16:42:02,142 DEBUG PooledByteBufAllocator:82 : -Dio.netty.allocator.pageSize: 8192
+ 16:42:02,142 DEBUG PooledByteBufAllocator:87 : -Dio.netty.allocator.maxOrder: 11
+ 16:42:02,142 DEBUG PooledByteBufAllocator:91 : -Dio.netty.allocator.chunkSize: 16777216
+ 16:42:02,520 DEBUG DefaultChannelId:75 : -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ 16:42:02,524 DEBUG DefaultChannelId:101 : -Dio.netty.processId: 6776 (auto-detected)
+ 16:42:02,529 DEBUG ThreadLocalRandom:138 : -Dio.netty.initialSeedUniquifier: 0x1e29607102e5b677
+ 16:42:02,539 DEBUG ChannelOutboundBuffer:55 : -Dio.netty.threadLocalDirectBufferSize: 65536
+ 16:42:02,685 DEBUG NetUtil:100 : Loopback interface: Software Loopback Interface 1
+ 16:42:02,685  INFO InitCache:62 : init message cache successfully
+ 16:42:02,685 DEBUG NetUtil:105 : Loopback address: /127.0.0.1 (primary)
+ 16:42:02,686 DEBUG NetUtil:108 : Loopback address: /0:0:0:0:0:0:0:1
+ 16:42:02,703  INFO LoggingHandler:150 : [id: 0x2a50de1d] REGISTERED
+ 16:42:02,708  INFO LoggingHandler:150 : [id: 0x2a50de1d] BIND: /115.29.161.214:9050
+ 16:42:02,713  INFO Server:98 : ip:115.29.161.214 port:9050 starts running
+ 16:42:02,715  INFO LoggingHandler:150 : [id: 0x2a50de1d, /115.29.161.214:9050] ACTIVE
+ 16:42:03,216  INFO LoggingHandler:150 : [id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x1685836b, /218.76.28.42:36259 => /115.29.161.214:9050]
+ 16:42:03,239 DEBUG ResourceLeakDetector:79 : -Dio.netty.leakDetectionLevel: simple
+ 16:42:03,282  INFO InitCache:45 : init offline user cache successfully
+ 16:42:03,283  INFO MessageDecoder:25 : push server has received the message
+ 16:42:03,298  INFO AndroidLogin:158 : 410006001S20150001: has logined sucessfully push server
+ 16:42:04,279  INFO LoggingHandler:150 : [id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x1c0fe5ee, /218.76.28.42:57482 => /115.29.161.214:9050]
+ 16:42:04,285  INFO MessageDecoder:25 : push server has received the message
+ 16:42:04,287  INFO AndroidLogin:89 : 410006001S20150001 has reconnected the push server
+ 16:42:04,291  INFO MessageDecoder:25 : push server has received the message
+ 16:42:04,292 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:42:04,310  INFO MessageDecoder:25 : push server has received the message
+ 16:42:04,311 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:42:04,311 ERROR ServerHandler:93 : 410006001S20150001 user is exception  and is closed connection by server
+ 16:42:06,320  INFO LoggingHandler:150 : [id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x2fce7665, /218.76.28.42:45679 => /115.29.161.214:9050]
+ 16:42:06,338  INFO MessageDecoder:25 : push server has received the message
+ 16:42:06,342  INFO AndroidLogin:158 : 410006001S20150001: has logined sucessfully push server
+ 16:42:08,238  INFO LoggingHandler:150 : [id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x2d9f9e9b, /218.76.28.42:37547 => /115.29.161.214:9050]
+ 16:42:08,264  INFO MessageDecoder:25 : push server has received the message
+ 16:42:08,270  INFO AndroidLogin:89 : 410006001S20150001 has reconnected the push server
+ 16:42:08,272  INFO MessageDecoder:25 : push server has received the message
+ 16:42:08,272 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:42:08,289  INFO MessageDecoder:25 : push server has received the message
+ 16:42:08,290 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:42:08,290 ERROR ServerHandler:93 : 410006001S20150001 user is exception  and is closed connection by server
+ 16:42:12,006  INFO LoggingHandler:150 : [id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x352c8050, /218.76.28.42:44055 => /115.29.161.214:9050]
+ 16:42:12,008  INFO MessageDecoder:25 : push server has received the message
+ 16:42:12,015  INFO AndroidLogin:158 : 410006001S20150001: has logined sucessfully push server
+ 16:42:21,987  INFO MessageDecoder:25 : push server has received the message
+ 16:42:21,988 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:42:21,988 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:42:37,391  INFO LoggingHandler:150 : [id: 0x2a50de1d, /115.29.161.214:9050] RECEIVED: [id: 0x962aed59, /218.76.28.42:63746 => /115.29.161.214:9050]
+ 16:42:37,394  INFO MessageDecoder:25 : push server has received the message
+ 16:42:41,986  INFO MessageDecoder:25 : push server has received the message
+ 16:42:41,988 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:42:41,988 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:43:01,987  INFO MessageDecoder:25 : push server has received the message
+ 16:43:01,988 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:43:01,989 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:43:21,987  INFO MessageDecoder:25 : push server has received the message
+ 16:43:21,989 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:43:21,989 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:43:37,396  INFO HeartBeat:68 : the user ID is null,so it is a short link
+ 16:43:37,396  INFO MessageDecoder:25 : push server has received the message
+ 16:43:37,397 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:43:41,987  INFO MessageDecoder:25 : push server has received the message
+ 16:43:41,988 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:43:41,989 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:44:01,988  INFO MessageDecoder:25 : push server has received the message
+ 16:44:01,989 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:44:01,990 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 16:44:15,014  INFO MessageDecoder:25 : push server has received the message
+ 16:44:15,015 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 16:44:15,016 ERROR ServerHandler:93 : 410006001S20150001 user is exception  and is closed connection by server
+ 17:10:12,595 DEBUG LogFactory:115 : Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 17:10:12,620 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 17:10:12,652 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 17:10:12,653 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 17:10:12,653 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 17:10:12,821 DEBUG JdbcTransaction:129 : Opening JDBC Connection
+ 17:10:13,104  INFO DBOperationImpl:91 : failed to select message max ID
+ 17:10:13,126 DEBUG InternalLoggerFactory:45 : Using Log4J as the default logging framework
+ 17:10:13,133 DEBUG MultithreadEventLoopGroup:43 : -Dio.netty.eventLoopThreads: 8
+ 17:10:13,169 DEBUG NioEventLoop:88 : -Dio.netty.noKeySetOptimization: false
+ 17:10:13,170 DEBUG NioEventLoop:89 : -Dio.netty.selectorAutoRebuildThreshold: 512
+ 17:10:13,264 DEBUG PlatformDependent:317 : Platform: Windows
+ 17:10:13,266 DEBUG PlatformDependent:447 : Java version: 7
+ 17:10:13,266 DEBUG PlatformDependent:454 : -Dio.netty.noUnsafe: false
+ 17:10:13,268 DEBUG PlatformDependent0:61 : java.nio.ByteBuffer.cleaner: available
+ 17:10:13,269 DEBUG PlatformDependent0:80 : java.nio.Buffer.address: available
+ 17:10:13,272 DEBUG PlatformDependent0:88 : sun.misc.Unsafe.theUnsafe: available
+ 17:10:13,273 DEBUG PlatformDependent0:98 : sun.misc.Unsafe.copyMemory: available
+ 17:10:13,273 DEBUG PlatformDependent0:138 : java.nio.Bits.unaligned: true
+ 17:10:13,274 DEBUG PlatformDependent:481 : sun.misc.Unsafe: available
+ 17:10:13,274 DEBUG PlatformDependent:559 : -Dio.netty.noJavassist: false
+ 17:10:13,275 DEBUG PlatformDependent:571 : Javassist: unavailable
+ 17:10:13,276 DEBUG PlatformDependent:572 : You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ 17:10:13,276 DEBUG PlatformDependent:76 : -Dio.netty.noPreferDirect: false
+ 17:10:13,276 DEBUG PooledByteBufAllocator:79 : -Dio.netty.allocator.numHeapArenas: 4
+ 17:10:13,277 DEBUG PooledByteBufAllocator:80 : -Dio.netty.allocator.numDirectArenas: 4
+ 17:10:13,277 DEBUG PooledByteBufAllocator:82 : -Dio.netty.allocator.pageSize: 8192
+ 17:10:13,277 DEBUG PooledByteBufAllocator:87 : -Dio.netty.allocator.maxOrder: 11
+ 17:10:13,277 DEBUG PooledByteBufAllocator:91 : -Dio.netty.allocator.chunkSize: 16777216
+ 17:10:13,609 DEBUG DefaultChannelId:75 : -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ 17:10:13,625 DEBUG DefaultChannelId:101 : -Dio.netty.processId: 18372 (auto-detected)
+ 17:10:13,681 DEBUG ThreadLocalRandom:138 : -Dio.netty.initialSeedUniquifier: 0x3d6bbddc68d5788d
+ 17:10:13,692 DEBUG ChannelOutboundBuffer:55 : -Dio.netty.threadLocalDirectBufferSize: 65536
+ 17:10:13,818 DEBUG NetUtil:100 : Loopback interface: Software Loopback Interface 1
+ 17:10:13,819 DEBUG NetUtil:105 : Loopback address: /127.0.0.1 (primary)
+ 17:10:13,820 DEBUG NetUtil:108 : Loopback address: /0:0:0:0:0:0:0:1
+ 17:10:13,837  INFO LoggingHandler:150 : [id: 0x90c03fc5] REGISTERED
+ 17:10:13,842  INFO LoggingHandler:150 : [id: 0x90c03fc5] BIND: /115.29.161.214:9050
+ 17:10:13,847  INFO Server:98 : ip:115.29.161.214 port:9050 starts running
+ 17:10:13,849  INFO LoggingHandler:150 : [id: 0x90c03fc5, /115.29.161.214:9050] ACTIVE
+ 17:10:14,667  INFO InitCache:62 : init message cache successfully
+ 17:10:15,249  INFO InitCache:45 : init offline user cache successfully
+ 17:11:04,646  INFO LoggingHandler:150 : [id: 0x90c03fc5, /115.29.161.214:9050] RECEIVED: [id: 0x7e53d80b, /218.76.28.42:58854 => /115.29.161.214:9050]
+ 17:11:04,669 DEBUG ResourceLeakDetector:79 : -Dio.netty.leakDetectionLevel: simple
+ 17:11:04,711  INFO MessageDecoder:25 : push server has received the message
+ 17:11:04,754  INFO PushMessage:150 : 252 :message has pushed
+ 17:11:05,767  INFO MessageDecoder:25 : push server has received the message
+ 17:11:05,768 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 17:11:05,770 ERROR ServerHandler:104 : push complete, and close the connection
+ 17:11:18,596  INFO LoggingHandler:150 : [id: 0x90c03fc5, /115.29.161.214:9050] RECEIVED: [id: 0x8aaa2eb5, /218.76.28.42:41171 => /115.29.161.214:9050]
+ 17:11:18,603  INFO MessageDecoder:25 : push server has received the message
+ 17:11:18,608  INFO AndroidLogin:129 : 410006001S20150001:offline user has successfully logined push server
+ 17:11:28,575  INFO MessageDecoder:25 : push server has received the message
+ 17:11:28,577 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 17:11:28,577 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 17:11:34,287  INFO LoggingHandler:150 : [id: 0x90c03fc5, /115.29.161.214:9050] RECEIVED: [id: 0xc9401898, /218.76.28.42:64406 => /115.29.161.214:9050]
+ 17:11:34,307  INFO MessageDecoder:25 : push server has received the message
+ 17:11:34,311  INFO AndroidLogin:129 : 410006001T2015007:offline user has successfully logined push server
+ 17:11:40,671  INFO MessageDecoder:25 : push server has received the message
+ 17:11:40,671 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 17:11:40,672 ERROR ServerHandler:93 : 410006001T2015007 user is exception  and is closed connection by server
+ 17:11:48,587  INFO MessageDecoder:25 : push server has received the message
+ 17:11:48,588 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 17:11:48,588 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 17:12:08,588  INFO MessageDecoder:25 : push server has received the message
+ 17:12:08,589 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 17:12:08,590 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 17:12:19,056  INFO LoggingHandler:150 : [id: 0x90c03fc5, /115.29.161.214:9050] RECEIVED: [id: 0x6eaaade8, /218.76.28.42:38413 => /115.29.161.214:9050]
+ 17:12:19,058  INFO MessageDecoder:25 : push server has received the message
+ 17:12:19,060  INFO AndroidLogin:158 : 410006001T2015007: has logined sucessfully push server
+ 17:12:28,587  INFO MessageDecoder:25 : push server has received the message
+ 17:12:28,589 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 17:12:28,589 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 17:12:29,028  INFO MessageDecoder:25 : push server has received the message
+ 17:12:29,030 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 17:12:29,030 DEBUG DefaultChannelPipeline:1008 : Discarded inbound message Message [header=MessageHender [length=1, type=2], body=h] that reached at the tail of the pipeline. Please check your pipeline configuration.
+ 17:12:35,808  INFO LoggingHandler:150 : [id: 0x90c03fc5, /115.29.161.214:9050] RECEIVED: [id: 0x1bbca6a3, /218.76.28.42:33080 => /115.29.161.214:9050]
+ 17:12:35,816  INFO MessageDecoder:25 : push server has received the message
+ 17:12:35,827  INFO PushToAndroid:39 : android user------push server sends message:368$4$来自：章宽家长$你好...$410006001T2015007$ to the user:410006001S20150001
+ 17:12:35,828  INFO PushMessage:150 : 253 :message has pushed
+ 17:12:35,854  INFO MessageDecoder:25 : push server has received the message
+ 17:12:35,855 ERROR MessageDecoder:31 : the data from bytebuf is null
+ 17:12:35,855 ERROR ServerHandler:104 : push complete, and close the connection
+ 20:39:23,842 DEBUG LogFactory:115 : Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 20:39:23,869 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 20:39:23,870 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 20:39:23,870 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 20:39:23,871 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 20:39:24,023 DEBUG JdbcTransaction:129 : Opening JDBC Connection
+ 20:39:24,296  INFO DBOperationImpl:91 : failed to select message max ID
+ 20:39:24,322 DEBUG InternalLoggerFactory:45 : Using Log4J as the default logging framework
+ 20:39:24,329 DEBUG MultithreadEventLoopGroup:43 : -Dio.netty.eventLoopThreads: 8
+ 20:39:24,372 DEBUG NioEventLoop:88 : -Dio.netty.noKeySetOptimization: false
+ 20:39:24,372 DEBUG NioEventLoop:89 : -Dio.netty.selectorAutoRebuildThreshold: 512
+ 20:39:24,497 DEBUG PlatformDependent:317 : Platform: Windows
+ 20:39:24,499 DEBUG PlatformDependent:447 : Java version: 7
+ 20:39:24,499 DEBUG PlatformDependent:454 : -Dio.netty.noUnsafe: false
+ 20:39:24,502 DEBUG PlatformDependent0:61 : java.nio.ByteBuffer.cleaner: available
+ 20:39:24,502 DEBUG PlatformDependent0:80 : java.nio.Buffer.address: available
+ 20:39:24,505 DEBUG PlatformDependent0:88 : sun.misc.Unsafe.theUnsafe: available
+ 20:39:24,506 DEBUG PlatformDependent0:98 : sun.misc.Unsafe.copyMemory: available
+ 20:39:24,507 DEBUG PlatformDependent0:138 : java.nio.Bits.unaligned: true
+ 20:39:24,507 DEBUG PlatformDependent:481 : sun.misc.Unsafe: available
+ 20:39:24,508 DEBUG PlatformDependent:559 : -Dio.netty.noJavassist: false
+ 20:39:24,510 DEBUG PlatformDependent:571 : Javassist: unavailable
+ 20:39:24,510 DEBUG PlatformDependent:572 : You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ 20:39:24,510 DEBUG PlatformDependent:76 : -Dio.netty.noPreferDirect: false
+ 20:39:24,510 DEBUG PooledByteBufAllocator:79 : -Dio.netty.allocator.numHeapArenas: 4
+ 20:39:24,511 DEBUG PooledByteBufAllocator:80 : -Dio.netty.allocator.numDirectArenas: 4
+ 20:39:24,511 DEBUG PooledByteBufAllocator:82 : -Dio.netty.allocator.pageSize: 8192
+ 20:39:24,511 DEBUG PooledByteBufAllocator:87 : -Dio.netty.allocator.maxOrder: 11
+ 20:39:24,512 DEBUG PooledByteBufAllocator:91 : -Dio.netty.allocator.chunkSize: 16777216
+ 20:39:24,936 DEBUG DefaultChannelId:75 : -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ 20:39:24,940 DEBUG DefaultChannelId:101 : -Dio.netty.processId: 9124 (auto-detected)
+ 20:39:24,945 DEBUG ThreadLocalRandom:138 : -Dio.netty.initialSeedUniquifier: 0x03d0d5798eeb0ac1
+ 20:39:24,956 DEBUG ChannelOutboundBuffer:55 : -Dio.netty.threadLocalDirectBufferSize: 65536
+ 20:39:25,026  INFO InitCache:62 : init message cache successfully
+ 20:39:25,119 DEBUG NetUtil:100 : Loopback interface: Software Loopback Interface 1
+ 20:39:25,120 DEBUG NetUtil:105 : Loopback address: /127.0.0.1 (primary)
+ 20:39:25,120 DEBUG NetUtil:108 : Loopback address: /0:0:0:0:0:0:0:1
+ 20:39:25,152  INFO LoggingHandler:150 : [id: 0x06a3c5de] REGISTERED
+ 20:39:25,157  INFO LoggingHandler:150 : [id: 0x06a3c5de] BIND: /115.29.161.214:9050
+ 20:39:25,164  INFO LoggingHandler:150 : [id: 0x06a3c5de, /115.29.161.214:9050] ACTIVE
+ 20:39:25,164  INFO Server:98 : ip:115.29.161.214 port:9050 starts running
+ 20:39:25,597  INFO InitCache:45 : init offline user cache successfully
+ 20:43:13,342 DEBUG LogFactory:115 : Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 20:43:13,367 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 20:43:13,367 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 20:43:13,368 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 20:43:13,368 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 20:43:13,516 DEBUG JdbcTransaction:129 : Opening JDBC Connection
+ 20:43:13,780  INFO DBOperationImpl:91 : failed to select message max ID
+ 20:43:13,801 DEBUG InternalLoggerFactory:45 : Using Log4J as the default logging framework
+ 20:43:13,810 DEBUG MultithreadEventLoopGroup:43 : -Dio.netty.eventLoopThreads: 8
+ 20:43:13,846 DEBUG NioEventLoop:88 : -Dio.netty.noKeySetOptimization: false
+ 20:43:13,847 DEBUG NioEventLoop:89 : -Dio.netty.selectorAutoRebuildThreshold: 512
+ 20:43:13,952 DEBUG PlatformDependent:317 : Platform: Windows
+ 20:43:13,953 DEBUG PlatformDependent:447 : Java version: 7
+ 20:43:13,954 DEBUG PlatformDependent:454 : -Dio.netty.noUnsafe: false
+ 20:43:13,956 DEBUG PlatformDependent0:61 : java.nio.ByteBuffer.cleaner: available
+ 20:43:13,957 DEBUG PlatformDependent0:80 : java.nio.Buffer.address: available
+ 20:43:13,959 DEBUG PlatformDependent0:88 : sun.misc.Unsafe.theUnsafe: available
+ 20:43:13,961 DEBUG PlatformDependent0:98 : sun.misc.Unsafe.copyMemory: available
+ 20:43:13,961 DEBUG PlatformDependent0:138 : java.nio.Bits.unaligned: true
+ 20:43:13,962 DEBUG PlatformDependent:481 : sun.misc.Unsafe: available
+ 20:43:13,962 DEBUG PlatformDependent:559 : -Dio.netty.noJavassist: false
+ 20:43:13,964 DEBUG PlatformDependent:571 : Javassist: unavailable
+ 20:43:13,964 DEBUG PlatformDependent:572 : You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ 20:43:13,964 DEBUG PlatformDependent:76 : -Dio.netty.noPreferDirect: false
+ 20:43:13,965 DEBUG PooledByteBufAllocator:79 : -Dio.netty.allocator.numHeapArenas: 4
+ 20:43:13,965 DEBUG PooledByteBufAllocator:80 : -Dio.netty.allocator.numDirectArenas: 4
+ 20:43:13,965 DEBUG PooledByteBufAllocator:82 : -Dio.netty.allocator.pageSize: 8192
+ 20:43:13,965 DEBUG PooledByteBufAllocator:87 : -Dio.netty.allocator.maxOrder: 11
+ 20:43:13,966 DEBUG PooledByteBufAllocator:91 : -Dio.netty.allocator.chunkSize: 16777216
+ 20:43:14,362 DEBUG DefaultChannelId:75 : -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ 20:43:14,367 DEBUG DefaultChannelId:101 : -Dio.netty.processId: 8920 (auto-detected)
+ 20:43:14,372 DEBUG ThreadLocalRandom:138 : -Dio.netty.initialSeedUniquifier: 0x05eeed8d2af4d9c0
+ 20:43:14,383 DEBUG ChannelOutboundBuffer:55 : -Dio.netty.threadLocalDirectBufferSize: 65536
+ 20:43:14,473  INFO InitCache:62 : init message cache successfully
+ 20:43:14,534 DEBUG NetUtil:100 : Loopback interface: Software Loopback Interface 1
+ 20:43:14,535 DEBUG NetUtil:105 : Loopback address: /127.0.0.1 (primary)
+ 20:43:14,535 DEBUG NetUtil:108 : Loopback address: /0:0:0:0:0:0:0:1
+ 20:43:14,558  INFO LoggingHandler:150 : [id: 0xfb758e75] REGISTERED
+ 20:43:14,564  INFO LoggingHandler:150 : [id: 0xfb758e75] BIND: /115.29.161.214:9050
+ 20:43:14,571  INFO LoggingHandler:150 : [id: 0xfb758e75, /115.29.161.214:9050] ACTIVE
+ 20:43:14,573  INFO Server:98 : ip:115.29.161.214 port:9050 starts running
+ 20:43:15,014  INFO InitCache:45 : init offline user cache successfully
+ 21:49:04,396 DEBUG LogFactory:115 : Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 21:49:04,421 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 21:49:04,421 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 21:49:04,421 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 21:49:04,422 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 21:49:04,571 DEBUG JdbcTransaction:129 : Opening JDBC Connection
+ 21:49:04,841  INFO DBOperationImpl:91 : failed to select message max ID
+ 21:49:04,863 DEBUG InternalLoggerFactory:45 : Using Log4J as the default logging framework
+ 21:49:04,870 DEBUG MultithreadEventLoopGroup:43 : -Dio.netty.eventLoopThreads: 8
+ 21:49:04,909 DEBUG NioEventLoop:88 : -Dio.netty.noKeySetOptimization: false
+ 21:49:04,909 DEBUG NioEventLoop:89 : -Dio.netty.selectorAutoRebuildThreshold: 512
+ 21:49:05,019 DEBUG PlatformDependent:317 : Platform: Windows
+ 21:49:05,020 DEBUG PlatformDependent:447 : Java version: 7
+ 21:49:05,020 DEBUG PlatformDependent:454 : -Dio.netty.noUnsafe: false
+ 21:49:05,023 DEBUG PlatformDependent0:61 : java.nio.ByteBuffer.cleaner: available
+ 21:49:05,024 DEBUG PlatformDependent0:80 : java.nio.Buffer.address: available
+ 21:49:05,027 DEBUG PlatformDependent0:88 : sun.misc.Unsafe.theUnsafe: available
+ 21:49:05,028 DEBUG PlatformDependent0:98 : sun.misc.Unsafe.copyMemory: available
+ 21:49:05,029 DEBUG PlatformDependent0:138 : java.nio.Bits.unaligned: true
+ 21:49:05,029 DEBUG PlatformDependent:481 : sun.misc.Unsafe: available
+ 21:49:05,030 DEBUG PlatformDependent:559 : -Dio.netty.noJavassist: false
+ 21:49:05,031 DEBUG PlatformDependent:571 : Javassist: unavailable
+ 21:49:05,031 DEBUG PlatformDependent:572 : You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ 21:49:05,032 DEBUG PlatformDependent:76 : -Dio.netty.noPreferDirect: false
+ 21:49:05,032 DEBUG PooledByteBufAllocator:79 : -Dio.netty.allocator.numHeapArenas: 4
+ 21:49:05,032 DEBUG PooledByteBufAllocator:80 : -Dio.netty.allocator.numDirectArenas: 4
+ 21:49:05,032 DEBUG PooledByteBufAllocator:82 : -Dio.netty.allocator.pageSize: 8192
+ 21:49:05,032 DEBUG PooledByteBufAllocator:87 : -Dio.netty.allocator.maxOrder: 11
+ 21:49:05,032 DEBUG PooledByteBufAllocator:91 : -Dio.netty.allocator.chunkSize: 16777216
+ 21:49:05,429 DEBUG DefaultChannelId:75 : -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ 21:49:05,444 DEBUG DefaultChannelId:101 : -Dio.netty.processId: 928 (auto-detected)
+ 21:49:05,481 DEBUG ThreadLocalRandom:138 : -Dio.netty.initialSeedUniquifier: 0xc2fc53af600d871d
+ 21:49:05,491 DEBUG ChannelOutboundBuffer:55 : -Dio.netty.threadLocalDirectBufferSize: 65536
+ 21:49:05,634 DEBUG NetUtil:100 : Loopback interface: Software Loopback Interface 1
+ 21:49:05,635 DEBUG NetUtil:105 : Loopback address: /127.0.0.1 (primary)
+ 21:49:05,635 DEBUG NetUtil:108 : Loopback address: /0:0:0:0:0:0:0:1
+ 21:49:05,654  INFO LoggingHandler:150 : [id: 0x64a06212] REGISTERED
+ 21:49:05,659  INFO LoggingHandler:150 : [id: 0x64a06212] BIND: /115.29.161.214:9050
+ 21:49:05,663  INFO Server:98 : ip:115.29.161.214 port:9050 starts running
+ 21:49:05,666  INFO LoggingHandler:150 : [id: 0x64a06212, /115.29.161.214:9050] ACTIVE
+ 21:49:06,366  INFO InitCache:62 : init message cache successfully
+ 21:49:06,924  INFO InitCache:45 : init offline user cache successfully
+ 22:10:08,989 DEBUG LogFactory:115 : Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 22:10:09,013 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 22:10:09,014 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 22:10:09,014 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 22:10:09,014 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 22:10:09,167 DEBUG JdbcTransaction:129 : Opening JDBC Connection
+ 22:10:09,421  INFO DBOperationImpl:91 : failed to select message max ID
+ 22:10:09,443 DEBUG InternalLoggerFactory:45 : Using Log4J as the default logging framework
+ 22:10:09,450 DEBUG MultithreadEventLoopGroup:43 : -Dio.netty.eventLoopThreads: 8
+ 22:10:09,485 DEBUG NioEventLoop:88 : -Dio.netty.noKeySetOptimization: false
+ 22:10:09,486 DEBUG NioEventLoop:89 : -Dio.netty.selectorAutoRebuildThreshold: 512
+ 22:10:09,580 DEBUG PlatformDependent:317 : Platform: Windows
+ 22:10:09,581 DEBUG PlatformDependent:447 : Java version: 7
+ 22:10:09,581 DEBUG PlatformDependent:454 : -Dio.netty.noUnsafe: false
+ 22:10:09,583 DEBUG PlatformDependent0:61 : java.nio.ByteBuffer.cleaner: available
+ 22:10:09,584 DEBUG PlatformDependent0:80 : java.nio.Buffer.address: available
+ 22:10:09,587 DEBUG PlatformDependent0:88 : sun.misc.Unsafe.theUnsafe: available
+ 22:10:09,588 DEBUG PlatformDependent0:98 : sun.misc.Unsafe.copyMemory: available
+ 22:10:09,589 DEBUG PlatformDependent0:138 : java.nio.Bits.unaligned: true
+ 22:10:09,589 DEBUG PlatformDependent:481 : sun.misc.Unsafe: available
+ 22:10:09,589 DEBUG PlatformDependent:559 : -Dio.netty.noJavassist: false
+ 22:10:09,591 DEBUG PlatformDependent:571 : Javassist: unavailable
+ 22:10:09,591 DEBUG PlatformDependent:572 : You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ 22:10:09,592 DEBUG PlatformDependent:76 : -Dio.netty.noPreferDirect: false
+ 22:10:09,592 DEBUG PooledByteBufAllocator:79 : -Dio.netty.allocator.numHeapArenas: 4
+ 22:10:09,592 DEBUG PooledByteBufAllocator:80 : -Dio.netty.allocator.numDirectArenas: 4
+ 22:10:09,593 DEBUG PooledByteBufAllocator:82 : -Dio.netty.allocator.pageSize: 8192
+ 22:10:09,593 DEBUG PooledByteBufAllocator:87 : -Dio.netty.allocator.maxOrder: 11
+ 22:10:09,593 DEBUG PooledByteBufAllocator:91 : -Dio.netty.allocator.chunkSize: 16777216
+ 22:10:09,965 DEBUG DefaultChannelId:75 : -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ 22:10:09,978 DEBUG DefaultChannelId:101 : -Dio.netty.processId: 7356 (auto-detected)
+ 22:10:10,012 DEBUG ThreadLocalRandom:138 : -Dio.netty.initialSeedUniquifier: 0xd059a6e111fca474
+ 22:10:10,024 DEBUG ChannelOutboundBuffer:55 : -Dio.netty.threadLocalDirectBufferSize: 65536
+ 22:10:10,165 DEBUG NetUtil:100 : Loopback interface: Software Loopback Interface 1
+ 22:10:10,166 DEBUG NetUtil:105 : Loopback address: /127.0.0.1 (primary)
+ 22:10:10,166 DEBUG NetUtil:108 : Loopback address: /0:0:0:0:0:0:0:1
+ 22:10:10,184  INFO LoggingHandler:150 : [id: 0x599d2448] REGISTERED
+ 22:10:10,189  INFO LoggingHandler:150 : [id: 0x599d2448] BIND: /115.29.161.214:9050
+ 22:10:10,193  INFO Server:98 : ip:115.29.161.214 port:9050 starts running
+ 22:10:10,196  INFO LoggingHandler:150 : [id: 0x599d2448, /115.29.161.214:9050] ACTIVE
+ 22:10:10,905  INFO InitCache:62 : init message cache successfully
+ 22:10:11,447  INFO InitCache:45 : init offline user cache successfully
+ 22:15:27,267 DEBUG LogFactory:115 : Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 22:15:27,292 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 22:15:27,293 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 22:15:27,293 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 22:15:27,294 DEBUG PooledDataSource:304 : PooledDataSource forcefully closed/removed all connections.
+ 22:15:27,440 DEBUG JdbcTransaction:129 : Opening JDBC Connection
+ 22:15:27,705  INFO DBOperationImpl:91 : failed to select message max ID
+ 22:15:27,727 DEBUG InternalLoggerFactory:45 : Using Log4J as the default logging framework
+ 22:15:27,735 DEBUG MultithreadEventLoopGroup:43 : -Dio.netty.eventLoopThreads: 8
+ 22:15:27,770 DEBUG NioEventLoop:88 : -Dio.netty.noKeySetOptimization: false
+ 22:15:27,771 DEBUG NioEventLoop:89 : -Dio.netty.selectorAutoRebuildThreshold: 512
+ 22:15:27,865 DEBUG PlatformDependent:317 : Platform: Windows
+ 22:15:27,866 DEBUG PlatformDependent:447 : Java version: 7
+ 22:15:27,866 DEBUG PlatformDependent:454 : -Dio.netty.noUnsafe: false
+ 22:15:27,868 DEBUG PlatformDependent0:61 : java.nio.ByteBuffer.cleaner: available
+ 22:15:27,868 DEBUG PlatformDependent0:80 : java.nio.Buffer.address: available
+ 22:15:27,871 DEBUG PlatformDependent0:88 : sun.misc.Unsafe.theUnsafe: available
+ 22:15:27,872 DEBUG PlatformDependent0:98 : sun.misc.Unsafe.copyMemory: available
+ 22:15:27,873 DEBUG PlatformDependent0:138 : java.nio.Bits.unaligned: true
+ 22:15:27,873 DEBUG PlatformDependent:481 : sun.misc.Unsafe: available
+ 22:15:27,874 DEBUG PlatformDependent:559 : -Dio.netty.noJavassist: false
+ 22:15:27,875 DEBUG PlatformDependent:571 : Javassist: unavailable
+ 22:15:27,875 DEBUG PlatformDependent:572 : You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+ 22:15:27,876 DEBUG PlatformDependent:76 : -Dio.netty.noPreferDirect: false
+ 22:15:27,876 DEBUG PooledByteBufAllocator:79 : -Dio.netty.allocator.numHeapArenas: 4
+ 22:15:27,876 DEBUG PooledByteBufAllocator:80 : -Dio.netty.allocator.numDirectArenas: 4
+ 22:15:27,877 DEBUG PooledByteBufAllocator:82 : -Dio.netty.allocator.pageSize: 8192
+ 22:15:27,877 DEBUG PooledByteBufAllocator:87 : -Dio.netty.allocator.maxOrder: 11
+ 22:15:27,877 DEBUG PooledByteBufAllocator:91 : -Dio.netty.allocator.chunkSize: 16777216
+ 22:15:28,242 DEBUG DefaultChannelId:75 : -Dio.netty.machineId: 00:16:3e:02:18:d8:00:00 (auto-detected)
+ 22:15:28,246 DEBUG DefaultChannelId:101 : -Dio.netty.processId: 14132 (auto-detected)
+ 22:15:28,250 DEBUG ThreadLocalRandom:138 : -Dio.netty.initialSeedUniquifier: 0x0a423ffae707b24f
+ 22:15:28,261 DEBUG ChannelOutboundBuffer:55 : -Dio.netty.threadLocalDirectBufferSize: 65536
+ 22:15:28,399 DEBUG NetUtil:100 : Loopback interface: Software Loopback Interface 1
+ 22:15:28,400 DEBUG NetUtil:105 : Loopback address: /127.0.0.1 (primary)
+ 22:15:28,400 DEBUG NetUtil:108 : Loopback address: /0:0:0:0:0:0:0:1
+ 22:15:28,407  INFO InitCache:62 : init message cache successfully
+ 22:15:28,416  INFO LoggingHandler:150 : [id: 0xbc57f185] REGISTERED
+ 22:15:28,421  INFO LoggingHandler:150 : [id: 0xbc57f185] BIND: /115.29.161.214:9050
+ 22:15:28,425  INFO Server:98 : ip:115.29.161.214 port:9050 starts running
+ 22:15:28,427  INFO LoggingHandler:150 : [id: 0xbc57f185, /115.29.161.214:9050] ACTIVE
+ 22:15:28,938  INFO InitCache:45 : init offline user cache successfully
+ 

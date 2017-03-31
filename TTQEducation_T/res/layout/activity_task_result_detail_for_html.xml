@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include 
+	    android:id="@+id/action_bar"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    layout= "@layout/action_bar"
+	    />
+    
+	<!--进度与正确率  -->
+	<LinearLayout 
+	    android:layout_width ="match_parent"
+	    android:layout_height="49dp"
+	    android:orientation="horizontal"
+	    android:background="@color/white">
+	    <LinearLayout 
+	        android:id = "@+id/llQues"
+	        android:layout_width = "0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+	        android:orientation = "horizontal"
+	        android:gravity="center"
+	        >
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"	            
+	            >
+	            <TextView 	                
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	                
+	                android:text="进度: "
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	            
+	             <TextView 
+	                android:id="@+id/tvCurrentQues"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	                
+	                android:text="1"
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	             <TextView 	                
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	                
+	                android:text=" / "
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	             <TextView 
+	                android:id="@+id/tvTotalQues"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	                
+	                android:text="10"
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	             
+	        </LinearLayout>
+	    </LinearLayout>
+	    
+	    <View 
+	        android:layout_width="0.1dp"
+	        android:layout_height="32dp"
+	        android:background="@color/textGray"
+	        android:layout_gravity="center_vertical"
+	        />
+	    
+	    <LinearLayout 
+	        android:id = "@+id/llStuName"
+	        android:layout_width = "0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+	        android:orientation = "horizontal"
+	        android:gravity="center">
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">	 
+	             
+	             <TextView	                
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	
+	                android:layout_marginLeft="3dp"                
+	                android:text="正确率： "
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	             <TextView	    
+	                android:id="@+id/tvPercent"            
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	
+	                android:layout_marginLeft="3dp"                
+	                android:text="80"
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	             <TextView	    	               
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	
+	                android:layout_marginLeft="3dp"                
+	                android:text=" %"
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	        </LinearLayout>
+	    </LinearLayout>
+	</LinearLayout>
+	
+	<View 
+	    android:layout_width="wrap_content"
+	    android:layout_height="0.1dp"
+	    android:background="@color/textGray"/>
+	
+	<ScrollView 
+	    android:id="@+id/scrollView2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">	 
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical">
+	        
+	        <TextView	       
+                android:id ="@+id/tvQuestionCode"                  
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"	                       
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="8dp"
+                android:text="p10  三.做一做B.(2).①"	  
+                android:textColor="#3E3E3E"              
+                android:textSize="14sp" />  
+                
+	        	 
+	        <WebView 
+		         android:id="@+id/wvQuestionFile"
+		         android:layout_width="match_parent"
+		         android:layout_height="250dp"			         
+		         android:layout_marginTop="15dp"
+		         android:layout_marginLeft="8dp"
+		         android:layout_marginRight="8dp"
+		         android:layout_marginBottom="5dp"/>
+	        
+	        <TextView	                                   
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"	                       
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="8dp"
+                android:text="题目解析："	  
+                android:textColor="@color/title_bgNew"              
+                android:textSize="14sp" /> 
+                
+	        <WebView 
+		         android:id="@+id/wvAnswerFile"
+		         android:layout_width="match_parent"
+		         android:layout_height="150dp"			         
+		         android:layout_marginTop="25dp"
+		         android:layout_marginLeft="8dp"
+		         android:layout_marginRight="8dp"
+		         android:layout_marginBottom="5dp"/>
+	        
+	        <TextView	                                   
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"	                       
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="8dp"
+                android:text="共性错误："	  
+                android:textColor="@color/title_bgNew"              
+                android:textSize="14sp" />
+	        
+	        <TextView	              
+	            android:id="@+id/tvSummary"                     
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"	                       
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:singleLine="false"
+                android:minLines="3"
+                android:text="认识性错误"	  
+                android:background="@drawable/linearlayout_frame_circle"
+                android:textColor="#3E3E3E"              
+                android:textSize="14sp" />
+	         
+	    </LinearLayout>   
+	</ScrollView>
+
+</LinearLayout>

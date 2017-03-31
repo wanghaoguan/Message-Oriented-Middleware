@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical" >
+    
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/action_bar"/>
+    
+    <ImageView 
+        android:id="@+id/ivTaskTypeChoose"
+        android:layout_width="match_parent"
+        android:layout_height="209.67dp"
+        android:src="@drawable/main_welcome"
+        android:scaleType="centerCrop"/>
+    
+    <com.ttqeducation.teacher.myViews.MyListView 
+        android:id="@+id/listView_type_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#efefef"
+        android:dividerHeight="10dp"
+        ></com.ttqeducation.teacher.myViews.MyListView>
+</LinearLayout>

@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="#f0f0f0" >
+    
+    <!-- 类似于上面的anctionBar -->
+    <include 
+        android:id="@+id/action_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/action_bar"/>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.ttqeducation.teacher.myViews.MyListView
+            android:id="@+id/listView_showInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stackFromBottom="true" 
+            android:transcriptMode="alwaysScroll"  
+            android:divider="@null">
+            
+        </com.ttqeducation.teacher.myViews.MyListView>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:background="@color/title_bgNew"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <LinearLayout 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1">
+            <EditText 
+                android:id="@+id/sendInfo_editText"
+		        android:layout_width="match_parent"
+		        android:minHeight="36dp"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/btn_circle_gray_write"
+		        android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="60dp"
+		    android:layout_height="36dp"
+		    android:layout_marginLeft="5dp"
+		    android:gravity="center">              
+            <Button 
+                android:id="@+id/sendInfo_button"
+	            android:layout_width="54dp"
+	            android:layout_height="36dp"
+	            android:background="@drawable/btn_send_info"
+	            android:text="发送"
+	            android:textSize="14sp"
+	            android:textColor="@color/textBlack"/>          
+        </LinearLayout>
+               
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/facelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="124dip"
+        android:background="#f6f5f5"
+        android:visibility="gone" >
+
+        <!-- <android.support.v4.view.ViewPager
+            android:id="@+id/vp_contains"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </android.support.v4.view.ViewPager> -->
+        
+
+        <LinearLayout
+            android:id="@+id/pointlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="6dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+    
+
+</LinearLayout>

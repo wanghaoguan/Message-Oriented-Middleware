@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!-- 注意：每个标签必须按顺序写，会提示错误：-->
+<configuration>
+    <!-- 属性配置 -->
+    <properties resource="jdbc.properties"/>
+     
+    <!-- 设置缓存和延迟加载等等重要的运行时的行为方式 -->
+    <settings>
+        <!-- 设置超时时间，它决定驱动等待一个数据库响应的时间  -->
+        <setting name="defaultStatementTimeout" value="25000"/>
+    </settings>
+    
+    <environments default="development">
+        <!-- environment 元素体中包含对事务管理和连接池的环境配置 -->
+        <environment id="development">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}" />
+                <property name="url" value="${url}" />
+                <property name="username" value="${username}" />
+                <property name="password" value="${password}" />
+            </dataSource>
+        </environment>
+    </environments>
+     <mappers>
+        <mapper resource="com/push/server/database/DBOperation.xml"/>
+    </mappers>
+</configuration>
+    
+    
+    <!-- 
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver" />
+                <property name="url" value="jdbc:mysql://127.0.0.1:3306/yry?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull" />
+                <property name="username" value="root" />
+                <property name="password" value="Admin310" />
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="com/push/database/DBOperation.xml"/>
+    </mappers>
+</configuration>
+ -->

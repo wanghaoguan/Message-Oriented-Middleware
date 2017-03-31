@@ -1,0 +1,140 @@
+[framework] 2016-06-26 20:43:13,780 - com.push.server.database.DBOperationImpl -438  [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2016-06-26 20:43:14,473 - com.push.server.other.InitCache -1131 [Thread-1] INFO  com.push.server.other.InitCache  - init message cache successfully
+ [framework] 2016-06-26 20:43:14,558 - io.netty.handler.logging.LoggingHandler -1216 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xfb758e75] REGISTERED
+ [framework] 2016-06-26 20:43:14,564 - io.netty.handler.logging.LoggingHandler -1222 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xfb758e75] BIND: /115.29.161.214:9050
+ [framework] 2016-06-26 20:43:14,571 - io.netty.handler.logging.LoggingHandler -1229 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xfb758e75, /115.29.161.214:9050] ACTIVE
+ [framework] 2016-06-26 20:43:14,573 - com.push.server.Server -1231 [Thread-2] INFO  com.push.server.Server  - ip:115.29.161.214 port:9050 starts running
+ [framework] 2016-06-26 20:43:15,014 - com.push.server.other.InitCache -1672 [Thread-1] INFO  com.push.server.other.InitCache  - init offline user cache successfully
+ [framework] 2016-06-26 21:49:04,841 - com.push.server.database.DBOperationImpl -445  [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2016-06-26 21:49:05,654 - io.netty.handler.logging.LoggingHandler -1258 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x64a06212] REGISTERED
+ [framework] 2016-06-26 21:49:05,659 - io.netty.handler.logging.LoggingHandler -1263 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x64a06212] BIND: /115.29.161.214:9050
+ [framework] 2016-06-26 21:49:05,663 - com.push.server.Server -1267 [Thread-2] INFO  com.push.server.Server  - ip:115.29.161.214 port:9050 starts running
+ [framework] 2016-06-26 21:49:05,666 - io.netty.handler.logging.LoggingHandler -1270 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x64a06212, /115.29.161.214:9050] ACTIVE
+ [framework] 2016-06-26 21:49:06,366 - com.push.server.other.InitCache -1970 [Thread-1] INFO  com.push.server.other.InitCache  - init message cache successfully
+ [framework] 2016-06-26 21:49:06,924 - com.push.server.other.InitCache -2528 [Thread-1] INFO  com.push.server.other.InitCache  - init offline user cache successfully
+ [framework] 2016-06-26 22:10:09,421 - com.push.server.database.DBOperationImpl -432  [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2016-06-26 22:10:10,184 - io.netty.handler.logging.LoggingHandler -1195 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x599d2448] REGISTERED
+ [framework] 2016-06-26 22:10:10,189 - io.netty.handler.logging.LoggingHandler -1200 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x599d2448] BIND: /115.29.161.214:9050
+ [framework] 2016-06-26 22:10:10,193 - com.push.server.Server -1204 [Thread-2] INFO  com.push.server.Server  - ip:115.29.161.214 port:9050 starts running
+ [framework] 2016-06-26 22:10:10,196 - io.netty.handler.logging.LoggingHandler -1207 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0x599d2448, /115.29.161.214:9050] ACTIVE
+ [framework] 2016-06-26 22:10:10,905 - com.push.server.other.InitCache -1916 [Thread-1] INFO  com.push.server.other.InitCache  - init message cache successfully
+ [framework] 2016-06-26 22:10:11,447 - com.push.server.other.InitCache -2458 [Thread-1] INFO  com.push.server.other.InitCache  - init offline user cache successfully
+ [framework] 2016-06-26 22:15:27,705 - com.push.server.database.DBOperationImpl -438  [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2016-06-26 22:15:28,407 - com.push.server.other.InitCache -1140 [Thread-1] INFO  com.push.server.other.InitCache  - init message cache successfully
+ [framework] 2016-06-26 22:15:28,416 - io.netty.handler.logging.LoggingHandler -1149 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xbc57f185] REGISTERED
+ [framework] 2016-06-26 22:15:28,421 - io.netty.handler.logging.LoggingHandler -1154 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xbc57f185] BIND: /115.29.161.214:9050
+ [framework] 2016-06-26 22:15:28,425 - com.push.server.Server -1158 [Thread-2] INFO  com.push.server.Server  - ip:115.29.161.214 port:9050 starts running
+ [framework] 2016-06-26 22:15:28,427 - io.netty.handler.logging.LoggingHandler -1160 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xbc57f185, /115.29.161.214:9050] ACTIVE
+ [framework] 2016-06-26 22:15:28,938 - com.push.server.other.InitCache -1671 [Thread-1] INFO  com.push.server.other.InitCache  - init offline user cache successfully
+ [framework] 2016-06-27 17:38:39,020 - com.push.server.database.DBOperationImpl -448  [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2016-06-27 17:38:40,090 - io.netty.handler.logging.LoggingHandler -1518 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xd713ddf4] REGISTERED
+ [framework] 2016-06-27 17:38:40,096 - io.netty.handler.logging.LoggingHandler -1524 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xd713ddf4] BIND: /115.29.161.214:9050
+ [framework] 2016-06-27 17:38:40,100 - com.push.server.Server -1528 [Thread-2] INFO  com.push.server.Server  - ip:115.29.161.214 port:9050 starts running
+ [framework] 2016-06-27 17:38:40,103 - io.netty.handler.logging.LoggingHandler -1531 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xd713ddf4, /115.29.161.214:9050] ACTIVE
+ [framework] 2016-06-27 17:38:40,606 - com.push.server.other.InitCache -2034 [Thread-1] INFO  com.push.server.other.InitCache  - init message cache successfully
+ [framework] 2016-06-27 17:38:41,154 - com.push.server.other.InitCache -2582 [Thread-1] INFO  com.push.server.other.InitCache  - init offline user cache successfully
+ [framework] 2017-02-24 19:10:47,764 - io.netty.channel.ChannelInitializer -1077 [nioEventLoopGroup-0-0] WARN  io.netty.channel.ChannelInitializer  - Failed to initialize a channel. Closing: [id: 0x5461429c]
+ java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.push.server.Client.buildMessage(Client.java:200)
+	at com.push.server.Client$LoginAuthReqHandler.<init>(Client.java:228)
+	at com.push.server.Client$1.initChannel(Client.java:142)
+	at com.push.server.Client$1.initChannel(Client.java:1)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:69)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelRegisteredNow(ChannelHandlerInvokerUtil.java:32)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRegistered(DefaultChannelHandlerInvoker.java:50)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRegistered(PausableChannelEventExecutor.java:56)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:843)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:519)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:422)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:492)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:328)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+[framework] 2017-02-24 19:12:14,052 - com.push.server.database.DBOperationImpl -1373 [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2017-02-24 19:12:15,270 - io.netty.handler.logging.LoggingHandler -2591 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xb0345072] REGISTERED
+ [framework] 2017-02-24 19:12:15,270 - io.netty.handler.logging.LoggingHandler -2591 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xb0345072] BIND: /115.29.161.214:9050
+ [framework] 2017-02-24 19:12:15,270 - io.netty.handler.logging.LoggingHandler -2591 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xb0345072] CLOSE
+ [framework] 2017-02-24 19:12:15,285 - io.netty.handler.logging.LoggingHandler -2606 [nioEventLoopGroup-0-0] INFO  io.netty.handler.logging.LoggingHandler  - [id: 0xb0345072] UNREGISTERED
+ [framework] 2017-02-24 19:12:15,285 - com.push.server.Server -2606 [Thread-2] INFO  com.push.server.Server  - the push server has been shut down
+ [framework] 2017-02-24 19:12:15,285 - com.push.server.Server -2606 [Thread-2] ERROR com.push.server.Server  - starting push server has failed
+ java.net.BindException: Cannot assign requested address: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:554)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1237)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:109)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.PausableChannelEventExecutor.invokeBind(PausableChannelEventExecutor.java:101)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:481)
+	at io.netty.handler.logging.LoggingHandler.bind(LoggingHandler.java:243)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:109)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.PausableChannelEventExecutor.invokeBind(PausableChannelEventExecutor.java:101)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:481)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:1013)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:236)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:328)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+[framework] 2017-02-24 19:12:25,661 - javapns.notification.PushNotificationManager -530  [main] ERROR javapns.notification.PushNotificationManager  - Delivery error: java.lang.NullPointerException
+ [framework] 2017-02-24 19:12:25,661 - javapns.notification.PushNotificationManager -530  [main] ERROR javapns.notification.PushNotificationManager  - Closing connection after error
+ [framework] 2017-02-24 19:12:25,677 - com.push.server.push.PushToIOS -546  [main] INFO  com.push.server.push.PushToIOS  - 消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71
+ [framework] 2017-02-25 10:38:59,417 - javapns.notification.PushNotificationManager -838  [main] ERROR javapns.notification.PushNotificationManager  - Delivery error: java.lang.NullPointerException
+ [framework] 2017-02-25 10:38:59,448 - javapns.notification.PushNotificationManager -869  [main] ERROR javapns.notification.PushNotificationManager  - Closing connection after error
+ [framework] 2017-02-25 10:38:59,450 - com.push.server.push.PushToIOS -871  [main] INFO  com.push.server.push.PushToIOS  - 消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71
+ [framework] 2017-02-25 10:41:21,664 - javapns.notification.PushNotificationManager -420  [main] ERROR javapns.notification.PushNotificationManager  - Delivery error: java.lang.NullPointerException
+ [framework] 2017-02-25 10:41:21,677 - javapns.notification.PushNotificationManager -433  [main] ERROR javapns.notification.PushNotificationManager  - Closing connection after error
+ [framework] 2017-02-25 10:41:21,679 - com.push.server.push.PushToIOS -435  [main] INFO  com.push.server.push.PushToIOS  - 消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71
+ [framework] 2017-02-25 10:41:35,255 - javapns.notification.PushNotificationManager -403  [main] ERROR javapns.notification.PushNotificationManager  - Delivery error: java.lang.NullPointerException
+ [framework] 2017-02-25 10:41:35,256 - javapns.notification.PushNotificationManager -404  [main] ERROR javapns.notification.PushNotificationManager  - Closing connection after error
+ [framework] 2017-02-25 10:41:35,258 - com.push.server.push.PushToIOS -406  [main] INFO  com.push.server.push.PushToIOS  - 消息推送失败记录失败条数1; deviceId=null; token=2708658aa6255de7cfb5d4048bd85c45c7c2f7982578d66b6c53fd76f2ea6c71
+ [framework] 2017-03-16 11:21:31,473 - com.push.server.database.DBOperationImpl -1462 [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2017-03-16 12:16:25,947 - com.push.server.database.DBOperationImpl -1191 [main] INFO  com.push.server.database.DBOperationImpl  - failed to select message max ID
+ [framework] 2017-03-16 12:17:30,004 - io.netty.channel.ChannelInitializer -442  [nioEventLoopGroup-0-0] WARN  io.netty.channel.ChannelInitializer  - Failed to initialize a channel. Closing: [id: 0x12ca2006]
+ java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.push.server.Client.buildMessage(Client.java:200)
+	at com.push.server.Client$LoginAuthReqHandler.<init>(Client.java:228)
+	at com.push.server.Client$1.initChannel(Client.java:142)
+	at com.push.server.Client$1.initChannel(Client.java:1)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:69)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelRegisteredNow(ChannelHandlerInvokerUtil.java:32)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRegistered(DefaultChannelHandlerInvoker.java:50)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRegistered(PausableChannelEventExecutor.java:56)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:843)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:519)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:422)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:492)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:328)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)

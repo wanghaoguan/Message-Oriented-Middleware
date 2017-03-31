@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该文件是 成绩排名详情界面 listview 中的一个子项目 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_item_color"
+    android:orientation="vertical">
+
+    <TextView 
+        android:id="@+id/testName_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="单元测试一"
+        android:textColor="@color/textBlack"
+        android:textSize="18sp"/>
+    <TextView 
+        android:id="@+id/testTime_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="测试时间：2015年2月8号  下午"
+        android:textColor="@color/textGray"
+        android:textSize="15sp"/>
+    <TextView 
+        android:id="@+id/testRanking_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="班级排名：3"
+        android:textColor="@color/textGray"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/testScore_textview" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="得分：90"
+        android:textColor="@color/textGray"
+        android:textSize="15sp"/>
+    
+</LinearLayout>

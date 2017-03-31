@@ -1,0 +1,219 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$InstantiationException
+android.support.v4.app.Fragment$InstantiationException: Fragment$InstantiationException(java.lang.String,java.lang.Exception)
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.NotificationCompatSideChannelService
+android.support.v4.content.FileProvider
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.content.WakefulBroadcastReceiver
+android.support.v4.media.MediaMetadataCompat
+android.support.v4.media.MediaMetadataCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.RatingCompat
+android.support.v4.media.RatingCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$Token
+android.support.v4.media.session.MediaSessionCompat$Token: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.PlaybackStateCompat
+android.support.v4.media.session.PlaybackStateCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.ContentLoadingProgressBar
+android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout$LayoutParams
+android.support.v4.widget.DrawerLayout$LayoutParams: DrawerLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.SlidingPaneLayout$LayoutParams
+android.support.v4.widget.SlidingPaneLayout$LayoutParams: SlidingPaneLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout
+android.support.v4.widget.SwipeRefreshLayout: SwipeRefreshLayout(android.content.Context,android.util.AttributeSet)
+com.squareup.picasso.Downloader$ResponseException
+com.squareup.picasso.Downloader$ResponseException: boolean localCacheOnly
+com.squareup.picasso.Downloader$ResponseException: int responseCode
+com.squareup.picasso.Downloader$ResponseException: Downloader$ResponseException(java.lang.String,int,int)
+com.squareup.picasso.MediaStoreRequestHandler$PicassoKind: com.squareup.picasso.MediaStoreRequestHandler$PicassoKind[] values()
+com.squareup.picasso.MediaStoreRequestHandler$PicassoKind: com.squareup.picasso.MediaStoreRequestHandler$PicassoKind valueOf(java.lang.String)
+com.squareup.picasso.MemoryPolicy: com.squareup.picasso.MemoryPolicy[] values()
+com.squareup.picasso.MemoryPolicy: com.squareup.picasso.MemoryPolicy valueOf(java.lang.String)
+com.squareup.picasso.NetworkPolicy: com.squareup.picasso.NetworkPolicy[] values()
+com.squareup.picasso.NetworkPolicy: com.squareup.picasso.NetworkPolicy valueOf(java.lang.String)
+com.squareup.picasso.Picasso$LoadedFrom: com.squareup.picasso.Picasso$LoadedFrom[] values()
+com.squareup.picasso.Picasso$LoadedFrom: com.squareup.picasso.Picasso$LoadedFrom valueOf(java.lang.String)
+com.squareup.picasso.Picasso$Priority: com.squareup.picasso.Picasso$Priority[] values()
+com.squareup.picasso.Picasso$Priority: com.squareup.picasso.Picasso$Priority valueOf(java.lang.String)
+com.ttqeducation.teacher.activitys.message.ClassListActivity
+com.ttqeducation.teacher.activitys.message.ClassListActivity: ClassListActivity()
+com.ttqeducation.teacher.activitys.message.GroupChatActivity
+com.ttqeducation.teacher.activitys.message.GroupChatActivity: GroupChatActivity()
+com.ttqeducation.teacher.activitys.message.OneChatActivity
+com.ttqeducation.teacher.activitys.message.OneChatActivity: OneChatActivity()
+com.ttqeducation.teacher.activitys.message.TeacherAndParentChatListActivity
+com.ttqeducation.teacher.activitys.message.TeacherAndParentChatListActivity: TeacherAndParentChatListActivity()
+com.ttqeducation.teacher.activitys.notice.NoticeDetailActivity
+com.ttqeducation.teacher.activitys.notice.NoticeDetailActivity: NoticeDetailActivity()
+com.ttqeducation.teacher.activitys.notice.NoticeFragment
+com.ttqeducation.teacher.activitys.notice.NoticeFragment: NoticeFragment()
+com.ttqeducation.teacher.activitys.notice.NoticeFragmentActivity
+com.ttqeducation.teacher.activitys.notice.NoticeFragmentActivity: NoticeFragmentActivity()
+com.ttqeducation.teacher.activitys.notice.NoticeListActivity
+com.ttqeducation.teacher.activitys.notice.NoticeListActivity: NoticeListActivity()
+com.ttqeducation.teacher.activitys.notice.NoticePublishActivity
+com.ttqeducation.teacher.activitys.notice.NoticePublishActivity: NoticePublishActivity()
+com.ttqeducation.teacher.activitys.others.AboutKKQActivity
+com.ttqeducation.teacher.activitys.others.AboutKKQActivity: AboutKKQActivity()
+com.ttqeducation.teacher.activitys.others.ChangePwdActivity
+com.ttqeducation.teacher.activitys.others.ChangePwdActivity: ChangePwdActivity()
+com.ttqeducation.teacher.activitys.others.UserOwnSetActivity
+com.ttqeducation.teacher.activitys.others.UserOwnSetActivity: UserOwnSetActivity()
+com.ttqeducation.teacher.activitys.others.UserProtocolActivity
+com.ttqeducation.teacher.activitys.others.UserProtocolActivity: UserProtocolActivity()
+com.ttqeducation.teacher.activitys.system.BranchActivity
+com.ttqeducation.teacher.activitys.system.BranchActivity: BranchActivity()
+com.ttqeducation.teacher.activitys.system.ChooseSchoolActivity
+com.ttqeducation.teacher.activitys.system.ChooseSchoolActivity: ChooseSchoolActivity()
+com.ttqeducation.teacher.activitys.system.LaunchActivity
+com.ttqeducation.teacher.activitys.system.LaunchActivity: LaunchActivity()
+com.ttqeducation.teacher.activitys.system.LoginActivity
+com.ttqeducation.teacher.activitys.system.LoginActivity: LoginActivity()
+com.ttqeducation.teacher.activitys.system.MainActivity
+com.ttqeducation.teacher.activitys.system.MainActivity: MainActivity()
+com.ttqeducation.teacher.activitys.system.MainActivity: void onClick(android.view.View)
+com.ttqeducation.teacher.activitys.system.ResultLaunchActivity
+com.ttqeducation.teacher.activitys.system.ResultLaunchActivity: ResultLaunchActivity()
+com.ttqeducation.teacher.activitys.teach.ChooseClassActivity
+com.ttqeducation.teacher.activitys.teach.ChooseClassActivity: ChooseClassActivity()
+com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeActivity
+com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeActivity: HomeWorkArrangeActivity()
+com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeDetailContentActivity
+com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeDetailContentActivity: HomeWorkArrangeDetailContentActivity()
+com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeDetaileActivity
+com.ttqeducation.teacher.activitys.teach.HomeWorkArrangeDetaileActivity: HomeWorkArrangeDetaileActivity()
+com.ttqeducation.teacher.activitys.teach.KnowledgePointActivity
+com.ttqeducation.teacher.activitys.teach.KnowledgePointActivity: KnowledgePointActivity()
+com.ttqeducation.teacher.activitys.teach.KnowledgePointActivity: void nextmonth(android.view.View)
+com.ttqeducation.teacher.activitys.teach.KnowledgePointActivity: void upmonth(android.view.View)
+com.ttqeducation.teacher.activitys.teach.KnowledgePointActivity: void task_info(android.view.View)
+com.ttqeducation.teacher.activitys.teach.KnowledgePointDetailActivity
+com.ttqeducation.teacher.activitys.teach.KnowledgePointDetailActivity: KnowledgePointDetailActivity()
+com.ttqeducation.teacher.activitys.teach.KnowledgePointGraph
+com.ttqeducation.teacher.activitys.teach.KnowledgePointGraph: KnowledgePointGraph()
+com.ttqeducation.teacher.activitys.teach.SubjectiveHomeworkActivity
+com.ttqeducation.teacher.activitys.teach.SubjectiveHomeworkActivity: SubjectiveHomeworkActivity()
+com.ttqeducation.teacher.activitys.teach.SubjectiveHomeworkDetailActivity
+com.ttqeducation.teacher.activitys.teach.SubjectiveHomeworkDetailActivity: SubjectiveHomeworkDetailActivity()
+com.ttqeducation.teacher.activitys.teach.SummaryActivity
+com.ttqeducation.teacher.activitys.teach.SummaryActivity: SummaryActivity()
+com.ttqeducation.teacher.activitys.teach.TaskResultActivity
+com.ttqeducation.teacher.activitys.teach.TaskResultActivity: TaskResultActivity()
+com.ttqeducation.teacher.activitys.teach.TaskResultActivity: void nextmonth(android.view.View)
+com.ttqeducation.teacher.activitys.teach.TaskResultActivity: void upmonth(android.view.View)
+com.ttqeducation.teacher.activitys.teach.TaskResultActivity: void task_info(android.view.View)
+com.ttqeducation.teacher.activitys.teach.TaskResultDetailActivity
+com.ttqeducation.teacher.activitys.teach.TaskResultDetailActivity: TaskResultDetailActivity()
+com.ttqeducation.teacher.activitys.teach.TaskResultDetailForHTMLActivity
+com.ttqeducation.teacher.activitys.teach.TaskResultDetailForHTMLActivity: TaskResultDetailForHTMLActivity()
+com.ttqeducation.teacher.activitys.teach.TaskTypeChooseActivity
+com.ttqeducation.teacher.activitys.teach.TaskTypeChooseActivity: TaskTypeChooseActivity()
+com.ttqeducation.teacher.beans.ContextApplication
+com.ttqeducation.teacher.beans.ContextApplication: ContextApplication()
+com.ttqeducation.teacher.beans.dataTableWrongException
+com.ttqeducation.teacher.beans.dataTableWrongException: long serialVersionUID
+com.ttqeducation.teacher.beans.dataTableWrongException: dataTableWrongException()
+com.ttqeducation.teacher.beans.dataTableWrongException: dataTableWrongException(java.lang.String)
+com.ttqeducation.teacher.beans.dataTableWrongException: dataTableWrongException(java.lang.String,java.lang.Throwable)
+com.ttqeducation.teacher.beans.dataTableWrongException: dataTableWrongException(java.lang.Throwable)
+com.ttqeducation.teacher.myViews.MyListView
+com.ttqeducation.teacher.myViews.MyListView: MyListView(android.content.Context)
+com.ttqeducation.teacher.myViews.MyListView: MyListView(android.content.Context,android.util.AttributeSet)
+com.ttqeducation.teacher.myViews.MyListView: MyListView(android.content.Context,android.util.AttributeSet,int)
+com.ttqeducation.teacher.myViews.MyListViewFooter
+com.ttqeducation.teacher.myViews.MyListViewFooter: MyListViewFooter(android.content.Context,android.util.AttributeSet)
+com.ttqeducation.teacher.myViews.MyListViewHeader
+com.ttqeducation.teacher.myViews.MyListViewHeader: MyListViewHeader(android.content.Context,android.util.AttributeSet)
+com.ttqeducation.teacher.network.PushService
+com.ttqeducation.teacher.network.PushService: PushService()
+com.ttqeducation.teacher.tools.GeneralTools
+org.achartengine.GraphicalActivity
+org.achartengine.chart.BarChart$Type: org.achartengine.chart.BarChart$Type[] values()
+org.achartengine.chart.BarChart$Type: org.achartengine.chart.BarChart$Type valueOf(java.lang.String)
+org.achartengine.chart.PointStyle: org.achartengine.chart.PointStyle[] values()
+org.achartengine.chart.PointStyle: org.achartengine.chart.PointStyle valueOf(java.lang.String)
+org.achartengine.renderer.DialRenderer$Type: org.achartengine.renderer.DialRenderer$Type[] values()
+org.achartengine.renderer.DialRenderer$Type: org.achartengine.renderer.DialRenderer$Type valueOf(java.lang.String)
+org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation: org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation[] values()
+org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation: org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation valueOf(java.lang.String)
+org.achartengine.renderer.XYSeriesRenderer$FillOutsideLine$Type: org.achartengine.renderer.XYSeriesRenderer$FillOutsideLine$Type[] values()
+org.achartengine.renderer.XYSeriesRenderer$FillOutsideLine$Type: org.achartengine.renderer.XYSeriesRenderer$FillOutsideLine$Type valueOf(java.lang.String)
+org.kobjects.util.ChainedRuntimeException
+org.kobjects.util.ChainedRuntimeException: java.lang.Exception chain
+org.kobjects.util.ChainedRuntimeException: org.kobjects.util.ChainedRuntimeException create(java.lang.Exception,java.lang.String)
+org.kobjects.util.ChainedRuntimeException: ChainedRuntimeException()
+org.kobjects.util.ChainedRuntimeException: ChainedRuntimeException(java.lang.Exception,java.lang.String)
+org.kobjects.util.ChainedRuntimeException: org.kobjects.util.ChainedRuntimeException _create(java.lang.Exception,java.lang.String)
+org.kobjects.util.ChainedRuntimeException: java.lang.Exception getChained()
+org.kobjects.util.ChainedRuntimeException: void printStackTrace()
+org.ksoap2.SoapFault
+org.ksoap2.SoapFault: long serialVersionUID
+org.ksoap2.SoapFault: java.lang.String faultcode
+org.ksoap2.SoapFault: java.lang.String faultstring
+org.ksoap2.SoapFault: java.lang.String faultactor
+org.ksoap2.SoapFault: org.kxml2.kdom.Node detail
+org.ksoap2.SoapFault: int version
+org.ksoap2.SoapFault: SoapFault()
+org.ksoap2.SoapFault: SoapFault(int)
+org.ksoap2.SoapFault: void parse(org.xmlpull.v1.XmlPullParser)
+org.ksoap2.SoapFault: void write(org.xmlpull.v1.XmlSerializer)
+org.ksoap2.SoapFault: java.lang.String getMessage()
+org.ksoap2.SoapFault: java.lang.String toString()
+org.ksoap2.SoapFault12
+org.ksoap2.SoapFault12: long serialVersionUID
+org.ksoap2.SoapFault12: org.kxml2.kdom.Node Code
+org.ksoap2.SoapFault12: org.kxml2.kdom.Node Reason
+org.ksoap2.SoapFault12: org.kxml2.kdom.Node Node
+org.ksoap2.SoapFault12: org.kxml2.kdom.Node Role
+org.ksoap2.SoapFault12: org.kxml2.kdom.Node Detail
+org.ksoap2.SoapFault12: SoapFault12()
+org.ksoap2.SoapFault12: SoapFault12(int)
+org.ksoap2.SoapFault12: void parse(org.xmlpull.v1.XmlPullParser)
+org.ksoap2.SoapFault12: void parseSelf(org.xmlpull.v1.XmlPullParser)
+org.ksoap2.SoapFault12: void write(org.xmlpull.v1.XmlSerializer)
+org.ksoap2.SoapFault12: java.lang.String getMessage()
+org.ksoap2.SoapFault12: java.lang.String toString()
+org.xmlpull.v1.XmlPullParserException
+org.xmlpull.v1.XmlPullParserException: java.lang.Throwable detail
+org.xmlpull.v1.XmlPullParserException: int row
+org.xmlpull.v1.XmlPullParserException: int column
+org.xmlpull.v1.XmlPullParserException: XmlPullParserException(java.lang.String)
+org.xmlpull.v1.XmlPullParserException: XmlPullParserException(java.lang.String,org.xmlpull.v1.XmlPullParser,java.lang.Throwable)
+org.xmlpull.v1.XmlPullParserException: java.lang.Throwable getDetail()
+org.xmlpull.v1.XmlPullParserException: int getLineNumber()
+org.xmlpull.v1.XmlPullParserException: int getColumnNumber()
+org.xmlpull.v1.XmlPullParserException: void printStackTrace()

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include 
+	    android:id="@+id/action_bar"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    layout= "@layout/action_bar"
+	    />
+    
+	<!--进度与正确率  -->
+	<LinearLayout 
+	    android:layout_width ="match_parent"
+	    android:layout_height="49dp"
+	    android:orientation="horizontal"
+	    android:background="@color/white">
+	    <LinearLayout 
+	        android:id = "@+id/llQues"
+	        android:layout_width = "match_parent"	        
+	        android:layout_height="match_parent"
+	        android:orientation = "horizontal"
+	        android:gravity="center_vertical"
+	        
+	        >
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"	
+	            android:orientation="horizontal"	            
+	            >
+	            <TextView 	                
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                                
+	                android:text="进度: "
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	            
+	             <TextView 
+	                android:id="@+id/tvCurrentQues"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	                
+	                android:text="1"
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	             <TextView 	                
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	                
+	                android:text=" / "
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	             <TextView 
+	                android:id="@+id/tvTotalQues"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	                
+	                android:text="10"
+	                android:textSize="16sp"
+	                android:textColor="#3E3E3E"/>
+	             
+	        </LinearLayout>
+	    </LinearLayout>
+	    
+	    
+	    
+	    
+	</LinearLayout>
+	
+	<View 
+	    android:layout_width="wrap_content"
+	    android:layout_height="0.1dp"
+	    android:background="@color/textGray"/>
+	
+	<ScrollView 
+	    android:id="@+id/scrollView2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">	 
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical">
+	        
+	        <TextView	       
+                android:id ="@+id/tvQuestionCode"                  
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"	                       
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="8dp"
+                android:text="p10  三.做一做B.(2).①"	  
+                android:textColor="#3E3E3E"              
+                android:textSize="14sp" />  
+                
+	        	 
+	        <WebView 
+		         android:id="@+id/wvQuestionFile"
+		         android:layout_width="match_parent"
+		         android:layout_height="250dp"			         
+		         android:layout_marginTop="15dp"
+		         android:layout_marginLeft="8dp"
+		         android:layout_marginRight="8dp"
+		         android:layout_marginBottom="5dp"/>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">	  
+	                  
+	            <TextView	                                   
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	                       
+	                android:layout_marginTop="15dp"
+	                android:layout_marginLeft="8dp"
+	                android:text="作答情况："	  
+	                android:textColor="@color/title_bg"              
+	                android:textSize="14sp" />
+	            
+	             <TextView	 
+	                android:id ="@+id/tvKeyValue"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	                       
+	                android:layout_marginTop="15dp"
+	                android:layout_marginLeft="5dp"
+	                android:text="A"	  
+	                android:textColor="#3E3E3E"              
+	                android:textSize="14sp" />
+	             
+	             <TextView	     
+	                android:id="@+id/tvIsRight"                              
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"	                       
+	                android:layout_marginTop="15dp"
+	                android:layout_marginLeft="15dp"
+	                android:text="错误"	  
+	                android:textColor="@color/textRed"              
+	                android:textSize="14sp" />
+	        </LinearLayout>
+	        
+	        
+	        
+	        <TextView	                                   
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"	                       
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:text="题目解析："	  
+                android:textColor="@color/title_bg"              
+                android:textSize="14sp" /> 
+                
+	        <WebView 
+		         android:id="@+id/wvAnswerFile"
+		         android:layout_width="match_parent"
+		         android:layout_height="150dp"			         
+		         android:layout_marginTop="15dp"
+		         android:layout_marginLeft="8dp"
+		         android:layout_marginRight="8dp"
+		         android:layout_marginBottom="5dp"/>
+	        
+	         <TextView             
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"  
+	            android:layout_marginTop="5dp"           
+	            android:layout_marginLeft="8dp"
+	            android:layout_marginBottom="10dp"
+	            android:text="温馨提示：左右滑动切换题目"
+	            android:textSize="16sp"
+	            android:textColor="@color/textGreen2"/>    
+	    </LinearLayout>   
+	</ScrollView>
+
+</LinearLayout>
